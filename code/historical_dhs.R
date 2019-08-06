@@ -20,6 +20,8 @@ if(Sys.info()[["user"]]=="alex"){
 setwd(wd)
 
 source("code/child_mort.R")
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
 povcalcuts <- fread("https://raw.githubusercontent.com/ZChristensen/poverty_trends/master/data/P20incometrends.csv")
 povcalcuts<- fread("D:/git/poverty_trends/data/P20incometrends.csv")
 dhsmeta<- fread("data/dhs_meta_data20190524.csv")
@@ -111,6 +113,36 @@ last_filename <- ""
 dataList <- list()
 dataIndex <- 1
 
+# load("UGHR7BFL.RData")
+# dict=fread("C:/Users/zachc/Box Sync/Subnational paper - Q1 2019/Uganda/input/ug_region_dictionary.csv")
+# setnames(dict,"hh_id","hhid")
+# data$hhid=as.numeric(data$hhid)
+# data=merge(dict,data,by=c("hhid"))
+# setnames(data,"hv024","dhs.region")
+# setnames(data,"adm1","hv024")
+# save(data,file="UGHR7BFL.RData")
+# load("UGPR7BFL.RData")
+# data$hhid=as.numeric(data$hhid)
+# data=merge(dict,data,by=c("hhid"))
+# setnames(data,"hv024","dhs.region")
+# setnames(data,"adm1","hv024")
+# save(data,file="UGPR7BFL.RData")
+# 
+# 
+# load("D:/DHSauto/nphr7hfl.RData")
+# dict=fread("C:/Users/zachc/Box Sync/Subnational paper - Q1 2019/Nepal/input/cluster_region_dictionary.csv")
+# setnames(dict,"psu","hv001")
+# data=merge(data,dict,by=c("hv001"))
+# setnames(data,"dhs.region","hv024")
+# save(data,file="D:/DHSauto/nphr7hfl.RData")
+# load("D:/DHSauto/nppr7hfl.RData")
+# data=merge(data,dict,by=c("hv001"))
+# setnames(data,"dhs.region","hv024")
+# save(data,file="D:/DHSauto/nppr7hfl.RData")
+
+
+
+
 # Loop through every povcalcut
 for(i in 1:nrow(povcalcuts)){
   povcal_subset = povcalcuts[i,]
@@ -130,9 +162,13 @@ for(i in 1:nrow(povcalcuts)){
     pr_patha <- paste0(country,"pr",phase)
     pr_path <- paste0(tolower(pr_patha),"fl.RData")
     load(pr_path)
+    if(rdata_name %!in% c("nphr7hfl","ughr7bfl")){
     names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
     reg.labs=attributes(data)$label.table$HV024
     data$region=label.region(data$hv024,reg.labs)
+    }else{
+      setnames(data,"hv024","region")
+    }
     pr <- as.data.table(data)
     remove(data)
     keep <- c("hvidx","hhid","hv001","hv002","hv005","region","hv025","hv219","hv220","hv271","hv104","hv105","hv109","hv112","hv140","hc70","v106")
@@ -146,8 +182,13 @@ for(i in 1:nrow(povcalcuts)){
     br_path <- paste0(tolower(br_patha),"fl.RData")
     if(!(br_path %in% missing.br)){
       load(br_path)
-      names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-      data$region=label.region(data$v024,reg.labs)
+      if(rdata_name %!in% c("nphr7hfl","ughr7bfl")){
+        names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
+        data$region=label.region(data$v024,reg.labs)
+      }else{
+        setnames(data, "v024","region")
+      }
+      
       br <- as.data.table(data)
       remove(data)
       keep <- c("v001","v002","b3","v008","v005","b7","hw5","b4","region")
@@ -321,71 +362,71 @@ for(i in 1:nrow(povcalcuts)){
     }
     
     # Stunting
-    if(variable == "stunting"){
-      #message("Stunting")
-      if(!(typeof(pr$child.height.age)=="NULL")){
-        pr$child.height.age[which(pr$child.height.age>80)] <- NA
-        pr$stunting <- NA
-        pr$stunting[which(pr$child.height.age > (-6) & pr$child.height.age<= (-3))] <- 1
-        pr$stunting[which(pr$child.height.age > (-3) & pr$child.height.age<= (-2))] <- 1
-        pr$stunting[which(pr$child.height.age > (-2) & pr$child.height.age< (6))] <- 0
-        dsn = svydesign(
-          data=pr
-          ,ids=~1
-          ,weights=~weights
-        )
-      } else {
-        if(!(typeof(br$child.height.age)=="NULL")){
-          br$child.height.age[which(br$child.height.age>80)] <- NA
-          br$stunting <- NA
-          br$stunting[which(br$child.height.age > (-6) & br$child.height.age<= (-3))] <- 1
-          br$stunting[which(br$child.height.age > (-3) & br$child.height.age<= (-2))] <- 1
-          br$stunting[which(br$child.height.age > (-2) & br$child.height.age< (6))] <- 0
-          dsn = svydesign(
-            data=br
-            ,ids=~1
-            ,weights=~weights
-          )
-        } else {
-          br$stunting <- NA
-          dsn = svydesign(
-            data=rbind(br,br) #Quick and dirty fix for when br is missing
-            ,ids=~1
-            ,weights = ~1
-          )
-        }
-      }
-      stunting.tab = svytable(~stunting+sex,dsn)
-      if("1" %in% rownames(stunting.tab)){
-        stunting.m = stunting.tab["1","1"]
-        stunting.f = stunting.tab["1","2"]
-      }else{
-        stunting.m = NA
-        stunting.f = NA
-      }
-      if("0" %in% rownames(stunting.tab)){
-        non.stunting.m = stunting.tab["0","1"]
-        non.stunting.f = stunting.tab["0","2"]
-      }else{
-        non.stunting.m = NA
-        non.stunting.f = NA
-      }
-      stunting.m.numerator = stunting.m
-      stunting.m.denominator = sum(stunting.m,non.stunting.m,na.rm=T)
-      stunting.m.stat = stunting.m.numerator/stunting.m.denominator
-      stunting.f.numerator = stunting.f
-      stunting.f.denominator = sum(stunting.f,non.stunting.f,na.rm=T)
-      stunting.f.stat = stunting.f.numerator/stunting.f.denominator
-      
-      
-      dat = data.frame(
-        variable=c(rep("stunting",6)),
-        type=rep(c("statistic","numerator","denominator"),2),
-        sex=rep(c(rep("male",3),rep("female",3)),1),
-        value=c(stunting.m.stat,stunting.m.numerator,stunting.m.denominator,
-                stunting.f.stat,stunting.f.numerator,stunting.f.denominator)
-      )
-    }
+    #  if(variable == "stunting"){
+    #   #message("Stunting")
+    #   if(!(typeof(pr$child.height.age)=="NULL")){
+    #     pr$child.height.age[which(pr$child.height.age>80)] <- NA
+    #     pr$stunting <- NA
+    #     pr$stunting[which(pr$child.height.age > (-6) & pr$child.height.age<= (-3))] <- 1
+    #     pr$stunting[which(pr$child.height.age > (-3) & pr$child.height.age<= (-2))] <- 1
+    #     pr$stunting[which(pr$child.height.age > (-2) & pr$child.height.age< (6))] <- 0
+    #     dsn = svydesign(
+    #       data=pr
+    #       ,ids=~1
+    #       ,weights=~weights
+    #     )
+    #   } else {
+    #     if(!(typeof(br$child.height.age)=="NULL")){
+    #       br$child.height.age[which(br$child.height.age>80)] <- NA
+    #       br$stunting <- NA
+    #       br$stunting[which(br$child.height.age > (-6) & br$child.height.age<= (-3))] <- 1
+    #       br$stunting[which(br$child.height.age > (-3) & br$child.height.age<= (-2))] <- 1
+    #       br$stunting[which(br$child.height.age > (-2) & br$child.height.age< (6))] <- 0
+    #       dsn = svydesign(
+    #         data=br
+    #         ,ids=~1
+    #         ,weights=~weights
+    #       )
+    #     } else {
+    #       br$stunting <- NA
+    #       dsn = svydesign(
+    #         data=rbind(br,br) #Quick and dirty fix for when br is missing
+    #         ,ids=~1
+    #         ,weights = ~1
+    #       )
+    #     }
+    #   }
+    #   stunting.tab = svytable(~stunting+sex,dsn)
+    #   if("1" %in% rownames(stunting.tab)){
+    #     stunting.m = stunting.tab["1","1"]
+    #     stunting.f = stunting.tab["1","2"]
+    #   }else{
+    #     stunting.m = NA
+    #     stunting.f = NA
+    #   }
+    #   if("0" %in% rownames(stunting.tab)){
+    #     non.stunting.m = stunting.tab["0","1"]
+    #     non.stunting.f = stunting.tab["0","2"]
+    #   }else{
+    #     non.stunting.m = NA
+    #     non.stunting.f = NA
+    #   }
+    #   stunting.m.numerator = stunting.m
+    #   stunting.m.denominator = sum(stunting.m,non.stunting.m,na.rm=T)
+    #   stunting.m.stat = stunting.m.numerator/stunting.m.denominator
+    #   stunting.f.numerator = stunting.f
+    #   stunting.f.denominator = sum(stunting.f,non.stunting.f,na.rm=T)
+    #   stunting.f.stat = stunting.f.numerator/stunting.f.denominator
+    #   
+    #   
+    #   dat = data.frame(
+    #     variable=c(rep("stunting",6)),
+    #     type=rep(c("statistic","numerator","denominator"),2),
+    #     sex=rep(c(rep("male",3),rep("female",3)),1),
+    #     value=c(stunting.m.stat,stunting.m.numerator,stunting.m.denominator,
+    #             stunting.f.stat,stunting.f.numerator,stunting.f.denominator)
+    #   )
+    # }
     
     #Mortality
     if(variable == "u5.mortality"){
@@ -503,12 +544,12 @@ reg=subset(data.total.wide2, variable=="registration")
 setnames(reg, "value", "birth.registration")
 U5M=subset(data.total.wide2, variable=="mortality")
 setnames(U5M, "value", "U5M")
-stunt=subset(data.total.wide2, variable=="stunting")
-setnames(stunt, "value", "stunting")
+# stunt=subset(data.total.wide2, variable=="stunting")
+# setnames(stunt, "value", "stunting")
 educ=subset(data.total.wide2, variable=="education")
 setnames(educ, "value", "education")
-data.wide=merge(reg,stunt, c("region","iso3","survey_year"))
-data.wide=merge(data.wide, U5M, c("region","iso3","survey_year"))
+data.wide=merge(reg,U5M, c("region","iso3","survey_year"))
+# data.wide=merge(data.wide, stunt, c("region","iso3","survey_year"))
 data.wide=merge(data.wide, educ, c("region","iso3","survey_year"))
 
-fwrite(data.total.wide2,"data/historical_dhs_sub.csv")
+fwrite(data.wide,"data/historical_dhs_sub.csv")
