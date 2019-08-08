@@ -1,5 +1,5 @@
 ####Function and setup####
-list.of.packages <- c("Hmisc","plyr","foreign","data.table","varhandle","zoo","survey")
+list.of.packages <- c("Hmisc","plyr","foreign","data.table","varhandle","zoo","survey","WDI")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
@@ -19,11 +19,9 @@ if(Sys.info()[["user"]]=="alex"){
 
 setwd(wd)
 
-source("code/child_mort.R")
-
 '%!in%' <- function(x,y)!('%in%'(x,y))
 povcalcuts <- fread("https://raw.githubusercontent.com/ZChristensen/poverty_trends/master/data/P20incometrends.csv")
-povcalcuts<- fread("D:/git/poverty_trends/data/P20incometrends.csv")
+# povcalcuts<- fread("D:/git/poverty_trends/data/P20incometrends.csv")
 dhsmeta<- fread("data/dhs_meta_data20190524.csv")
 dhsmeta$WealthIndex[which(dhsmeta$Country.=="Burkina Faso" & dhsmeta$dhs_recode_code==62)]=1
 dhsmeta<- subset(dhsmeta, Recode.Structure.!="DHS-I" & WealthIndex == 1)
@@ -42,7 +40,7 @@ dhsmeta=dhsmeta[which(!is.na(dhsmeta$dhs_cc)),]
 
 dhsmeta2 <- unique(dhsmeta[,c("CountryName","surveyyr","filename")])
 
-variables <- c("birth.registration","u5.mortality","stunting","education")
+variables <- c("birth.registration")
 grid = as.data.table(expand.grid(filename=unique(dhsmeta2$filename), variable = variables))
 
 dhsmeta2 <- merge(grid, dhsmeta2, all=T)
@@ -61,162 +59,40 @@ povcalcuts <- povcalcuts[,keep, with=F]
 povcalcuts = povcalcuts[order(povcalcuts$filename,povcalcuts$surveyyr),]
 povcalcuts=subset(povcalcuts, filename!="SNHR7IDT")
 
+pop = WDI(country="all",indicator="SP.POP.TOTL",start=2000,end=2000,extra=T)
+regions = unique(pop[,c("iso3c","region")])
+names(regions) = c("iso3","region")
 
-label.region=function(region.vals,region.labs){
-  reg.lab.list=list()
-  for(i in 1:length(region.labs)){
-    reg.name=names(region.labs)[i]
-    reg.lab=as.character(region.labs[i])
-    reg.lab.list[[reg.lab]]=reg.name
-  } 
-  return(unlist(reg.lab.list[as.character(region.vals)]))
-}
+povcalcuts = merge(povcalcuts,regions,by="iso3")
+povcalcuts = subset(povcalcuts, region %in% c("Sub-Saharan Africa", "Middle East & North Africa"))
+
+not.dhs = c(
+  "CIHR50DT",
+  "GHHR7ADT",
+  "MZHR51DT",
+  "NGHR72DT",
+  "ZAHR33DT",
+  "TZHR4ADT",
+  "TZHR51DT",
+  "TZHR6ADT",
+  "UGHR6ADT"
+)
+povcalcuts = subset(povcalcuts,filename %!in% not.dhs)
+
 rm(grid,dhsmeta,dhsmeta2)
 gc()
 
 ####Run function####
 setwd(wd2)
 
-missing.br = c(
-  "aobr51fl.RData",
-  "bfbr70fl.RData",
-  "bubr6hfl.RData",
-  "ghbr7afl.RData",
-  "kebr7afl.RData",
-  "lbbr61fl.RData",
-  "lbbr71fl.RData",
-  "mdbr71fl.RData",
-  "mlbr70fl.RData",
-  "mwbr6hfl.RData",
-  "mwbr7ifl.RData",
-  "mzbr51fl.RData",
-  "ngbr72fl.RData",
-  "rwbr6qfl.RData",
-  "rwbr7afl.RData",
-  "slbr71fl.RData",
-  "snbr50fl.RData",
-  "tzbr7ifl.RData", 
-  "tzbr4afl.RData",
-  "ugbr72fl.RData",
-  "ugbr6afl.RData"
-)
-
-
-
-#List of countries with subnational data
-subnationalcountries=c("AFG","BGD","BFA","CMR","GHA","KEN","MDG","MWI","MDA","MOZ","MMR","NPL","NGA","RWA","SEN","TZA","UGA")
-povcalcuts=subset(povcalcuts, iso3 %in% subnationalcountries)
-latestsurveys=c("AFHR70DT","BDHR72DT","BFHR62DT","CMHR61DT","GHHR72DT","KEHR71DT","MMHR71DT","MWHR7HDT","MZHR62DT","NGHR6ADT","NPHR7HDT","RWHR70DT","SNHR7ZDT","TZHR7ADT","UGHR7BDT")  
-#MDG latest three DHS surveys have been MIS and they have been dropped from this analysis
-povcalcuts=subset(povcalcuts, filename %in% latestsurveys)
-last_filename <- ""
 dataList <- list()
 dataIndex <- 1
 
-# load("UGHR7BFL.RData")
-# dict=fread("C:/Users/zachc/Box Sync/Subnational paper - Q1 2019/Uganda/input/ug_region_dictionary.csv")
-# setnames(dict,"hh_id","hhid")
-# data$hhid=as.numeric(data$hhid)
-# data=merge(dict,data,by=c("hhid"))
-# setnames(data,"hv024","dhs.region")
-# setnames(data,"adm1","hv024")
-# save(data,file="UGHR7BFL.RData")
-# load("UGPR7BFL.RData")
-# data$hhid=as.numeric(data$hhid)
-# data=merge(dict,data,by=c("hhid"))
-# setnames(data,"hv024","dhs.region")
-# setnames(data,"adm1","hv024")
-# save(data,file="UGPR7BFL.RData")
-# 
-# 
-# load("D:/DHSauto/nphr7hfl.RData")
-# dict=fread("C:/Users/zachc/Box Sync/Subnational paper - Q1 2019/Nepal/input/cluster_region_dictionary.csv")
-# setnames(dict,"psu","hv001")
-# data=merge(data,dict,by=c("hv001"))
-# setnames(data,"dhs.region","hv024")
-# save(data,file="D:/DHSauto/nphr7hfl.RData")
-# load("D:/DHSauto/nppr7hfl.RData")
-# data=merge(data,dict,by=c("hv001"))
-# setnames(data,"dhs.region","hv024")
-# save(data,file="D:/DHSauto/nppr7hfl.RData")
-# 
-# 
-# load("D:/DHSauto/mwpr7hfl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/malawi_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
-# save(data,file="D:/DHSauto/mwpr7hfl.RData")
-# load("D:/DHSauto/mwbr7hfl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/malawi_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
-# save(data,file="D:/DHSauto/mwbr7hfl.RData")
-# 
-# load("D:/DHSauto/kepr71fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/kenya_dict.csv")
-# reg.labs=attributes(data)$label.table$shdregion
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
-# save(data,file="D:/DHSauto/kepr71fl.RData")
-# load("D:/DHSauto/kebr71fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/kenya_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
-# save(data,file="D:/DHSauto/kebr71fl.RData")
-# 
-# load("D:/DHSauto/bdpr72fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/bangladesh_dict.csv")
-# data$psu=data$hv001
-# data=merge(data,regionlabel,by=c("psu"))
-# data$region.old=data$hv024
-# data$hv024=data$region
-# save(data,file="D:/DHSauto/bdpr72fl.RData")
-# rm(data)
-# load("D:/DHSauto/bdbr72fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/bangladesh_dict.csv")
-# data$psu=data$v001
-# data=merge(data,regionlabel,by=c("psu"))
-# data$region.old=data$v024
-# data$v024=data$region
-# save(data,file="D:/DHSauto/bdbr72fl.RData")
-# 
-# load("D:/DHSauto/rwpr70fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/rwanda_dict.csv")
-# regionlabel=regionlabel[,c("shdistrict","hv001")]
-# regionlabel=unique(regionlabel)
-# data=merge(data,regionlabel,by=c("hv001"))
-# data$region.old=data$hv024
-# data$hv024=data$shdistrict
-# save(data,file="D:/DHSauto/rwpr70fl.RData")
-# rm(data)
-# load("D:/DHSauto/rwbr70fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# setnames(regionlabel, "hv001","v001")
-# data=merge(data,regionlabel,by=c("v001"))
-# data$region.old=data$v024
-# data$v024=data$shdistrict
-# save(data,file="D:/DHSauto/rwbr70fl.RData")
-
-
-
+pb = txtProgressBar(max=nrow(povcalcuts),style=3)
 # Loop through every povcalcut
 for(i in 1:nrow(povcalcuts)){
   povcal_subset = povcalcuts[i,]
-  # setTxtProgressBar(pb, i-1)
+  setTxtProgressBar(pb, i)
   # Pull some coded info out of the dir name
   country <- tolower(substr(povcal_subset$filename,1,2))
   recode <- tolower(substr(povcal_subset$filename,3,4))
@@ -224,402 +100,96 @@ for(i in 1:nrow(povcalcuts)){
   subphase <- substr(povcal_subset$filename,5,5)
   rdata_name = paste0(country,recode,phase,"fl")
   variable <- tolower(povcal_subset$variable)
-  # if(substr(rdata_name,0,6) != last_filename){
-    # if(!(substr(rdata_name,0,6) != last_filename)){ next; }
-    message(paste(rdata_name,povcal_subset$RequestYear))
-    if(exists("pr")){rm(pr)}
-    print(country)
-    pr_patha <- paste0(country,"pr",phase)
-    pr_path <- paste0(tolower(pr_patha),"fl.RData")
-    load(pr_path)
-    if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl")){
-    names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-    reg.labs=attributes(data)$label.table$HV024
-    data$region=label.region(data$hv024,reg.labs)
-    }else{
-      setnames(data,"hv024","region")
-    }
-    pr <- as.data.table(data)
-    remove(data)
-    keep <- c("hvidx","hhid","hv001","hv002","hv005","region","hv025","hv219","hv220","hv271","hv104","hv105","hv109","hv112","hv140","hc70","v106")
-    pr <- subset(pr, select= (colnames(pr) %in% keep))
-    gc()
-    names(pr)[which(names(pr)=="hv001")] <- "cluster"
-    names(pr)[which(names(pr)=="hv002")] <- "household"
-    names(pr)[which(names(pr)=="hvidx")] <- "line"
-    if(exists("br")){rm(br)}
-    br_patha <- paste0(country,"br",phase)
-    br_path <- paste0(tolower(br_patha),"fl.RData")
-    if(!(br_path %in% missing.br)){
-      load(br_path)
-      if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl")){
-        names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-        data$region=label.region(data$v024,reg.labs)
-      }else{
-        setnames(data, "v024","region")
-      }
-      
-      br <- as.data.table(data)
-      remove(data)
-      keep <- c("v001","v002","b3","v008","v005","b7","hw5","b4","region")
-      br <- subset(br, select= (colnames(br) %in% keep))
-      gc()
-      names(br)[which(names(br)=="v001")] <- "cluster"
-      names(br)[which(names(br)=="v002")] <- "household"
-      names(br)[which(names(br)=="v005")] <- "sample.weights"
-      br$weights <- br$sample.weights/1000000
-    }else{
-      br = data.frame(p20=NA, sex=NA)
-    }
-    
-    #Rename sample.weights var
-    names(pr)[which(names(pr)=="hv005")] <- "sample.weights"
-    pr$weights <- pr$sample.weights/1000000
-    
-    #Urban/rural
-    if(phase>1){
-      names(pr)[which(names(pr)=="hv025")] <- "urban.rural"
-    }else{
-      names(pr)[which(names(pr)=="v102")] <- "urban.rural"
-    }
-    pr$urban <- NA
-    pr$urban[which(pr$urban.rural==1)] <- 1
-    pr$urban[which(pr$urban.rural==2)] <- 0
-    
-    # Wealth
-    if("hv271" %in% names(pr)){
-      pr$hv271 <- pr$hv271/100000
-      names(pr)[which(names(pr)=="hv271")] <- "wealth"
-    }else{
-      wi_patha <- paste0(country,"wi",phase)
-      wi_path <- paste0(tolower(wi_patha),"fl.RData")
-      if(file.exists(wi_path)){
-        load(wi_path)
-        wi <- as.data.table(data)
-        remove(data)
-      }else{
-        wi_patha <- paste0(country,"wi",(as.numeric(phase)-1)) #May be India-specific
-        wi_path <- paste0(tolower(wi_patha),"fl.RData")
-        if(file.exists(wi_path)){
-          load(wi_path)
-          wi <- as.data.table(data)
-          remove(data)
-        }
-      }
-      setnames(wi,"whhid","hhid")
-      pr<- join(pr,wi,by=c("hhid"))
-      rm(wi)
-      names(pr)[which(names(pr)=="wlthindf")] <-"wealth"
-    }
-    gc()
-    
-  # Education
-    if(length(names(pr)[which(names(pr)=="hv109")])==1){
-      names(pr)[which(names(pr)=="hv109")] <- "educ"
-      recode.educ <- function(x){
-        if(is.na(x)){return(NA)}
-        else if(x==8 | x==9){return(NA)}
-        else if(x==0 | x==1){return("No education, preschool")}
-        else if(x==2 | x==3 ){return("Primary")}
-        else if(x==4){return("Secondary")}
-        else if(x==5){return("Higher")}
-        else{return(NA)}
-      }
-    } else{
-      names(pr)[which(names(pr)=="v106")] <- "educ"
-      recode.educ <- function(x){
-        if(is.na(x)){return(NA)}
-        else if(x==8 | x==9){return(NA)}
-        else if(x==0 ){return("No education, preschool")}
-        else if(x==1){return("Primary")}
-        else if(x==2){return("Secondary")}
-        else if(x==3){return("Higher")}
-        else{return(NA)}
-      } 
-    }
-    pr$educ <- sapply(pr$educ,recode.educ)
-    
-    # Age
-    names(pr)[which(names(pr)=="hv105")] <- "age"
-    
-    # Sex
-    names(pr)[which(names(pr)=="hv104")] <- "sex"
-    names(br)[which(names(br)=="b4")] <- "sex"
-    
-    # ID vars
-    names(pr)[which(names(pr)=="hv001")] <- "cluster"
-    names(pr)[which(names(pr)=="hv002")] <- "household"
-    names(pr)[which(names(pr)=="hvidx")] <- "line"
-    names(pr)[which(names(pr)=="hv112")] <- "mother.line"
-    pr$mother.line[which(pr$mother.line==99)] <- NA
-    
-    # Head vars
-    names(pr)[which(names(pr)=="hv219")] <- "head.sex"
-    names(pr)[which(names(pr)=="hv220")] <- "head.age"
-    
-    #Child height for age
-    if(length(names(pr)[which(names(pr)=="hc70")])){
-      names(pr)[which(names(pr)=="hc70")] <- "child.height.age"
-      pr$child.height.age <- pr$child.height.age/100}
-    if(length(names(pr)[which(names(br)=="hw5")])){
-      names(br)[which(names(br)=="hw5")] <- "child.height.age"
-      br$child.height.age <- br$child.height.age/100}
-   
-  # }
+  if(exists("pr")){rm(pr)}
+  pr_patha <- paste0(country,"pr",phase)
+  pr_path <- paste0(tolower(pr_patha),"fl.RData")
+  load(pr_path)
+  pr <- as.data.table(data)
+  remove(data)
+  keep <- c("hvidx","hhid","hv001","hv002","hv005","hv025","hv219","hv220","hv271","hv104","hv105","hv109","hv112","hv140","hc70","v106")
+  pr <- subset(pr, select= (colnames(pr) %in% keep))
+  gc()
+  names(pr)[which(names(pr)=="hv001")] <- "cluster"
+  names(pr)[which(names(pr)=="hv002")] <- "household"
+  names(pr)[which(names(pr)=="hvidx")] <- "line"
   
+  #Rename sample.weights var
+  names(pr)[which(names(pr)=="hv005")] <- "sample.weights"
+  pr$weights <- pr$sample.weights/1000000
+  
+  # Sex
+  names(pr)[which(names(pr)=="hv104")] <- "sex"
+
+  # ID vars
+  names(pr)[which(names(pr)=="hv001")] <- "cluster"
+  names(pr)[which(names(pr)=="hv002")] <- "household"
+  names(pr)[which(names(pr)=="hvidx")] <- "line"
+  names(pr)[which(names(pr)=="hv112")] <- "mother.line"
+  pr$mother.line[which(pr$mother.line==99)] <- NA
+  
+  names(pr)[which(names(pr)=="hv140")] <- "birth.cert"
+  #0 - neither certificate or registered
+  #1 - has certificate
+  #2 - registered, no certificate
+  #3 - registered, no certificate
+  #6 - other
+  #8 - dk
+  pr$birth.reg = NA
+  pr$birth.reg[which(pr$birth.cert %in% c(0,6,8,9))] = 0
+  pr$birth.reg[which(pr$birth.cert %in% c(1,2,3))] = 1
+  
+  dsn = svydesign(
+    data=pr
+    ,ids=~1
+    ,weights=~weights
+  )
+  
+  reg.tab = svytable(~birth.reg+sex,dsn)
+  
+  if("1" %in% rownames(reg.tab)){
+    reg.m = reg.tab["1","1"]
+    reg.f = reg.tab["1","2"]
+  }else{
+    reg.m = NA
+    reg.f = NA
+  }
+  if("0" %in% rownames(reg.tab)){
+    non.reg.m = reg.tab["0","1"]
+    non.reg.f = reg.tab["0","2"]
+  }else{
+    non.reg.m = NA
+    non.reg.f = NA
+  }
+  reg.m.numerator = reg.m
+  reg.m.denominator = sum(reg.m,non.reg.m,na.rm=T)
+  reg.m.stat = reg.m.numerator/reg.m.denominator
+  reg.f.numerator = reg.f
+  reg.f.denominator = sum(reg.f,non.reg.f,na.rm=T)
+  reg.f.stat = reg.f.numerator/reg.f.denominator
+  
+  reg.total.stat = sum(reg.m.numerator,reg.f.numerator,na.rm=T) / sum(reg.m.denominator,reg.f.denominator,na.rm=T)
+
  
-  pr.backup=copy(pr)
-  br.backup=copy(br)
-  regions=unique(pr$region)
-  for(this.region in regions){
-    pr=copy(pr.backup)
-    br=copy(br.backup)
-    pr=subset(pr,this.region==region)
-    if("region" %in% names(br)){
-      br=subset(br,this.region==region)
-    }
-    # Birth certificate
-    if(variable == "birth.registration"){
-      #message("Registration")
-      names(pr)[which(names(pr)=="hv140")] <- "birth.cert"
-      #0 - neither certificate or registered
-      #1 - has certificate
-      #2 - registered, no certificate
-      #3 - registered, no certificate
-      #6 - other
-      #8 - dk
-      pr$birth.reg = NA
-      pr$birth.reg[which(pr$birth.cert %in% c(0,6,8,9))] = 0
-      pr$birth.reg[which(pr$birth.cert %in% c(1,2,3))] = 1
-      
-      dsn = svydesign(
-        data=pr
-        ,ids=~1
-        ,weights=~weights
-      )
-      
-      reg.tab = svytable(~birth.reg+sex,dsn)
-      
-      if("1" %in% rownames(reg.tab)){
-        reg.m = reg.tab["1","1"]
-        reg.f = reg.tab["1","2"]
-      }else{
-        reg.m = NA
-        reg.f = NA
-      }
-      if("0" %in% rownames(reg.tab)){
-        non.reg.m = reg.tab["0","1"]
-        non.reg.f = reg.tab["0","2"]
-      }else{
-        non.reg.m = NA
-        non.reg.f = NA
-      }
-      reg.m.numerator = reg.m
-      reg.m.denominator = sum(reg.m,non.reg.m,na.rm=T)
-      reg.m.stat = reg.m.numerator/reg.m.denominator
-      reg.f.numerator = reg.f
-      reg.f.denominator = sum(reg.f,non.reg.f,na.rm=T)
-      reg.f.stat = reg.f.numerator/reg.f.denominator
-   
-     
-      dat = data.frame(
-        variable=c(rep("registration",6)),
-        type=rep(c("statistic","numerator","denominator"),2),
-        sex=rep(c(rep("male",3),rep("female",3)),1),
-        value=c(reg.m.stat,reg.m.numerator,reg.m.denominator,
-                reg.f.stat,reg.f.numerator,reg.f.denominator)
-      )
-    }
-    
-    # Stunting
-    #  if(variable == "stunting"){
-    #   #message("Stunting")
-    #   if(!(typeof(pr$child.height.age)=="NULL")){
-    #     pr$child.height.age[which(pr$child.height.age>80)] <- NA
-    #     pr$stunting <- NA
-    #     pr$stunting[which(pr$child.height.age > (-6) & pr$child.height.age<= (-3))] <- 1
-    #     pr$stunting[which(pr$child.height.age > (-3) & pr$child.height.age<= (-2))] <- 1
-    #     pr$stunting[which(pr$child.height.age > (-2) & pr$child.height.age< (6))] <- 0
-    #     dsn = svydesign(
-    #       data=pr
-    #       ,ids=~1
-    #       ,weights=~weights
-    #     )
-    #   } else {
-    #     if(!(typeof(br$child.height.age)=="NULL")){
-    #       br$child.height.age[which(br$child.height.age>80)] <- NA
-    #       br$stunting <- NA
-    #       br$stunting[which(br$child.height.age > (-6) & br$child.height.age<= (-3))] <- 1
-    #       br$stunting[which(br$child.height.age > (-3) & br$child.height.age<= (-2))] <- 1
-    #       br$stunting[which(br$child.height.age > (-2) & br$child.height.age< (6))] <- 0
-    #       dsn = svydesign(
-    #         data=br
-    #         ,ids=~1
-    #         ,weights=~weights
-    #       )
-    #     } else {
-    #       br$stunting <- NA
-    #       dsn = svydesign(
-    #         data=rbind(br,br) #Quick and dirty fix for when br is missing
-    #         ,ids=~1
-    #         ,weights = ~1
-    #       )
-    #     }
-    #   }
-    #   stunting.tab = svytable(~stunting+sex,dsn)
-    #   if("1" %in% rownames(stunting.tab)){
-    #     stunting.m = stunting.tab["1","1"]
-    #     stunting.f = stunting.tab["1","2"]
-    #   }else{
-    #     stunting.m = NA
-    #     stunting.f = NA
-    #   }
-    #   if("0" %in% rownames(stunting.tab)){
-    #     non.stunting.m = stunting.tab["0","1"]
-    #     non.stunting.f = stunting.tab["0","2"]
-    #   }else{
-    #     non.stunting.m = NA
-    #     non.stunting.f = NA
-    #   }
-    #   stunting.m.numerator = stunting.m
-    #   stunting.m.denominator = sum(stunting.m,non.stunting.m,na.rm=T)
-    #   stunting.m.stat = stunting.m.numerator/stunting.m.denominator
-    #   stunting.f.numerator = stunting.f
-    #   stunting.f.denominator = sum(stunting.f,non.stunting.f,na.rm=T)
-    #   stunting.f.stat = stunting.f.numerator/stunting.f.denominator
-    #   
-    #   
-    #   dat = data.frame(
-    #     variable=c(rep("stunting",6)),
-    #     type=rep(c("statistic","numerator","denominator"),2),
-    #     sex=rep(c(rep("male",3),rep("female",3)),1),
-    #     value=c(stunting.m.stat,stunting.m.numerator,stunting.m.denominator,
-    #             stunting.f.stat,stunting.f.numerator,stunting.f.denominator)
-    #   )
-    # }
-    
-    #Mortality
-    if(variable == "u5.mortality"){
-      #message("Mortality")
-      br.m = subset(br, sex==1)
-      
-      br.f = subset(br,sex==2)
-      
-      gc()
-      if(nrow(br.m)>1){
-        mort.list.m = mort(br.m)
-        mort.m = mort.list.m$mortality
-        mort.m.numerator = mort.list.m$total_morts
-        mort.m.denominator = mort.list.m$total_survs
-      }else{
-        mort.m = NA
-        mort.m.numerator = NA
-        mort.m.denominator = NA
-      }
-      if(nrow(br.f)>1){
-        mort.list.f = mort(br.f)
-        mort.f = mort.list.f$mortality
-        mort.f.numerator = mort.list.f$total_morts
-        mort.f.denominator = mort.list.f$total_survs
-      }else{
-        mort.f = NA
-        mort.f.numerator = NA
-        mort.f.denominator = NA
-      }
-      
-      gc()
-      dat = data.frame(
-        variable=c(rep("mortality",6)),
-        type=rep(c("statistic","numerator","denominator"),2),
-        sex=rep(c(rep("male",3),rep("female",3)),1),
-        value=c(mort.m,mort.m.numerator,mort.m.denominator,
-                mort.f,mort.f.numerator,mort.f.denominator)
-      )
-    }
-    
-    #Secondary Education
-    if(variable == "education"){
-      #message("Education")
-      pr$secedu <- NA
-      pr$secedu[which(!is.na(pr$educ) & pr$age >= 21)] <- 0
-      pr$secedu[which(pr$educ %in% c("Secondary","Higher") & pr$age >= 21)] <- 1
-      dsn = svydesign(
-        data=pr
-        ,ids=~1
-        ,weights=~weights
-      )
-      education.tab = svytable(~secedu+sex,dsn)
-        if("1" %in% rownames(education.tab)){
-          education.m = education.tab["1","1"]
-          education.f = education.tab["1","2"]
-        }else{
-          education.m = NA
-          education.f = NA
-        }
-        if("0" %in% rownames(education.tab)){
-          non.education.m = education.tab["0","1"]
-          non.education.f = education.tab["0","2"]
-        }else{
-          non.education.m = NA
-          non.education.f = NA
-        }
-        education.m.numerator = education.m
-        education.m.denominator = sum(education.m,non.education.m,na.rm=T)
-        education.m.stat = education.m.numerator/education.m.denominator
-        education.f.numerator = education.f
-        education.f.denominator = sum(education.f,non.education.f,na.rm=T)
-        education.f.stat = education.f.numerator/education.f.denominator
-      
-      
-      dat = data.frame(
-        variable=c(rep("education",6)),
-        type=rep(c("statistic","numerator","denominator"),2),
-        sex=rep(c(rep("male",3),rep("female",3)),1),
-        value=c(education.m.stat,education.m.numerator,education.m.denominator,
-                education.f.stat,education.f.numerator,education.f.denominator)
-      )
-    }
-    
-    dat$iso3 = povcal_subset$iso3
-    dat$survey_year = povcal_subset$surveyyr
-    dat$region=this.region
-    last_filename = tolower(substr(povcal_subset$filename,0,6))
-    dataList[[dataIndex]] <- dat
-    dataIndex <- dataIndex + 1
-  }
+  dat = data.frame(
+    male.u5.birth.registration = reg.m.stat,
+    female.u5.birth.registration = reg.f.stat,
+    total.u5.birth.registration = reg.total.stat
+  )
   
-  }
+  
+  dat$iso3 = povcal_subset$iso3
+  dat$survey_year = povcal_subset$surveyyr
+  dataList[[dataIndex]] <- dat
+  dataIndex <- dataIndex + 1
+
+}
 
 
-# setTxtProgressBar(pb, i)
-# close(pb)
+close(pb)
 data.total <- rbindlist(dataList)
-save(data.total,file="../historical_allrowssubnational.RData")
-
 setwd(wd)
-save(data.total,file="data/historical_dhssubgender.RData")
-fwrite(data.total,"data/historical_dhssubgender.csv")
-data.total.num=subset(data.total,type=="numerator")
-setnames(data.total.num,"value","numerator")
-data.total.den=subset(data.total,type=="denominator")
-setnames(data.total.den,"value","denominator")
-data.total.wide=join(data.total.num,data.total.den,by=c("variable","sex","iso3","survey_year", "region"))
-data.total.wide2=data.table(data.total.wide)[,.(
-                                             denominator=sum(denominator)
-                                             ,numerator=sum(numerator))
-                                             ,by=c("region","variable","iso3","survey_year")]
-data.total.wide2$value=data.total.wide2$numerator/data.total.wide2$denominator
+save(data.total,file="data/dhs_crvs.RData")
 
-reg=subset(data.total.wide2, variable=="registration")
-setnames(reg, "value", "birth.registration")
-U5M=subset(data.total.wide2, variable=="mortality")
-setnames(U5M, "value", "U5M")
-# stunt=subset(data.total.wide2, variable=="stunting")
-# setnames(stunt, "value", "stunting")
-educ=subset(data.total.wide2, variable=="education")
-setnames(educ, "value", "education")
-data.wide=merge(reg,U5M, c("region","iso3","survey_year"))
-# data.wide=merge(data.wide, stunt, c("region","iso3","survey_year"))
-data.wide=merge(data.wide, educ, c("region","iso3","survey_year"))
+data.total = merge(data.total,regions,by="iso3")
 
-fwrite(data.wide,"data/historical_dhs_sub.csv")
+fwrite(data.total,"data/ssa_mena_dhs_crvs.csv")
