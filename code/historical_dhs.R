@@ -106,7 +106,7 @@ missing.br = c(
 #List of countries with subnational data
 subnationalcountries=c("AFG","BGD","BFA","CMR","GHA","KEN","MDG","MWI","MDA","MOZ","MMR","NPL","NGA","RWA","SEN","TZA","UGA")
 povcalcuts=subset(povcalcuts, iso3 %in% subnationalcountries)
-latestsurveys=c("AFHR70DT","BDHR72DT","BFHR62DT","CMHR61DT","GHHR72DT","KEHR71DT","MMHR71DT","MWHR7HDT","MZHR62DT","NGHR6ADT","NPHR7HDT","RWHR70DT","SNHR7ZDT","TZHR7ADT","UGHR7BDT")  
+latestsurveys=c("AFHR70DT","BDHR72DT","BFHR62DT","CMHR61DT","GHHR72DT","KEHR71DT","MMHR71DT","MDHR51DT","MWHR7HDT","MZHR62DT","NGHR6ADT","NPHR7HDT","RWHR70DT","SNHR7ZDT","TZHR7ADT","UGHR7BDT")  
 #MDG latest three DHS surveys have been MIS and they have been dropped from this analysis
 povcalcuts=subset(povcalcuts, filename %in% latestsurveys)
 last_filename <- ""
@@ -144,18 +144,18 @@ dataIndex <- 1
 # load("D:/DHSauto/mwpr7hfl.RData")
 # names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
 # regionlabel=fread("D:/git/mpi_recalc/region_dictionary/malawi_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
 # data=merge(data,regionlabel,by=c("shdist"))
 # data$region.old=data$hv024
 # data$hv024=data$reg.lab
+# regionlabel=data[,c("hv001","reg.lab")]
+# regionlabel=unique(regionlabel)
+# setnames(regionlabel,"hv001","v001")
 # save(data,file="D:/DHSauto/mwpr7hfl.RData")
+# fwrite(regionlabel,"D:/git/mpi_recalc/region_dictionary/malawi_dict2.csv")
 # load("D:/DHSauto/mwbr7hfl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/malawi_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
+# data=merge(data,regionlabel,by=c("v001"))
+# data$region.old=data$v024
+# data$v024=data$reg.lab
 # save(data,file="D:/DHSauto/mwbr7hfl.RData")
 # 
 # load("D:/DHSauto/kepr71fl.RData")
@@ -191,6 +191,7 @@ dataIndex <- 1
 # data$region.old=data$v024
 # data$v024=data$region
 # save(data,file="D:/DHSauto/bdbr72fl.RData")
+# 
 # 
 # load("D:/DHSauto/rwpr70fl.RData")
 # names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
@@ -231,7 +232,7 @@ for(i in 1:nrow(povcalcuts)){
     pr_patha <- paste0(country,"pr",phase)
     pr_path <- paste0(tolower(pr_patha),"fl.RData")
     load(pr_path)
-    if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl")){
+    if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl","mwhr7hfl")){
     names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
     reg.labs=attributes(data)$label.table$HV024
     data$region=label.region(data$hv024,reg.labs)
@@ -251,7 +252,7 @@ for(i in 1:nrow(povcalcuts)){
     br_path <- paste0(tolower(br_patha),"fl.RData")
     if(!(br_path %in% missing.br)){
       load(br_path)
-      if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl")){
+      if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl","mwhr7hfl")){
         names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
         data$region=label.region(data$v024,reg.labs)
       }else{

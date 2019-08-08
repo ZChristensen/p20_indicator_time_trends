@@ -4343,6 +4343,534 @@ education,denominator,male,510.334512,KEN,2014,busia
 education,statistic,female,0.106477996292605,KEN,2014,busia
 education,numerator,female,65.366784,KEN,2014,busia
 education,denominator,female,613.899456,KEN,2014,busia
+registration,statistic,male,0.916908910830421,MDG,2009,analamanga
+registration,numerator,male,675.772155,MDG,2009,analamanga
+registration,denominator,male,737.01122,MDG,2009,analamanga
+registration,statistic,female,0.925369383613577,MDG,2009,analamanga
+registration,numerator,female,756.176377,MDG,2009,analamanga
+registration,denominator,female,817.161655,MDG,2009,analamanga
+registration,statistic,male,0.89319577163746,MDG,2009,vakinankaratra
+registration,numerator,male,565.219731,MDG,2009,vakinankaratra
+registration,denominator,male,632.806098,MDG,2009,vakinankaratra
+registration,statistic,female,0.924993261289577,MDG,2009,vakinankaratra
+registration,numerator,female,545.867621,MDG,2009,vakinankaratra
+registration,denominator,female,590.131457,MDG,2009,vakinankaratra
+registration,statistic,male,0.915752703166825,MDG,2009,itasy
+registration,numerator,male,279.204762,MDG,2009,itasy
+registration,denominator,male,304.891005,MDG,2009,itasy
+registration,statistic,female,0.94550898179313,MDG,2009,itasy
+registration,numerator,female,272.828416,MDG,2009,itasy
+registration,denominator,female,288.551903,MDG,2009,itasy
+registration,statistic,male,0.743359011221007,MDG,2009,bongolava
+registration,numerator,male,105.446874,MDG,2009,bongolava
+registration,denominator,male,141.851881,MDG,2009,bongolava
+registration,statistic,female,0.827291922403081,MDG,2009,bongolava
+registration,numerator,female,148.830822,MDG,2009,bongolava
+registration,denominator,female,179.901215,MDG,2009,bongolava
+registration,statistic,male,0.936556837542064,MDG,2009,haute matsiatra
+registration,numerator,male,396.361551,MDG,2009,haute matsiatra
+registration,denominator,male,423.211422,MDG,2009,haute matsiatra
+registration,statistic,female,0.933640925798322,MDG,2009,haute matsiatra
+registration,numerator,female,374.355474,MDG,2009,haute matsiatra
+registration,denominator,female,400.963008,MDG,2009,haute matsiatra
+registration,statistic,male,0.896996189877254,MDG,2009,anamoroni'i mania
+registration,numerator,male,240.285531,MDG,2009,anamoroni'i mania
+registration,denominator,male,267.877984,MDG,2009,anamoroni'i mania
+registration,statistic,female,0.871644555964999,MDG,2009,anamoroni'i mania
+registration,numerator,female,215.149097,MDG,2009,anamoroni'i mania
+registration,denominator,female,246.831229,MDG,2009,anamoroni'i mania
+registration,statistic,male,0.825643382270598,MDG,2009,vatovavy fitovinany
+registration,numerator,male,335.4585,MDG,2009,vatovavy fitovinany
+registration,denominator,male,406.299508,MDG,2009,vatovavy fitovinany
+registration,statistic,female,0.775560057260375,MDG,2009,vatovavy fitovinany
+registration,numerator,female,313.704541,MDG,2009,vatovavy fitovinany
+registration,denominator,female,404.487748,MDG,2009,vatovavy fitovinany
+registration,statistic,male,0.747369793042678,MDG,2009,ihorombe
+registration,numerator,male,105.856175,MDG,2009,ihorombe
+registration,denominator,male,141.638284,MDG,2009,ihorombe
+registration,statistic,female,0.737020083903849,MDG,2009,ihorombe
+registration,numerator,female,107.13356,MDG,2009,ihorombe
+registration,denominator,female,145.360435,MDG,2009,ihorombe
+registration,statistic,male,0.620967232157859,MDG,2009,atsimo atsinanana
+registration,numerator,male,187.393077,MDG,2009,atsimo atsinanana
+registration,denominator,male,301.776112,MDG,2009,atsimo atsinanana
+registration,statistic,female,0.632794604045207,MDG,2009,atsimo atsinanana
+registration,numerator,female,181.180886,MDG,2009,atsimo atsinanana
+registration,denominator,female,286.318633,MDG,2009,atsimo atsinanana
+registration,statistic,male,0.800130087868683,MDG,2009,atsinanana
+registration,numerator,male,232.406263,MDG,2009,atsinanana
+registration,denominator,male,290.460597,MDG,2009,atsinanana
+registration,statistic,female,0.789781613655597,MDG,2009,atsinanana
+registration,numerator,female,238.751879,MDG,2009,atsinanana
+registration,denominator,female,302.301136,MDG,2009,atsinanana
+registration,statistic,male,0.763269723302348,MDG,2009,analanjirofo
+registration,numerator,male,259.730285,MDG,2009,analanjirofo
+registration,denominator,male,340.286372,MDG,2009,analanjirofo
+registration,statistic,female,0.734337758527436,MDG,2009,analanjirofo
+registration,numerator,female,255.1342,MDG,2009,analanjirofo
+registration,denominator,female,347.434402,MDG,2009,analanjirofo
+registration,statistic,male,0.895570848730492,MDG,2009,alaotra mangoro
+registration,numerator,male,326.261453,MDG,2009,alaotra mangoro
+registration,denominator,male,364.305575,MDG,2009,alaotra mangoro
+registration,statistic,female,0.837974607445325,MDG,2009,alaotra mangoro
+registration,numerator,female,271.081504,MDG,2009,alaotra mangoro
+registration,denominator,female,323.496084,MDG,2009,alaotra mangoro
+registration,statistic,male,0.849284277089789,MDG,2009,boeny
+registration,numerator,male,190.940927,MDG,2009,boeny
+registration,denominator,male,224.825694,MDG,2009,boeny
+registration,statistic,female,0.792498418067099,MDG,2009,boeny
+registration,numerator,female,178.571444,MDG,2009,boeny
+registration,denominator,female,225.327193,MDG,2009,boeny
+registration,statistic,male,0.874632435931743,MDG,2009,sofia
+registration,numerator,male,331.608461,MDG,2009,sofia
+registration,denominator,male,379.140365,MDG,2009,sofia
+registration,statistic,female,0.808669466065644,MDG,2009,sofia
+registration,numerator,female,299.78132,MDG,2009,sofia
+registration,denominator,female,370.709335,MDG,2009,sofia
+registration,statistic,male,0.801392798826431,MDG,2009,betsiboka
+registration,numerator,male,78.758198,MDG,2009,betsiboka
+registration,denominator,male,98.276648,MDG,2009,betsiboka
+registration,statistic,female,0.720739264404037,MDG,2009,betsiboka
+registration,numerator,female,64.839083,MDG,2009,betsiboka
+registration,denominator,female,89.961913,MDG,2009,betsiboka
+registration,statistic,male,0.761333797590558,MDG,2009,melaky
+registration,numerator,male,53.50217,MDG,2009,melaky
+registration,denominator,male,70.274261,MDG,2009,melaky
+registration,statistic,female,0.755010567077427,MDG,2009,melaky
+registration,numerator,female,46.637119,MDG,2009,melaky
+registration,denominator,female,61.770154,MDG,2009,melaky
+registration,statistic,male,0.507530921305071,MDG,2009,atsimo andrefana
+registration,numerator,male,264.787296,MDG,2009,atsimo andrefana
+registration,denominator,male,521.716579,MDG,2009,atsimo andrefana
+registration,statistic,female,0.512684882181519,MDG,2009,atsimo andrefana
+registration,numerator,female,218.002649,MDG,2009,atsimo andrefana
+registration,denominator,female,425.217627,MDG,2009,atsimo andrefana
+registration,statistic,male,0.629444350353354,MDG,2009,androy
+registration,numerator,male,149.333442,MDG,2009,androy
+registration,denominator,male,237.246457,MDG,2009,androy
+registration,statistic,female,0.561242550442034,MDG,2009,androy
+registration,numerator,female,135.506682,MDG,2009,androy
+registration,denominator,female,241.4405,MDG,2009,androy
+registration,statistic,male,0.684111824479662,MDG,2009,anosy
+registration,numerator,male,152.842323,MDG,2009,anosy
+registration,denominator,male,223.417163,MDG,2009,anosy
+registration,statistic,female,0.686065051910742,MDG,2009,anosy
+registration,numerator,female,149.887807,MDG,2009,anosy
+registration,denominator,female,218.474628,MDG,2009,anosy
+registration,statistic,male,0.58225659199623,MDG,2009,menabe
+registration,numerator,male,97.263184,MDG,2009,menabe
+registration,denominator,male,167.045226,MDG,2009,menabe
+registration,statistic,female,0.626469910798833,MDG,2009,menabe
+registration,numerator,female,98.930876,MDG,2009,menabe
+registration,denominator,female,157.918001,MDG,2009,menabe
+registration,statistic,male,0.847797876651671,MDG,2009,diana
+registration,numerator,male,111.710729,MDG,2009,diana
+registration,denominator,male,131.765757,MDG,2009,diana
+registration,statistic,female,0.83657623194595,MDG,2009,diana
+registration,numerator,female,110.140093,MDG,2009,diana
+registration,denominator,female,131.655776,MDG,2009,diana
+registration,statistic,male,0.813896227333211,MDG,2009,sava
+registration,numerator,male,246.409225,MDG,2009,sava
+registration,denominator,male,302.752632,MDG,2009,sava
+registration,statistic,female,0.677744736437169,MDG,2009,sava
+registration,numerator,female,191.732032,MDG,2009,sava
+registration,denominator,female,282.897117,MDG,2009,sava
+mortality,statistic,male,0.0533080850543567,MDG,2009,analamanga
+mortality,numerator,male,106.75406,MDG,2009,analamanga
+mortality,denominator,male,2002.58666,MDG,2009,analamanga
+mortality,statistic,female,0.0455416087235477,MDG,2009,analamanga
+mortality,numerator,female,90.1804575,MDG,2009,analamanga
+mortality,denominator,female,1980.1772495,MDG,2009,analamanga
+mortality,statistic,male,0.0678807030137715,MDG,2009,vakinankaratra
+mortality,numerator,male,101.1634205,MDG,2009,vakinankaratra
+mortality,denominator,male,1490.311915,MDG,2009,vakinankaratra
+mortality,statistic,female,0.0735826453006869,MDG,2009,vakinankaratra
+mortality,numerator,female,108.0853975,MDG,2009,vakinankaratra
+mortality,denominator,female,1468.897959,MDG,2009,vakinankaratra
+mortality,statistic,male,0.0894753561951935,MDG,2009,itasy
+mortality,numerator,male,69.4440245,MDG,2009,itasy
+mortality,denominator,male,776.124594,MDG,2009,itasy
+mortality,statistic,female,0.0739716820988261,MDG,2009,itasy
+mortality,numerator,female,54.442614,MDG,2009,itasy
+mortality,denominator,female,735.9926455,MDG,2009,itasy
+mortality,statistic,male,0.0483176419770455,MDG,2009,bongolava
+mortality,numerator,male,20.803825,MDG,2009,bongolava
+mortality,denominator,male,430.5637475,MDG,2009,bongolava
+mortality,statistic,female,0.035074197675807,MDG,2009,bongolava
+mortality,numerator,female,15.4505865,MDG,2009,bongolava
+mortality,denominator,female,440.5114735,MDG,2009,bongolava
+mortality,statistic,male,0.095949092899865,MDG,2009,haute matsiatra
+mortality,numerator,male,91.8040065,MDG,2009,haute matsiatra
+mortality,denominator,male,956.799108,MDG,2009,haute matsiatra
+mortality,statistic,female,0.0974548707486096,MDG,2009,haute matsiatra
+mortality,numerator,female,90.8414825,MDG,2009,haute matsiatra
+mortality,denominator,female,932.1389665,MDG,2009,haute matsiatra
+mortality,statistic,male,0.0971779376322122,MDG,2009,anamoroni'i mania
+mortality,numerator,male,61.043364,MDG,2009,anamoroni'i mania
+mortality,denominator,male,628.1607275,MDG,2009,anamoroni'i mania
+mortality,statistic,female,0.0808275148175933,MDG,2009,anamoroni'i mania
+mortality,numerator,female,49.246816,MDG,2009,anamoroni'i mania
+mortality,denominator,female,609.282818,MDG,2009,anamoroni'i mania
+mortality,statistic,male,0.168477751611943,MDG,2009,vatovavy fitovinany
+mortality,numerator,male,157.280946,MDG,2009,vatovavy fitovinany
+mortality,denominator,male,933.54134,MDG,2009,vatovavy fitovinany
+mortality,statistic,female,0.155515272646946,MDG,2009,vatovavy fitovinany
+mortality,numerator,female,142.881501,MDG,2009,vatovavy fitovinany
+mortality,denominator,female,918.761859,MDG,2009,vatovavy fitovinany
+mortality,statistic,male,0.110210387174173,MDG,2009,ihorombe
+mortality,numerator,male,35.53471,MDG,2009,ihorombe
+mortality,denominator,male,322.4261425,MDG,2009,ihorombe
+mortality,statistic,female,0.0869095427077421,MDG,2009,ihorombe
+mortality,numerator,female,26.8295935,MDG,2009,ihorombe
+mortality,denominator,female,308.707107,MDG,2009,ihorombe
+mortality,statistic,male,0.113666928327469,MDG,2009,atsimo atsinanana
+mortality,numerator,male,73.6484805,MDG,2009,atsimo atsinanana
+mortality,denominator,male,647.9323545,MDG,2009,atsimo atsinanana
+mortality,statistic,female,0.106234742437846,MDG,2009,atsimo atsinanana
+mortality,numerator,female,62.954599,MDG,2009,atsimo atsinanana
+mortality,denominator,female,592.5989705,MDG,2009,atsimo atsinanana
+mortality,statistic,male,0.0519118801896307,MDG,2009,atsinanana
+mortality,numerator,male,35.9762805,MDG,2009,atsinanana
+mortality,denominator,male,693.025958,MDG,2009,atsinanana
+mortality,statistic,female,0.0499683742512385,MDG,2009,atsinanana
+mortality,numerator,female,33.73923,MDG,2009,atsinanana
+mortality,denominator,female,675.2116815,MDG,2009,atsinanana
+mortality,statistic,male,0.0678066725958001,MDG,2009,analanjirofo
+mortality,numerator,male,56.07932,MDG,2009,analanjirofo
+mortality,denominator,male,827.047219,MDG,2009,analanjirofo
+mortality,statistic,female,0.0424269236962047,MDG,2009,analanjirofo
+mortality,numerator,female,34.1594325,MDG,2009,analanjirofo
+mortality,denominator,female,805.1357375,MDG,2009,analanjirofo
+mortality,statistic,male,0.0660077373826654,MDG,2009,alaotra mangoro
+mortality,numerator,male,53.4721455,MDG,2009,alaotra mangoro
+mortality,denominator,male,810.0890535,MDG,2009,alaotra mangoro
+mortality,statistic,female,0.0699994881471115,MDG,2009,alaotra mangoro
+mortality,numerator,female,53.329777,MDG,2009,alaotra mangoro
+mortality,denominator,female,761.859528,MDG,2009,alaotra mangoro
+mortality,statistic,male,0.109929445303894,MDG,2009,boeny
+mortality,numerator,male,55.4637145,MDG,2009,boeny
+mortality,denominator,male,504.539201,MDG,2009,boeny
+mortality,statistic,female,0.0702513064171664,MDG,2009,boeny
+mortality,numerator,female,33.942022,MDG,2009,boeny
+mortality,denominator,female,483.1514705,MDG,2009,boeny
+mortality,statistic,male,0.0570292049892289,MDG,2009,sofia
+mortality,numerator,male,52.988493,MDG,2009,sofia
+mortality,denominator,male,929.146619,MDG,2009,sofia
+mortality,statistic,female,0.0570927779347241,MDG,2009,sofia
+mortality,numerator,female,49.9872145,MDG,2009,sofia
+mortality,denominator,female,875.543568,MDG,2009,sofia
+mortality,statistic,male,0.0902786676965384,MDG,2009,betsiboka
+mortality,numerator,male,20.1549885,MDG,2009,betsiboka
+mortality,denominator,male,223.2530565,MDG,2009,betsiboka
+mortality,statistic,female,0.0757326608183657,MDG,2009,betsiboka
+mortality,numerator,female,16.2948885,MDG,2009,betsiboka
+mortality,denominator,female,215.1632905,MDG,2009,betsiboka
+mortality,statistic,male,0.0599317141480324,MDG,2009,melaky
+mortality,numerator,male,10.0163045,MDG,2009,melaky
+mortality,denominator,male,167.128617,MDG,2009,melaky
+mortality,statistic,female,0.0680941322413529,MDG,2009,melaky
+mortality,numerator,female,10.364894,MDG,2009,melaky
+mortality,denominator,female,152.214202,MDG,2009,melaky
+mortality,statistic,male,0.0788625543788751,MDG,2009,atsimo andrefana
+mortality,numerator,male,81.4575455,MDG,2009,atsimo andrefana
+mortality,denominator,male,1032.905238,MDG,2009,atsimo andrefana
+mortality,statistic,female,0.0776821385638663,MDG,2009,atsimo andrefana
+mortality,numerator,female,69.409416,MDG,2009,atsimo andrefana
+mortality,denominator,female,893.5054735,MDG,2009,atsimo andrefana
+mortality,statistic,male,0.0754970972392302,MDG,2009,androy
+mortality,numerator,male,34.7840645,MDG,2009,androy
+mortality,denominator,male,460.7338,MDG,2009,androy
+mortality,statistic,female,0.0716537813164581,MDG,2009,androy
+mortality,numerator,female,33.032311,MDG,2009,androy
+mortality,denominator,female,460.998853,MDG,2009,androy
+mortality,statistic,male,0.110541331862151,MDG,2009,anosy
+mortality,numerator,male,56.800842,MDG,2009,anosy
+mortality,denominator,male,513.8425695,MDG,2009,anosy
+mortality,statistic,female,0.102516326640519,MDG,2009,anosy
+mortality,numerator,female,50.1925935,MDG,2009,anosy
+mortality,denominator,female,489.6058525,MDG,2009,anosy
+mortality,statistic,male,0.0889945908611517,MDG,2009,menabe
+mortality,numerator,male,35.439767,MDG,2009,menabe
+mortality,denominator,male,398.223832,MDG,2009,menabe
+mortality,statistic,female,0.0881926598975695,MDG,2009,menabe
+mortality,numerator,female,32.08536,MDG,2009,menabe
+mortality,denominator,female,363.8098685,MDG,2009,menabe
+mortality,statistic,male,0.0523171495810049,MDG,2009,diana
+mortality,numerator,male,17.1692875,MDG,2009,diana
+mortality,denominator,male,328.177044,MDG,2009,diana
+mortality,statistic,female,0.0604470354539579,MDG,2009,diana
+mortality,numerator,female,19.469022,MDG,2009,diana
+mortality,denominator,female,322.083984,MDG,2009,diana
+mortality,statistic,male,0.069276497989367,MDG,2009,sava
+mortality,numerator,male,45.4346495,MDG,2009,sava
+mortality,denominator,male,655.8450675,MDG,2009,sava
+mortality,statistic,female,0.060536060500943,MDG,2009,sava
+mortality,numerator,female,38.166933,MDG,2009,sava
+mortality,denominator,female,630.482603,MDG,2009,sava
+mortality,statistic,male,0.069276497989367,MDG,2009,analamanga
+mortality,numerator,male,45.4346495,MDG,2009,analamanga
+mortality,denominator,male,655.8450675,MDG,2009,analamanga
+mortality,statistic,female,0.060536060500943,MDG,2009,analamanga
+mortality,numerator,female,38.166933,MDG,2009,analamanga
+mortality,denominator,female,630.482603,MDG,2009,analamanga
+mortality,statistic,male,0.069276497989367,MDG,2009,vakinankaratra
+mortality,numerator,male,45.4346495,MDG,2009,vakinankaratra
+mortality,denominator,male,655.8450675,MDG,2009,vakinankaratra
+mortality,statistic,female,0.060536060500943,MDG,2009,vakinankaratra
+mortality,numerator,female,38.166933,MDG,2009,vakinankaratra
+mortality,denominator,female,630.482603,MDG,2009,vakinankaratra
+mortality,statistic,male,0.069276497989367,MDG,2009,itasy
+mortality,numerator,male,45.4346495,MDG,2009,itasy
+mortality,denominator,male,655.8450675,MDG,2009,itasy
+mortality,statistic,female,0.060536060500943,MDG,2009,itasy
+mortality,numerator,female,38.166933,MDG,2009,itasy
+mortality,denominator,female,630.482603,MDG,2009,itasy
+mortality,statistic,male,0.069276497989367,MDG,2009,bongolava
+mortality,numerator,male,45.4346495,MDG,2009,bongolava
+mortality,denominator,male,655.8450675,MDG,2009,bongolava
+mortality,statistic,female,0.060536060500943,MDG,2009,bongolava
+mortality,numerator,female,38.166933,MDG,2009,bongolava
+mortality,denominator,female,630.482603,MDG,2009,bongolava
+mortality,statistic,male,0.069276497989367,MDG,2009,haute matsiatra
+mortality,numerator,male,45.4346495,MDG,2009,haute matsiatra
+mortality,denominator,male,655.8450675,MDG,2009,haute matsiatra
+mortality,statistic,female,0.060536060500943,MDG,2009,haute matsiatra
+mortality,numerator,female,38.166933,MDG,2009,haute matsiatra
+mortality,denominator,female,630.482603,MDG,2009,haute matsiatra
+mortality,statistic,male,0.069276497989367,MDG,2009,anamoroni'i mania
+mortality,numerator,male,45.4346495,MDG,2009,anamoroni'i mania
+mortality,denominator,male,655.8450675,MDG,2009,anamoroni'i mania
+mortality,statistic,female,0.060536060500943,MDG,2009,anamoroni'i mania
+mortality,numerator,female,38.166933,MDG,2009,anamoroni'i mania
+mortality,denominator,female,630.482603,MDG,2009,anamoroni'i mania
+mortality,statistic,male,0.069276497989367,MDG,2009,vatovavy fitovinany
+mortality,numerator,male,45.4346495,MDG,2009,vatovavy fitovinany
+mortality,denominator,male,655.8450675,MDG,2009,vatovavy fitovinany
+mortality,statistic,female,0.060536060500943,MDG,2009,vatovavy fitovinany
+mortality,numerator,female,38.166933,MDG,2009,vatovavy fitovinany
+mortality,denominator,female,630.482603,MDG,2009,vatovavy fitovinany
+mortality,statistic,male,0.069276497989367,MDG,2009,ihorombe
+mortality,numerator,male,45.4346495,MDG,2009,ihorombe
+mortality,denominator,male,655.8450675,MDG,2009,ihorombe
+mortality,statistic,female,0.060536060500943,MDG,2009,ihorombe
+mortality,numerator,female,38.166933,MDG,2009,ihorombe
+mortality,denominator,female,630.482603,MDG,2009,ihorombe
+mortality,statistic,male,0.069276497989367,MDG,2009,atsimo atsinanana
+mortality,numerator,male,45.4346495,MDG,2009,atsimo atsinanana
+mortality,denominator,male,655.8450675,MDG,2009,atsimo atsinanana
+mortality,statistic,female,0.060536060500943,MDG,2009,atsimo atsinanana
+mortality,numerator,female,38.166933,MDG,2009,atsimo atsinanana
+mortality,denominator,female,630.482603,MDG,2009,atsimo atsinanana
+mortality,statistic,male,0.069276497989367,MDG,2009,atsinanana
+mortality,numerator,male,45.4346495,MDG,2009,atsinanana
+mortality,denominator,male,655.8450675,MDG,2009,atsinanana
+mortality,statistic,female,0.060536060500943,MDG,2009,atsinanana
+mortality,numerator,female,38.166933,MDG,2009,atsinanana
+mortality,denominator,female,630.482603,MDG,2009,atsinanana
+mortality,statistic,male,0.069276497989367,MDG,2009,analanjirofo
+mortality,numerator,male,45.4346495,MDG,2009,analanjirofo
+mortality,denominator,male,655.8450675,MDG,2009,analanjirofo
+mortality,statistic,female,0.060536060500943,MDG,2009,analanjirofo
+mortality,numerator,female,38.166933,MDG,2009,analanjirofo
+mortality,denominator,female,630.482603,MDG,2009,analanjirofo
+mortality,statistic,male,0.069276497989367,MDG,2009,alaotra mangoro
+mortality,numerator,male,45.4346495,MDG,2009,alaotra mangoro
+mortality,denominator,male,655.8450675,MDG,2009,alaotra mangoro
+mortality,statistic,female,0.060536060500943,MDG,2009,alaotra mangoro
+mortality,numerator,female,38.166933,MDG,2009,alaotra mangoro
+mortality,denominator,female,630.482603,MDG,2009,alaotra mangoro
+mortality,statistic,male,0.069276497989367,MDG,2009,boeny
+mortality,numerator,male,45.4346495,MDG,2009,boeny
+mortality,denominator,male,655.8450675,MDG,2009,boeny
+mortality,statistic,female,0.060536060500943,MDG,2009,boeny
+mortality,numerator,female,38.166933,MDG,2009,boeny
+mortality,denominator,female,630.482603,MDG,2009,boeny
+mortality,statistic,male,0.069276497989367,MDG,2009,sofia
+mortality,numerator,male,45.4346495,MDG,2009,sofia
+mortality,denominator,male,655.8450675,MDG,2009,sofia
+mortality,statistic,female,0.060536060500943,MDG,2009,sofia
+mortality,numerator,female,38.166933,MDG,2009,sofia
+mortality,denominator,female,630.482603,MDG,2009,sofia
+mortality,statistic,male,0.069276497989367,MDG,2009,betsiboka
+mortality,numerator,male,45.4346495,MDG,2009,betsiboka
+mortality,denominator,male,655.8450675,MDG,2009,betsiboka
+mortality,statistic,female,0.060536060500943,MDG,2009,betsiboka
+mortality,numerator,female,38.166933,MDG,2009,betsiboka
+mortality,denominator,female,630.482603,MDG,2009,betsiboka
+mortality,statistic,male,0.069276497989367,MDG,2009,melaky
+mortality,numerator,male,45.4346495,MDG,2009,melaky
+mortality,denominator,male,655.8450675,MDG,2009,melaky
+mortality,statistic,female,0.060536060500943,MDG,2009,melaky
+mortality,numerator,female,38.166933,MDG,2009,melaky
+mortality,denominator,female,630.482603,MDG,2009,melaky
+mortality,statistic,male,0.069276497989367,MDG,2009,atsimo andrefana
+mortality,numerator,male,45.4346495,MDG,2009,atsimo andrefana
+mortality,denominator,male,655.8450675,MDG,2009,atsimo andrefana
+mortality,statistic,female,0.060536060500943,MDG,2009,atsimo andrefana
+mortality,numerator,female,38.166933,MDG,2009,atsimo andrefana
+mortality,denominator,female,630.482603,MDG,2009,atsimo andrefana
+mortality,statistic,male,0.069276497989367,MDG,2009,androy
+mortality,numerator,male,45.4346495,MDG,2009,androy
+mortality,denominator,male,655.8450675,MDG,2009,androy
+mortality,statistic,female,0.060536060500943,MDG,2009,androy
+mortality,numerator,female,38.166933,MDG,2009,androy
+mortality,denominator,female,630.482603,MDG,2009,androy
+mortality,statistic,male,0.069276497989367,MDG,2009,anosy
+mortality,numerator,male,45.4346495,MDG,2009,anosy
+mortality,denominator,male,655.8450675,MDG,2009,anosy
+mortality,statistic,female,0.060536060500943,MDG,2009,anosy
+mortality,numerator,female,38.166933,MDG,2009,anosy
+mortality,denominator,female,630.482603,MDG,2009,anosy
+mortality,statistic,male,0.069276497989367,MDG,2009,menabe
+mortality,numerator,male,45.4346495,MDG,2009,menabe
+mortality,denominator,male,655.8450675,MDG,2009,menabe
+mortality,statistic,female,0.060536060500943,MDG,2009,menabe
+mortality,numerator,female,38.166933,MDG,2009,menabe
+mortality,denominator,female,630.482603,MDG,2009,menabe
+mortality,statistic,male,0.069276497989367,MDG,2009,diana
+mortality,numerator,male,45.4346495,MDG,2009,diana
+mortality,denominator,male,655.8450675,MDG,2009,diana
+mortality,statistic,female,0.060536060500943,MDG,2009,diana
+mortality,numerator,female,38.166933,MDG,2009,diana
+mortality,denominator,female,630.482603,MDG,2009,diana
+mortality,statistic,male,0.069276497989367,MDG,2009,sava
+mortality,numerator,male,45.4346495,MDG,2009,sava
+mortality,denominator,male,655.8450675,MDG,2009,sava
+mortality,statistic,female,0.060536060500943,MDG,2009,sava
+mortality,numerator,female,38.166933,MDG,2009,sava
+mortality,denominator,female,630.482603,MDG,2009,sava
+education,statistic,male,0.185447026046297,MDG,2009,analamanga
+education,numerator,male,538.32836,MDG,2009,analamanga
+education,denominator,male,2902.86866,MDG,2009,analamanga
+education,statistic,female,0.159916984825013,MDG,2009,analamanga
+education,numerator,female,500.339633,MDG,2009,analamanga
+education,denominator,female,3128.74604,MDG,2009,analamanga
+education,statistic,male,0.0493748179415493,MDG,2009,vakinankaratra
+education,numerator,male,74.964438,MDG,2009,vakinankaratra
+education,denominator,male,1518.272697,MDG,2009,vakinankaratra
+education,statistic,female,0.0477929686537121,MDG,2009,vakinankaratra
+education,numerator,female,72.727615,MDG,2009,vakinankaratra
+education,denominator,female,1521.722066,MDG,2009,vakinankaratra
+education,statistic,male,0.0252523602911562,MDG,2009,itasy
+education,numerator,male,18.029475,MDG,2009,itasy
+education,denominator,male,713.971874,MDG,2009,itasy
+education,statistic,female,0.0133823784030216,MDG,2009,itasy
+education,numerator,female,9.414938,MDG,2009,itasy
+education,denominator,female,703.53249,MDG,2009,itasy
+education,statistic,male,0.0168637601094589,MDG,2009,bongolava
+education,numerator,male,8.199725,MDG,2009,bongolava
+education,denominator,male,486.233494,MDG,2009,bongolava
+education,statistic,female,0.00916168438912901,MDG,2009,bongolava
+education,numerator,female,4.039763,MDG,2009,bongolava
+education,denominator,female,440.941079,MDG,2009,bongolava
+education,statistic,male,0.0584182721798501,MDG,2009,haute matsiatra
+education,numerator,male,47.283169,MDG,2009,haute matsiatra
+education,denominator,male,809.390063,MDG,2009,haute matsiatra
+education,statistic,female,0.0356766592387627,MDG,2009,haute matsiatra
+education,numerator,female,31.836995,MDG,2009,haute matsiatra
+education,denominator,female,892.376015,MDG,2009,haute matsiatra
+education,statistic,male,0.0659247270956957,MDG,2009,anamoroni'i mania
+education,numerator,male,37.640197,MDG,2009,anamoroni'i mania
+education,denominator,male,570.957191,MDG,2009,anamoroni'i mania
+education,statistic,female,0.0364781261406981,MDG,2009,anamoroni'i mania
+education,numerator,female,22.842438,MDG,2009,anamoroni'i mania
+education,denominator,female,626.195488,MDG,2009,anamoroni'i mania
+education,statistic,male,0.0229057238933012,MDG,2009,vatovavy fitovinany
+education,numerator,male,16.973457,MDG,2009,vatovavy fitovinany
+education,denominator,male,741.013778,MDG,2009,vatovavy fitovinany
+education,statistic,female,0.00621083235135914,MDG,2009,vatovavy fitovinany
+education,numerator,female,5.341024,MDG,2009,vatovavy fitovinany
+education,denominator,female,859.953014,MDG,2009,vatovavy fitovinany
+education,statistic,male,0.0330395931941937,MDG,2009,ihorombe
+education,numerator,male,10.388338,MDG,2009,ihorombe
+education,denominator,male,314.420881,MDG,2009,ihorombe
+education,statistic,female,0.0110923122837982,MDG,2009,ihorombe
+education,numerator,female,3.349471,MDG,2009,ihorombe
+education,denominator,female,301.96328,MDG,2009,ihorombe
+education,statistic,male,0.0124267615528486,MDG,2009,atsimo atsinanana
+education,numerator,male,5.707619,MDG,2009,atsimo atsinanana
+education,denominator,male,459.300597,MDG,2009,atsimo atsinanana
+education,statistic,female,0.00583263879091706,MDG,2009,atsimo atsinanana
+education,numerator,female,3.240129,MDG,2009,atsimo atsinanana
+education,denominator,female,555.516828,MDG,2009,atsimo atsinanana
+education,statistic,male,0.0906403362895385,MDG,2009,atsinanana
+education,numerator,male,91.610426,MDG,2009,atsinanana
+education,denominator,male,1010.702627,MDG,2009,atsinanana
+education,statistic,female,0.0519723007200365,MDG,2009,atsinanana
+education,numerator,female,54.538816,MDG,2009,atsinanana
+education,denominator,female,1049.382368,MDG,2009,atsinanana
+education,statistic,male,0.024742610695455,MDG,2009,analanjirofo
+education,numerator,male,23.541967,MDG,2009,analanjirofo
+education,denominator,male,951.474656,MDG,2009,analanjirofo
+education,statistic,female,0.00580234900305931,MDG,2009,analanjirofo
+education,numerator,female,5.815156,MDG,2009,analanjirofo
+education,denominator,female,1002.207209,MDG,2009,analanjirofo
+education,statistic,male,0.0500924928331323,MDG,2009,alaotra mangoro
+education,numerator,male,47.806293,MDG,2009,alaotra mangoro
+education,denominator,male,954.36043,MDG,2009,alaotra mangoro
+education,statistic,female,0.0270518061954614,MDG,2009,alaotra mangoro
+education,numerator,female,25.182074,MDG,2009,alaotra mangoro
+education,denominator,female,930.883277,MDG,2009,alaotra mangoro
+education,statistic,male,0.0563029359579525,MDG,2009,boeny
+education,numerator,male,32.829224,MDG,2009,boeny
+education,denominator,male,583.08192,MDG,2009,boeny
+education,statistic,female,0.0578056427409398,MDG,2009,boeny
+education,numerator,female,36.675497,MDG,2009,boeny
+education,denominator,female,634.46223,MDG,2009,boeny
+education,statistic,male,0.0251951520791039,MDG,2009,sofia
+education,numerator,male,21.912916,MDG,2009,sofia
+education,denominator,male,869.727475,MDG,2009,sofia
+education,statistic,female,0.0101429428844341,MDG,2009,sofia
+education,numerator,female,9.636379,MDG,2009,sofia
+education,denominator,female,950.057504,MDG,2009,sofia
+education,statistic,male,0.0167176137565342,MDG,2009,betsiboka
+education,numerator,male,3.763871,MDG,2009,betsiboka
+education,denominator,male,225.144034,MDG,2009,betsiboka
+education,statistic,female,0.00700666937925335,MDG,2009,betsiboka
+education,numerator,female,1.595274,MDG,2009,betsiboka
+education,denominator,female,227.67936,MDG,2009,betsiboka
+education,statistic,male,0.0284686432704493,MDG,2009,melaky
+education,numerator,male,4.963337,MDG,2009,melaky
+education,denominator,male,174.343995,MDG,2009,melaky
+education,statistic,female,0.0117342812380406,MDG,2009,melaky
+education,numerator,female,1.974436,MDG,2009,melaky
+education,denominator,female,168.262202,MDG,2009,melaky
+education,statistic,male,0.0378385918819014,MDG,2009,atsimo andrefana
+education,numerator,male,33.268836,MDG,2009,atsimo andrefana
+education,denominator,male,879.230287,MDG,2009,atsimo andrefana
+education,statistic,female,0.0234331369618339,MDG,2009,atsimo andrefana
+education,numerator,female,22.39611,MDG,2009,atsimo andrefana
+education,denominator,female,955.745278,MDG,2009,atsimo andrefana
+education,statistic,male,0.00592365814282381,MDG,2009,androy
+education,numerator,male,2.311655,MDG,2009,androy
+education,denominator,male,390.241122,MDG,2009,androy
+education,statistic,female,0.00156092654570365,MDG,2009,androy
+education,numerator,female,0.722027,MDG,2009,androy
+education,denominator,female,462.563086,MDG,2009,androy
+education,statistic,male,0.0227000770691673,MDG,2009,anosy
+education,numerator,male,10.267544,MDG,2009,anosy
+education,denominator,male,452.313178,MDG,2009,anosy
+education,statistic,female,0.0103264646153826,MDG,2009,anosy
+education,numerator,female,5.041879,MDG,2009,anosy
+education,denominator,female,488.24832,MDG,2009,anosy
+education,statistic,male,0.0410645256568291,MDG,2009,menabe
+education,numerator,male,17.692708,MDG,2009,menabe
+education,denominator,male,430.851391,MDG,2009,menabe
+education,statistic,female,0.0209523815876272,MDG,2009,menabe
+education,numerator,female,8.983964,MDG,2009,menabe
+education,denominator,female,428.780087,MDG,2009,menabe
+education,statistic,male,0.0614909791785737,MDG,2009,diana
+education,numerator,male,25.6394,MDG,2009,diana
+education,denominator,male,416.961973,MDG,2009,diana
+education,statistic,female,0.0206851496043432,MDG,2009,diana
+education,numerator,female,8.98187,MDG,2009,diana
+education,denominator,female,434.218276,MDG,2009,diana
+education,statistic,male,0.0344009729844192,MDG,2009,sava
+education,numerator,male,26.366431,MDG,2009,sava
+education,denominator,male,766.444339,MDG,2009,sava
+education,statistic,female,0.00844207704318501,MDG,2009,sava
+education,numerator,female,6.587037,MDG,2009,sava
+education,denominator,female,780.262602,MDG,2009,sava
 registration,statistic,male,0.937857443178623,MMR,2016,magway
 registration,numerator,male,171.350507,MMR,2016,magway
 registration,denominator,male,182.704214,MMR,2016,magway
@@ -4703,78 +5231,678 @@ education,denominator,male,126.000305,MMR,2016,chin
 education,statistic,female,0.108275921860005,MMR,2016,chin
 education,numerator,female,15.588774,MMR,2016,chin
 education,denominator,female,143.972674,MMR,2016,chin
-registration,statistic,male,0.659243509332483,MWI,2016,central region
-registration,numerator,male,2404.050027,MWI,2016,central region
-registration,denominator,male,3646.679858,MWI,2016,central region
-registration,statistic,female,0.667667096143098,MWI,2016,central region
-registration,numerator,female,2567.513895,MWI,2016,central region
-registration,denominator,female,3845.500115,MWI,2016,central region
-registration,statistic,male,0.661657049581027,MWI,2016,southern region
-registration,numerator,male,2742.914537,MWI,2016,southern region
-registration,denominator,male,4145.52303,MWI,2016,southern region
-registration,statistic,female,0.66057069007019,MWI,2016,southern region
-registration,numerator,female,2776.210328,MWI,2016,southern region
-registration,denominator,female,4202.745247,MWI,2016,southern region
-registration,statistic,male,0.748012400668648,MWI,2016,northern region
-registration,numerator,male,796.645988,MWI,2016,northern region
-registration,denominator,male,1065.017087,MWI,2016,northern region
-registration,statistic,female,0.739396958375519,MWI,2016,northern region
-registration,numerator,female,755.332886,MWI,2016,northern region
-registration,denominator,female,1021.552601,MWI,2016,northern region
-mortality,statistic,male,0.0885167817373104,MWI,2016,central region
-mortality,numerator,male,767.833638,MWI,2016,central region
-mortality,denominator,male,8674.4414215,MWI,2016,central region
-mortality,statistic,female,0.066742183002666,MWI,2016,central region
-mortality,numerator,female,602.2258535,MWI,2016,central region
-mortality,denominator,female,9023.166855,MWI,2016,central region
-mortality,statistic,male,0.0783638756466092,MWI,2016,southern region
-mortality,numerator,male,769.8661205,MWI,2016,southern region
-mortality,denominator,male,9824.2476415,MWI,2016,southern region
-mortality,statistic,female,0.0628506299620142,MWI,2016,southern region
-mortality,numerator,female,602.3497005,MWI,2016,southern region
-mortality,denominator,female,9583.8291655,MWI,2016,southern region
-mortality,statistic,male,0.0620648299424798,MWI,2016,northern region
-mortality,numerator,male,152.9714025,MWI,2016,northern region
-mortality,denominator,male,2464.7034825,MWI,2016,northern region
-mortality,statistic,female,0.0490582607381928,MWI,2016,northern region
-mortality,numerator,female,117.958474,MWI,2016,northern region
-mortality,denominator,female,2404.4569095,MWI,2016,northern region
-mortality,statistic,male,0.0620648299424798,MWI,2016,central region
-mortality,numerator,male,152.9714025,MWI,2016,central region
-mortality,denominator,male,2464.7034825,MWI,2016,central region
-mortality,statistic,female,0.0490582607381928,MWI,2016,central region
-mortality,numerator,female,117.958474,MWI,2016,central region
-mortality,denominator,female,2404.4569095,MWI,2016,central region
-mortality,statistic,male,0.0620648299424798,MWI,2016,southern region
-mortality,numerator,male,152.9714025,MWI,2016,southern region
-mortality,denominator,male,2464.7034825,MWI,2016,southern region
-mortality,statistic,female,0.0490582607381928,MWI,2016,southern region
-mortality,numerator,female,117.958474,MWI,2016,southern region
-mortality,denominator,female,2404.4569095,MWI,2016,southern region
-mortality,statistic,male,0.0620648299424798,MWI,2016,northern region
-mortality,numerator,male,152.9714025,MWI,2016,northern region
-mortality,denominator,male,2464.7034825,MWI,2016,northern region
-mortality,statistic,female,0.0490582607381928,MWI,2016,northern region
-mortality,numerator,female,117.958474,MWI,2016,northern region
-mortality,denominator,female,2404.4569095,MWI,2016,northern region
-education,statistic,male,0.196340201966607,MWI,2016,central region
-education,numerator,male,1932.35092,MWI,2016,central region
-education,denominator,male,9841.850526,MWI,2016,central region
-education,statistic,female,0.101583011793877,MWI,2016,central region
-education,numerator,female,1125.101499,MWI,2016,central region
-education,denominator,female,11075.685581,MWI,2016,central region
-education,statistic,male,0.172671082807544,MWI,2016,southern region
-education,numerator,male,1669.33372,MWI,2016,southern region
-education,denominator,male,9667.708645,MWI,2016,southern region
-education,statistic,female,0.0727531663759396,MWI,2016,southern region
-education,numerator,female,862.510638,MWI,2016,southern region
-education,denominator,female,11855.300339,MWI,2016,southern region
-education,statistic,male,0.221668871184959,MWI,2016,northern region
-education,numerator,male,622.705712,MWI,2016,northern region
-education,denominator,male,2809.170763,MWI,2016,northern region
-education,statistic,female,0.0958782278667847,MWI,2016,northern region
-education,numerator,female,293.208408,MWI,2016,northern region
-education,denominator,female,3058.133369,MWI,2016,northern region
+registration,statistic,male,0.796671870599609,MWI,2016,Chitipa
+registration,numerator,male,69.957183,MWI,2016,Chitipa
+registration,denominator,male,87.81179,MWI,2016,Chitipa
+registration,statistic,female,0.846840620488777,MWI,2016,Chitipa
+registration,numerator,female,76.318193,MWI,2016,Chitipa
+registration,denominator,female,90.121082,MWI,2016,Chitipa
+registration,statistic,male,0.755941505034037,MWI,2016,Karonga
+registration,numerator,male,138.125371,MWI,2016,Karonga
+registration,denominator,male,182.719655,MWI,2016,Karonga
+registration,statistic,female,0.781591817007635,MWI,2016,Karonga
+registration,numerator,female,133.51553,MWI,2016,Karonga
+registration,denominator,female,170.825138,MWI,2016,Karonga
+registration,statistic,male,0.759992746362682,MWI,2016,Nkhata Bay
+registration,numerator,male,93.613492,MWI,2016,Nkhata Bay
+registration,denominator,male,123.176823,MWI,2016,Nkhata Bay
+registration,statistic,female,0.800457673898111,MWI,2016,Nkhata Bay
+registration,numerator,female,111.402709,MWI,2016,Nkhata Bay
+registration,denominator,female,139.173766,MWI,2016,Nkhata Bay
+registration,statistic,male,0.67647270284164,MWI,2016,Rumphi
+registration,numerator,male,70.96241,MWI,2016,Rumphi
+registration,denominator,male,104.900626,MWI,2016,Rumphi
+registration,statistic,female,0.627676002114297,MWI,2016,Rumphi
+registration,numerator,female,70.681692,MWI,2016,Rumphi
+registration,denominator,female,112.608562,MWI,2016,Rumphi
+registration,statistic,male,0.735349379361889,MWI,2016,Mzimba
+registration,numerator,male,358.660927,MWI,2016,Mzimba
+registration,denominator,male,487.742204,MWI,2016,Mzimba
+registration,statistic,female,0.705249749892144,MWI,2016,Mzimba
+registration,numerator,female,301.032223,MWI,2016,Mzimba
+registration,denominator,female,426.844849,MWI,2016,Mzimba
+registration,statistic,male,0.701745672537433,MWI,2016,Likoma
+registration,numerator,male,4.194943,MWI,2016,Likoma
+registration,denominator,male,5.977868,MWI,2016,Likoma
+registration,statistic,female,0.676550411185204,MWI,2016,Likoma
+registration,numerator,female,3.640785,MWI,2016,Likoma
+registration,denominator,female,5.381395,MWI,2016,Likoma
+registration,statistic,male,0.75140099554782,MWI,2016,Kasungu
+registration,numerator,male,309.653817,MWI,2016,Kasungu
+registration,denominator,male,412.101952,MWI,2016,Kasungu
+registration,statistic,female,0.696613088235486,MWI,2016,Kasungu
+registration,numerator,female,269.128186,MWI,2016,Kasungu
+registration,denominator,female,386.338113,MWI,2016,Kasungu
+registration,statistic,male,0.471664340249244,MWI,2016,Nkhotakota
+registration,numerator,male,98.430269,MWI,2016,Nkhotakota
+registration,denominator,male,208.687112,MWI,2016,Nkhotakota
+registration,statistic,female,0.529664366302532,MWI,2016,Nkhotakota
+registration,numerator,female,106.547687,MWI,2016,Nkhotakota
+registration,denominator,female,201.160761,MWI,2016,Nkhotakota
+registration,statistic,male,0.614766758646682,MWI,2016,Ntchisi
+registration,numerator,male,104.967942,MWI,2016,Ntchisi
+registration,denominator,male,170.744336,MWI,2016,Ntchisi
+registration,statistic,female,0.594671001262422,MWI,2016,Ntchisi
+registration,numerator,female,109.535032,MWI,2016,Ntchisi
+registration,denominator,female,184.194339,MWI,2016,Ntchisi
+registration,statistic,male,0.663273848875655,MWI,2016,Dowa
+registration,numerator,male,261.90604,MWI,2016,Dowa
+registration,denominator,male,394.868636,MWI,2016,Dowa
+registration,statistic,female,0.576598331495284,MWI,2016,Dowa
+registration,numerator,female,190.271797,MWI,2016,Dowa
+registration,denominator,female,329.990197,MWI,2016,Dowa
+registration,statistic,male,0.489413131185749,MWI,2016,Salima
+registration,numerator,male,139.005869,MWI,2016,Salima
+registration,denominator,male,284.025622,MWI,2016,Salima
+registration,statistic,female,0.507636019289725,MWI,2016,Salima
+registration,numerator,female,164.483261,MWI,2016,Salima
+registration,denominator,female,324.018105,MWI,2016,Salima
+registration,statistic,male,0.788530735588557,MWI,2016,Mchinji
+registration,numerator,male,231.834462,MWI,2016,Mchinji
+registration,denominator,male,294.008149,MWI,2016,Mchinji
+registration,statistic,female,0.76363797369501,MWI,2016,Mchinji
+registration,numerator,female,225.564663,MWI,2016,Mchinji
+registration,denominator,female,295.381674,MWI,2016,Mchinji
+registration,statistic,male,0.834408789081463,MWI,2016,Dedza
+registration,numerator,male,301.248838,MWI,2016,Dedza
+registration,denominator,male,361.032676,MWI,2016,Dedza
+registration,statistic,female,0.868002932788348,MWI,2016,Dedza
+registration,numerator,female,335.638605,MWI,2016,Dedza
+registration,denominator,female,386.679114,MWI,2016,Dedza
+registration,statistic,male,0.553761941996567,MWI,2016,Ntcheu
+registration,numerator,male,175.31014,MWI,2016,Ntcheu
+registration,denominator,male,316.580333,MWI,2016,Ntcheu
+registration,statistic,female,0.575446689627673,MWI,2016,Ntcheu
+registration,numerator,female,199.17636,MWI,2016,Ntcheu
+registration,denominator,female,346.124782,MWI,2016,Ntcheu
+registration,statistic,male,0.865124150714813,MWI,2016,Lilongwe
+registration,numerator,male,340.729049,MWI,2016,Lilongwe
+registration,denominator,male,393.849887,MWI,2016,Lilongwe
+registration,statistic,female,0.902470800971157,MWI,2016,Lilongwe
+registration,numerator,female,357.752792,MWI,2016,Lilongwe
+registration,denominator,female,396.414811,MWI,2016,Lilongwe
+registration,statistic,male,0.581216258747266,MWI,2016,Mangochi
+registration,numerator,male,378.920112,MWI,2016,Mangochi
+registration,denominator,male,651.943414,MWI,2016,Mangochi
+registration,statistic,female,0.587907617342208,MWI,2016,Mangochi
+registration,numerator,female,420.699144,MWI,2016,Mangochi
+registration,denominator,female,715.587163,MWI,2016,Mangochi
+registration,statistic,male,0.724610480889562,MWI,2016,Machinga
+registration,numerator,male,302.565888,MWI,2016,Machinga
+registration,denominator,male,417.556599,MWI,2016,Machinga
+registration,statistic,female,0.709933870946789,MWI,2016,Machinga
+registration,numerator,female,304.177041,MWI,2016,Machinga
+registration,denominator,female,428.458274,MWI,2016,Machinga
+registration,statistic,male,0.741785558787324,MWI,2016,Chiradzulu
+registration,numerator,male,123.022848,MWI,2016,Chiradzulu
+registration,denominator,male,165.846917,MWI,2016,Chiradzulu
+registration,statistic,female,0.811669930391921,MWI,2016,Chiradzulu
+registration,numerator,female,138.428232,MWI,2016,Chiradzulu
+registration,denominator,female,170.547444,MWI,2016,Chiradzulu
+registration,statistic,male,0.835157150808349,MWI,2016,Mwanza
+registration,numerator,male,42.924917,MWI,2016,Mwanza
+registration,denominator,male,51.397413,MWI,2016,Mwanza
+registration,statistic,female,0.829374779627648,MWI,2016,Mwanza
+registration,numerator,female,54.512171,MWI,2016,Mwanza
+registration,denominator,female,65.726825,MWI,2016,Mwanza
+registration,statistic,male,0.788249941987116,MWI,2016,Thyolo
+registration,numerator,male,273.536715,MWI,2016,Thyolo
+registration,denominator,male,347.017742,MWI,2016,Thyolo
+registration,statistic,female,0.746119317447343,MWI,2016,Thyolo
+registration,numerator,female,246.569683,MWI,2016,Thyolo
+registration,denominator,female,330.469507,MWI,2016,Thyolo
+registration,statistic,male,0.582365501548205,MWI,2016,Mulange
+registration,numerator,male,213.891347,MWI,2016,Mulange
+registration,denominator,male,367.28025,MWI,2016,Mulange
+registration,statistic,female,0.564476649917638,MWI,2016,Mulange
+registration,numerator,female,217.799622,MWI,2016,Mulange
+registration,denominator,female,385.843457,MWI,2016,Mulange
+registration,statistic,male,0.449654056046039,MWI,2016,Phalombe
+registration,numerator,male,116.597094,MWI,2016,Phalombe
+registration,denominator,male,259.303997,MWI,2016,Phalombe
+registration,statistic,female,0.400346623184718,MWI,2016,Phalombe
+registration,numerator,female,101.508916,MWI,2016,Phalombe
+registration,denominator,female,253.552572,MWI,2016,Phalombe
+registration,statistic,male,0.526424708721644,MWI,2016,Chikwawa
+registration,numerator,male,146.355362,MWI,2016,Chikwawa
+registration,denominator,male,278.017653,MWI,2016,Chikwawa
+registration,statistic,female,0.552685002656393,MWI,2016,Chikwawa
+registration,numerator,female,159.535075,MWI,2016,Chikwawa
+registration,denominator,female,288.654612,MWI,2016,Chikwawa
+registration,statistic,male,0.643705748065714,MWI,2016,Nsanje
+registration,numerator,male,106.311358,MWI,2016,Nsanje
+registration,denominator,male,165.15521,MWI,2016,Nsanje
+registration,statistic,female,0.697991089422961,MWI,2016,Nsanje
+registration,numerator,female,109.034501,MWI,2016,Nsanje
+registration,denominator,female,156.211881,MWI,2016,Nsanje
+registration,statistic,male,0.52071448820718,MWI,2016,Balaka
+registration,numerator,male,124.602992,MWI,2016,Balaka
+registration,denominator,male,239.292347,MWI,2016,Balaka
+registration,statistic,female,0.535047875880642,MWI,2016,Balaka
+registration,numerator,female,116.26966,MWI,2016,Balaka
+registration,denominator,female,217.307021,MWI,2016,Balaka
+registration,statistic,male,0.666380846554276,MWI,2016,Neno
+registration,numerator,male,68.374226,MWI,2016,Neno
+registration,denominator,male,102.605329,MWI,2016,Neno
+registration,statistic,female,0.695040205887914,MWI,2016,Neno
+registration,numerator,female,64.811392,MWI,2016,Neno
+registration,denominator,female,93.248407,MWI,2016,Neno
+registration,statistic,male,0.869955798779652,MWI,2016,Zomba
+registration,numerator,male,49.123788,MWI,2016,Zomba
+registration,denominator,male,56.466993,MWI,2016,Zomba
+registration,statistic,female,0.970928105645279,MWI,2016,Zomba
+registration,numerator,female,67.176633,MWI,2016,Zomba
+registration,denominator,female,69.188061,MWI,2016,Zomba
+registration,statistic,male,0.682849546773107,MWI,2016,Blantyre
+registration,numerator,male,249.185445,MWI,2016,Blantyre
+registration,denominator,male,364.919983,MWI,2016,Blantyre
+registration,statistic,female,0.672907424902301,MWI,2016,Blantyre
+registration,numerator,female,241.669204,MWI,2016,Blantyre
+registration,denominator,female,359.14183,MWI,2016,Blantyre
+mortality,statistic,male,0.0511911871838721,MWI,2016,Chitipa
+mortality,numerator,male,10.62323,MWI,2016,Chitipa
+mortality,denominator,male,207.5206805,MWI,2016,Chitipa
+mortality,statistic,female,0.052663014961867,MWI,2016,Chitipa
+mortality,numerator,female,12.0163535,MWI,2016,Chitipa
+mortality,denominator,female,228.1744315,MWI,2016,Chitipa
+mortality,statistic,male,0.0654273698989495,MWI,2016,Karonga
+mortality,numerator,male,29.4024775,MWI,2016,Karonga
+mortality,denominator,male,449.3910965,MWI,2016,Karonga
+mortality,statistic,female,0.0561204517958085,MWI,2016,Karonga
+mortality,numerator,female,24.332414,MWI,2016,Karonga
+mortality,denominator,female,433.574806,MWI,2016,Karonga
+mortality,statistic,male,0.0778160073877647,MWI,2016,Nkhata Bay
+mortality,numerator,male,21.790819,MWI,2016,Nkhata Bay
+mortality,denominator,male,280.0300315,MWI,2016,Nkhata Bay
+mortality,statistic,female,0.0617990928706079,MWI,2016,Nkhata Bay
+mortality,numerator,female,16.7237465,MWI,2016,Nkhata Bay
+mortality,denominator,female,270.614757,MWI,2016,Nkhata Bay
+mortality,statistic,male,0.0801819999468771,MWI,2016,Rumphi
+mortality,numerator,male,20.3508055,MWI,2016,Rumphi
+mortality,denominator,male,253.8076565,MWI,2016,Rumphi
+mortality,statistic,female,0.0566873264522635,MWI,2016,Rumphi
+mortality,numerator,female,14.367734,MWI,2016,Rumphi
+mortality,denominator,female,253.455841,MWI,2016,Rumphi
+mortality,statistic,male,0.0558818666634937,MWI,2016,Mzimba
+mortality,numerator,male,60.169675,MWI,2016,Mzimba
+mortality,denominator,male,1076.7298695,MWI,2016,Mzimba
+mortality,statistic,female,0.0439767341635591,MWI,2016,Mzimba
+mortality,numerator,female,44.843024,MWI,2016,Mzimba
+mortality,denominator,female,1019.6988215,MWI,2016,Mzimba
+mortality,statistic,male,0.0595401889589167,MWI,2016,Likoma
+mortality,numerator,male,0.8003185,MWI,2016,Likoma
+mortality,denominator,male,13.441652,MWI,2016,Likoma
+mortality,statistic,female,0.0368394193168068,MWI,2016,Likoma
+mortality,numerator,female,0.5076945,MWI,2016,Likoma
+mortality,denominator,female,13.781284,MWI,2016,Likoma
+mortality,statistic,male,0.0694671256600854,MWI,2016,Kasungu
+mortality,numerator,male,63.5029945,MWI,2016,Kasungu
+mortality,denominator,male,914.1445525,MWI,2016,Kasungu
+mortality,statistic,female,0.0539295375550444,MWI,2016,Kasungu
+mortality,numerator,female,49.90376,MWI,2016,Kasungu
+mortality,denominator,female,925.3511575,MWI,2016,Kasungu
+mortality,statistic,male,0.0682268936069581,MWI,2016,Nkhotakota
+mortality,numerator,male,31.8186205,MWI,2016,Nkhotakota
+mortality,denominator,male,466.364784,MWI,2016,Nkhotakota
+mortality,statistic,female,0.0468166329649068,MWI,2016,Nkhotakota
+mortality,numerator,female,22.295535,MWI,2016,Nkhotakota
+mortality,denominator,female,476.2310655,MWI,2016,Nkhotakota
+mortality,statistic,male,0.0908949619438365,MWI,2016,Ntchisi
+mortality,numerator,male,38.400568,MWI,2016,Ntchisi
+mortality,denominator,male,422.471908,MWI,2016,Ntchisi
+mortality,statistic,female,0.0668001197470776,MWI,2016,Ntchisi
+mortality,numerator,female,28.8965125,MWI,2016,Ntchisi
+mortality,denominator,female,432.581747,MWI,2016,Ntchisi
+mortality,statistic,male,0.0591227725416594,MWI,2016,Dowa
+mortality,numerator,male,52.313846,MWI,2016,Dowa
+mortality,denominator,male,884.834113,MWI,2016,Dowa
+mortality,statistic,female,0.0554444948947859,MWI,2016,Dowa
+mortality,numerator,female,45.245662,MWI,2016,Dowa
+mortality,denominator,female,816.0532815,MWI,2016,Dowa
+mortality,statistic,male,0.0905928666567534,MWI,2016,Salima
+mortality,numerator,male,59.3341935,MWI,2016,Salima
+mortality,denominator,male,654.9543655,MWI,2016,Salima
+mortality,statistic,female,0.0637807333434428,MWI,2016,Salima
+mortality,numerator,female,45.356197,MWI,2016,Salima
+mortality,denominator,female,711.1269285,MWI,2016,Salima
+mortality,statistic,male,0.123971908508352,MWI,2016,Mchinji
+mortality,numerator,male,85.1017415,MWI,2016,Mchinji
+mortality,denominator,male,686.4598805,MWI,2016,Mchinji
+mortality,statistic,female,0.101950920649848,MWI,2016,Mchinji
+mortality,numerator,female,71.777585,MWI,2016,Mchinji
+mortality,denominator,female,704.040577,MWI,2016,Mchinji
+mortality,statistic,male,0.0884148576101463,MWI,2016,Dedza
+mortality,numerator,male,82.408086,MWI,2016,Dedza
+mortality,denominator,male,932.0615135,MWI,2016,Dedza
+mortality,statistic,female,0.0769795193922904,MWI,2016,Dedza
+mortality,numerator,female,70.833702,MWI,2016,Dedza
+mortality,denominator,female,920.1629545,MWI,2016,Dedza
+mortality,statistic,male,0.0841685608821452,MWI,2016,Ntcheu
+mortality,numerator,male,64.6230335,MWI,2016,Ntcheu
+mortality,denominator,male,767.7811385,MWI,2016,Ntcheu
+mortality,statistic,female,0.0661516814402912,MWI,2016,Ntcheu
+mortality,numerator,female,53.0797565,MWI,2016,Ntcheu
+mortality,denominator,female,802.3946685,MWI,2016,Ntcheu
+mortality,statistic,male,0.0764451423670634,MWI,2016,Lilongwe
+mortality,numerator,male,69.7249695,MWI,2016,Lilongwe
+mortality,denominator,male,912.0915645,MWI,2016,Lilongwe
+mortality,statistic,female,0.0652280384051567,MWI,2016,Lilongwe
+mortality,numerator,female,65.7851865,MWI,2016,Lilongwe
+mortality,denominator,female,1008.541543,MWI,2016,Lilongwe
+mortality,statistic,male,0.0773795572286792,MWI,2016,Mangochi
+mortality,numerator,male,112.4576695,MWI,2016,Mangochi
+mortality,denominator,male,1453.3253165,MWI,2016,Mangochi
+mortality,statistic,female,0.0605070627548171,MWI,2016,Mangochi
+mortality,numerator,female,89.68147,MWI,2016,Mangochi
+mortality,denominator,female,1482.1653195,MWI,2016,Mangochi
+mortality,statistic,male,0.0913090255043068,MWI,2016,Machinga
+mortality,numerator,male,79.106338,MWI,2016,Machinga
+mortality,denominator,male,866.3583645,MWI,2016,Machinga
+mortality,statistic,female,0.0573038281567341,MWI,2016,Machinga
+mortality,numerator,female,49.7882705,MWI,2016,Machinga
+mortality,denominator,female,868.8471975,MWI,2016,Machinga
+mortality,statistic,male,0.0634526157518812,MWI,2016,Chiradzulu
+mortality,numerator,male,27.235264,MWI,2016,Chiradzulu
+mortality,denominator,male,429.2220845,MWI,2016,Chiradzulu
+mortality,statistic,female,0.0696234669574933,MWI,2016,Chiradzulu
+mortality,numerator,female,28.1624565,MWI,2016,Chiradzulu
+mortality,denominator,female,404.496612,MWI,2016,Chiradzulu
+mortality,statistic,male,0.063278791555823,MWI,2016,Mwanza
+mortality,numerator,male,8.7161935,MWI,2016,Mwanza
+mortality,denominator,male,137.74273,MWI,2016,Mwanza
+mortality,statistic,female,0.0414152209982712,MWI,2016,Mwanza
+mortality,numerator,female,6.1451205,MWI,2016,Mwanza
+mortality,denominator,female,148.37831,MWI,2016,Mwanza
+mortality,statistic,male,0.0670089496231783,MWI,2016,Thyolo
+mortality,numerator,male,59.2269125,MWI,2016,Thyolo
+mortality,denominator,male,883.865705,MWI,2016,Thyolo
+mortality,statistic,female,0.0592060573333062,MWI,2016,Thyolo
+mortality,numerator,female,50.2313185,MWI,2016,Thyolo
+mortality,denominator,female,848.415192,MWI,2016,Thyolo
+mortality,statistic,male,0.113584777778434,MWI,2016,Mulange
+mortality,numerator,male,108.602259,MWI,2016,Mulange
+mortality,denominator,male,956.1339215,MWI,2016,Mulange
+mortality,statistic,female,0.0903800751358952,MWI,2016,Mulange
+mortality,numerator,female,90.952812,MWI,2016,Mulange
+mortality,denominator,female,1006.3369815,MWI,2016,Mulange
+mortality,statistic,male,0.103893995543841,MWI,2016,Phalombe
+mortality,numerator,male,67.4738005,MWI,2016,Phalombe
+mortality,denominator,male,649.448509,MWI,2016,Phalombe
+mortality,statistic,female,0.0758629881036612,MWI,2016,Phalombe
+mortality,numerator,female,47.944942,MWI,2016,Phalombe
+mortality,denominator,female,631.993851,MWI,2016,Phalombe
+mortality,statistic,male,0.0625709176132918,MWI,2016,Chikwawa
+mortality,numerator,male,40.5232455,MWI,2016,Chikwawa
+mortality,denominator,male,647.637066,MWI,2016,Chikwawa
+mortality,statistic,female,0.0489051953410955,MWI,2016,Chikwawa
+mortality,numerator,female,31.033807,MWI,2016,Chikwawa
+mortality,denominator,female,634.5707605,MWI,2016,Chikwawa
+mortality,statistic,male,0.0533439320391299,MWI,2016,Nsanje
+mortality,numerator,male,18.193106,MWI,2016,Nsanje
+mortality,denominator,male,341.0529615,MWI,2016,Nsanje
+mortality,statistic,female,0.0568039805967385,MWI,2016,Nsanje
+mortality,numerator,female,19.7819575,MWI,2016,Nsanje
+mortality,denominator,female,348.249494,MWI,2016,Nsanje
+mortality,statistic,male,0.0858810481721095,MWI,2016,Balaka
+mortality,numerator,male,45.772382,MWI,2016,Balaka
+mortality,denominator,male,532.974189,MWI,2016,Balaka
+mortality,statistic,female,0.0697822955498567,MWI,2016,Balaka
+mortality,numerator,female,35.23259,MWI,2016,Balaka
+mortality,denominator,female,504.8929635,MWI,2016,Balaka
+mortality,statistic,male,0.0780336035142861,MWI,2016,Neno
+mortality,numerator,male,18.563256,MWI,2016,Neno
+mortality,denominator,male,237.887976,MWI,2016,Neno
+mortality,statistic,female,0.0911947555734926,MWI,2016,Neno
+mortality,numerator,female,20.2620215,MWI,2016,Neno
+mortality,denominator,female,222.184065,MWI,2016,Neno
+mortality,statistic,male,0.0577764918863635,MWI,2016,Zomba
+mortality,numerator,male,8.479194,MWI,2016,Zomba
+mortality,denominator,male,146.758547,MWI,2016,Zomba
+mortality,statistic,female,0.0311002205100434,MWI,2016,Zomba
+mortality,numerator,female,5.234239,MWI,2016,Zomba
+mortality,denominator,female,168.3023115,MWI,2016,Zomba
+mortality,statistic,male,0.0606976483684719,MWI,2016,Blantyre
+mortality,numerator,male,55.4425745,MWI,2016,Blantyre
+mortality,denominator,male,913.4221175,MWI,2016,Blantyre
+mortality,statistic,female,0.0460558029706265,MWI,2016,Blantyre
+mortality,numerator,female,37.7641095,MWI,2016,Blantyre
+mortality,denominator,female,819.964197,MWI,2016,Blantyre
+mortality,statistic,male,0.0606976483684719,MWI,2016,Chitipa
+mortality,numerator,male,55.4425745,MWI,2016,Chitipa
+mortality,denominator,male,913.4221175,MWI,2016,Chitipa
+mortality,statistic,female,0.0460558029706265,MWI,2016,Chitipa
+mortality,numerator,female,37.7641095,MWI,2016,Chitipa
+mortality,denominator,female,819.964197,MWI,2016,Chitipa
+mortality,statistic,male,0.0606976483684719,MWI,2016,Karonga
+mortality,numerator,male,55.4425745,MWI,2016,Karonga
+mortality,denominator,male,913.4221175,MWI,2016,Karonga
+mortality,statistic,female,0.0460558029706265,MWI,2016,Karonga
+mortality,numerator,female,37.7641095,MWI,2016,Karonga
+mortality,denominator,female,819.964197,MWI,2016,Karonga
+mortality,statistic,male,0.0606976483684719,MWI,2016,Nkhata Bay
+mortality,numerator,male,55.4425745,MWI,2016,Nkhata Bay
+mortality,denominator,male,913.4221175,MWI,2016,Nkhata Bay
+mortality,statistic,female,0.0460558029706265,MWI,2016,Nkhata Bay
+mortality,numerator,female,37.7641095,MWI,2016,Nkhata Bay
+mortality,denominator,female,819.964197,MWI,2016,Nkhata Bay
+mortality,statistic,male,0.0606976483684719,MWI,2016,Rumphi
+mortality,numerator,male,55.4425745,MWI,2016,Rumphi
+mortality,denominator,male,913.4221175,MWI,2016,Rumphi
+mortality,statistic,female,0.0460558029706265,MWI,2016,Rumphi
+mortality,numerator,female,37.7641095,MWI,2016,Rumphi
+mortality,denominator,female,819.964197,MWI,2016,Rumphi
+mortality,statistic,male,0.0606976483684719,MWI,2016,Mzimba
+mortality,numerator,male,55.4425745,MWI,2016,Mzimba
+mortality,denominator,male,913.4221175,MWI,2016,Mzimba
+mortality,statistic,female,0.0460558029706265,MWI,2016,Mzimba
+mortality,numerator,female,37.7641095,MWI,2016,Mzimba
+mortality,denominator,female,819.964197,MWI,2016,Mzimba
+mortality,statistic,male,0.0606976483684719,MWI,2016,Likoma
+mortality,numerator,male,55.4425745,MWI,2016,Likoma
+mortality,denominator,male,913.4221175,MWI,2016,Likoma
+mortality,statistic,female,0.0460558029706265,MWI,2016,Likoma
+mortality,numerator,female,37.7641095,MWI,2016,Likoma
+mortality,denominator,female,819.964197,MWI,2016,Likoma
+mortality,statistic,male,0.0606976483684719,MWI,2016,Kasungu
+mortality,numerator,male,55.4425745,MWI,2016,Kasungu
+mortality,denominator,male,913.4221175,MWI,2016,Kasungu
+mortality,statistic,female,0.0460558029706265,MWI,2016,Kasungu
+mortality,numerator,female,37.7641095,MWI,2016,Kasungu
+mortality,denominator,female,819.964197,MWI,2016,Kasungu
+mortality,statistic,male,0.0606976483684719,MWI,2016,Nkhotakota
+mortality,numerator,male,55.4425745,MWI,2016,Nkhotakota
+mortality,denominator,male,913.4221175,MWI,2016,Nkhotakota
+mortality,statistic,female,0.0460558029706265,MWI,2016,Nkhotakota
+mortality,numerator,female,37.7641095,MWI,2016,Nkhotakota
+mortality,denominator,female,819.964197,MWI,2016,Nkhotakota
+mortality,statistic,male,0.0606976483684719,MWI,2016,Ntchisi
+mortality,numerator,male,55.4425745,MWI,2016,Ntchisi
+mortality,denominator,male,913.4221175,MWI,2016,Ntchisi
+mortality,statistic,female,0.0460558029706265,MWI,2016,Ntchisi
+mortality,numerator,female,37.7641095,MWI,2016,Ntchisi
+mortality,denominator,female,819.964197,MWI,2016,Ntchisi
+mortality,statistic,male,0.0606976483684719,MWI,2016,Dowa
+mortality,numerator,male,55.4425745,MWI,2016,Dowa
+mortality,denominator,male,913.4221175,MWI,2016,Dowa
+mortality,statistic,female,0.0460558029706265,MWI,2016,Dowa
+mortality,numerator,female,37.7641095,MWI,2016,Dowa
+mortality,denominator,female,819.964197,MWI,2016,Dowa
+mortality,statistic,male,0.0606976483684719,MWI,2016,Salima
+mortality,numerator,male,55.4425745,MWI,2016,Salima
+mortality,denominator,male,913.4221175,MWI,2016,Salima
+mortality,statistic,female,0.0460558029706265,MWI,2016,Salima
+mortality,numerator,female,37.7641095,MWI,2016,Salima
+mortality,denominator,female,819.964197,MWI,2016,Salima
+mortality,statistic,male,0.0606976483684719,MWI,2016,Mchinji
+mortality,numerator,male,55.4425745,MWI,2016,Mchinji
+mortality,denominator,male,913.4221175,MWI,2016,Mchinji
+mortality,statistic,female,0.0460558029706265,MWI,2016,Mchinji
+mortality,numerator,female,37.7641095,MWI,2016,Mchinji
+mortality,denominator,female,819.964197,MWI,2016,Mchinji
+mortality,statistic,male,0.0606976483684719,MWI,2016,Dedza
+mortality,numerator,male,55.4425745,MWI,2016,Dedza
+mortality,denominator,male,913.4221175,MWI,2016,Dedza
+mortality,statistic,female,0.0460558029706265,MWI,2016,Dedza
+mortality,numerator,female,37.7641095,MWI,2016,Dedza
+mortality,denominator,female,819.964197,MWI,2016,Dedza
+mortality,statistic,male,0.0606976483684719,MWI,2016,Ntcheu
+mortality,numerator,male,55.4425745,MWI,2016,Ntcheu
+mortality,denominator,male,913.4221175,MWI,2016,Ntcheu
+mortality,statistic,female,0.0460558029706265,MWI,2016,Ntcheu
+mortality,numerator,female,37.7641095,MWI,2016,Ntcheu
+mortality,denominator,female,819.964197,MWI,2016,Ntcheu
+mortality,statistic,male,0.0606976483684719,MWI,2016,Lilongwe
+mortality,numerator,male,55.4425745,MWI,2016,Lilongwe
+mortality,denominator,male,913.4221175,MWI,2016,Lilongwe
+mortality,statistic,female,0.0460558029706265,MWI,2016,Lilongwe
+mortality,numerator,female,37.7641095,MWI,2016,Lilongwe
+mortality,denominator,female,819.964197,MWI,2016,Lilongwe
+mortality,statistic,male,0.0606976483684719,MWI,2016,Mangochi
+mortality,numerator,male,55.4425745,MWI,2016,Mangochi
+mortality,denominator,male,913.4221175,MWI,2016,Mangochi
+mortality,statistic,female,0.0460558029706265,MWI,2016,Mangochi
+mortality,numerator,female,37.7641095,MWI,2016,Mangochi
+mortality,denominator,female,819.964197,MWI,2016,Mangochi
+mortality,statistic,male,0.0606976483684719,MWI,2016,Machinga
+mortality,numerator,male,55.4425745,MWI,2016,Machinga
+mortality,denominator,male,913.4221175,MWI,2016,Machinga
+mortality,statistic,female,0.0460558029706265,MWI,2016,Machinga
+mortality,numerator,female,37.7641095,MWI,2016,Machinga
+mortality,denominator,female,819.964197,MWI,2016,Machinga
+mortality,statistic,male,0.0606976483684719,MWI,2016,Chiradzulu
+mortality,numerator,male,55.4425745,MWI,2016,Chiradzulu
+mortality,denominator,male,913.4221175,MWI,2016,Chiradzulu
+mortality,statistic,female,0.0460558029706265,MWI,2016,Chiradzulu
+mortality,numerator,female,37.7641095,MWI,2016,Chiradzulu
+mortality,denominator,female,819.964197,MWI,2016,Chiradzulu
+mortality,statistic,male,0.0606976483684719,MWI,2016,Mwanza
+mortality,numerator,male,55.4425745,MWI,2016,Mwanza
+mortality,denominator,male,913.4221175,MWI,2016,Mwanza
+mortality,statistic,female,0.0460558029706265,MWI,2016,Mwanza
+mortality,numerator,female,37.7641095,MWI,2016,Mwanza
+mortality,denominator,female,819.964197,MWI,2016,Mwanza
+mortality,statistic,male,0.0606976483684719,MWI,2016,Thyolo
+mortality,numerator,male,55.4425745,MWI,2016,Thyolo
+mortality,denominator,male,913.4221175,MWI,2016,Thyolo
+mortality,statistic,female,0.0460558029706265,MWI,2016,Thyolo
+mortality,numerator,female,37.7641095,MWI,2016,Thyolo
+mortality,denominator,female,819.964197,MWI,2016,Thyolo
+mortality,statistic,male,0.0606976483684719,MWI,2016,Mulange
+mortality,numerator,male,55.4425745,MWI,2016,Mulange
+mortality,denominator,male,913.4221175,MWI,2016,Mulange
+mortality,statistic,female,0.0460558029706265,MWI,2016,Mulange
+mortality,numerator,female,37.7641095,MWI,2016,Mulange
+mortality,denominator,female,819.964197,MWI,2016,Mulange
+mortality,statistic,male,0.0606976483684719,MWI,2016,Phalombe
+mortality,numerator,male,55.4425745,MWI,2016,Phalombe
+mortality,denominator,male,913.4221175,MWI,2016,Phalombe
+mortality,statistic,female,0.0460558029706265,MWI,2016,Phalombe
+mortality,numerator,female,37.7641095,MWI,2016,Phalombe
+mortality,denominator,female,819.964197,MWI,2016,Phalombe
+mortality,statistic,male,0.0606976483684719,MWI,2016,Chikwawa
+mortality,numerator,male,55.4425745,MWI,2016,Chikwawa
+mortality,denominator,male,913.4221175,MWI,2016,Chikwawa
+mortality,statistic,female,0.0460558029706265,MWI,2016,Chikwawa
+mortality,numerator,female,37.7641095,MWI,2016,Chikwawa
+mortality,denominator,female,819.964197,MWI,2016,Chikwawa
+mortality,statistic,male,0.0606976483684719,MWI,2016,Nsanje
+mortality,numerator,male,55.4425745,MWI,2016,Nsanje
+mortality,denominator,male,913.4221175,MWI,2016,Nsanje
+mortality,statistic,female,0.0460558029706265,MWI,2016,Nsanje
+mortality,numerator,female,37.7641095,MWI,2016,Nsanje
+mortality,denominator,female,819.964197,MWI,2016,Nsanje
+mortality,statistic,male,0.0606976483684719,MWI,2016,Balaka
+mortality,numerator,male,55.4425745,MWI,2016,Balaka
+mortality,denominator,male,913.4221175,MWI,2016,Balaka
+mortality,statistic,female,0.0460558029706265,MWI,2016,Balaka
+mortality,numerator,female,37.7641095,MWI,2016,Balaka
+mortality,denominator,female,819.964197,MWI,2016,Balaka
+mortality,statistic,male,0.0606976483684719,MWI,2016,Neno
+mortality,numerator,male,55.4425745,MWI,2016,Neno
+mortality,denominator,male,913.4221175,MWI,2016,Neno
+mortality,statistic,female,0.0460558029706265,MWI,2016,Neno
+mortality,numerator,female,37.7641095,MWI,2016,Neno
+mortality,denominator,female,819.964197,MWI,2016,Neno
+mortality,statistic,male,0.0606976483684719,MWI,2016,Zomba
+mortality,numerator,male,55.4425745,MWI,2016,Zomba
+mortality,denominator,male,913.4221175,MWI,2016,Zomba
+mortality,statistic,female,0.0460558029706265,MWI,2016,Zomba
+mortality,numerator,female,37.7641095,MWI,2016,Zomba
+mortality,denominator,female,819.964197,MWI,2016,Zomba
+mortality,statistic,male,0.0606976483684719,MWI,2016,Blantyre
+mortality,numerator,male,55.4425745,MWI,2016,Blantyre
+mortality,denominator,male,913.4221175,MWI,2016,Blantyre
+mortality,statistic,female,0.0460558029706265,MWI,2016,Blantyre
+mortality,numerator,female,37.7641095,MWI,2016,Blantyre
+mortality,denominator,female,819.964197,MWI,2016,Blantyre
+education,statistic,male,0.20296732120288,MWI,2016,Chitipa
+education,numerator,male,50.549959,MWI,2016,Chitipa
+education,denominator,male,249.054669,MWI,2016,Chitipa
+education,statistic,female,0.0692604224016929,MWI,2016,Chitipa
+education,numerator,female,18.334882,MWI,2016,Chitipa
+education,denominator,female,264.723797,MWI,2016,Chitipa
+education,statistic,male,0.214788959862515,MWI,2016,Karonga
+education,numerator,male,103.51611,MWI,2016,Karonga
+education,denominator,male,481.943346,MWI,2016,Karonga
+education,statistic,female,0.0878618272131716,MWI,2016,Karonga
+education,numerator,female,45.175561,MWI,2016,Karonga
+education,denominator,female,514.165963,MWI,2016,Karonga
+education,statistic,male,0.194036397876779,MWI,2016,Nkhata Bay
+education,numerator,male,61.727389,MWI,2016,Nkhata Bay
+education,denominator,male,318.122732,MWI,2016,Nkhata Bay
+education,statistic,female,0.0704555512904485,MWI,2016,Nkhata Bay
+education,numerator,female,26.819792,MWI,2016,Nkhata Bay
+education,denominator,female,380.662581,MWI,2016,Nkhata Bay
+education,statistic,male,0.302720770415863,MWI,2016,Rumphi
+education,numerator,male,88.338326,MWI,2016,Rumphi
+education,denominator,male,291.814552,MWI,2016,Rumphi
+education,statistic,female,0.110800790415974,MWI,2016,Rumphi
+education,numerator,female,33.083853,MWI,2016,Rumphi
+education,denominator,female,298.588601,MWI,2016,Rumphi
+education,statistic,male,0.142272399967488,MWI,2016,Mzimba
+education,numerator,male,161.973288,MWI,2016,Mzimba
+education,denominator,male,1138.473014,MWI,2016,Mzimba
+education,statistic,female,0.0500603965164589,MWI,2016,Mzimba
+education,numerator,female,63.857252,MWI,2016,Mzimba
+education,denominator,female,1275.604199,MWI,2016,Mzimba
+education,statistic,male,0.285162973042704,MWI,2016,Likoma
+education,numerator,male,5.425738,MWI,2016,Likoma
+education,denominator,male,19.026797,MWI,2016,Likoma
+education,statistic,female,0.137702287157135,MWI,2016,Likoma
+education,numerator,female,2.795345,MWI,2016,Likoma
+education,denominator,female,20.299917,MWI,2016,Likoma
+education,statistic,male,0.159191469027548,MWI,2016,Kasungu
+education,numerator,male,153.906339,MWI,2016,Kasungu
+education,denominator,male,966.800168,MWI,2016,Kasungu
+education,statistic,female,0.0758923373476312,MWI,2016,Kasungu
+education,numerator,female,76.554486,MWI,2016,Kasungu
+education,denominator,female,1008.724842,MWI,2016,Kasungu
+education,statistic,male,0.188335241891766,MWI,2016,Nkhotakota
+education,numerator,male,91.380501,MWI,2016,Nkhotakota
+education,denominator,male,485.201283,MWI,2016,Nkhotakota
+education,statistic,female,0.0807979612134397,MWI,2016,Nkhotakota
+education,numerator,female,45.95429,MWI,2016,Nkhotakota
+education,denominator,female,568.755564,MWI,2016,Nkhotakota
+education,statistic,male,0.147349242099516,MWI,2016,Ntchisi
+education,numerator,male,65.190051,MWI,2016,Ntchisi
+education,denominator,male,442.418638,MWI,2016,Ntchisi
+education,statistic,female,0.0627254860302485,MWI,2016,Ntchisi
+education,numerator,female,29.997071,MWI,2016,Ntchisi
+education,denominator,female,478.227797,MWI,2016,Ntchisi
+education,statistic,male,0.12409211788314,MWI,2016,Dowa
+education,numerator,male,134.444102,MWI,2016,Dowa
+education,denominator,male,1083.42177,MWI,2016,Dowa
+education,statistic,female,0.052774826597574,MWI,2016,Dowa
+education,numerator,female,62.868875,MWI,2016,Dowa
+education,denominator,female,1191.266349,MWI,2016,Dowa
+education,statistic,male,0.101675679020374,MWI,2016,Salima
+education,numerator,male,61.486608,MWI,2016,Salima
+education,denominator,male,604.732701,MWI,2016,Salima
+education,statistic,female,0.0441597577063625,MWI,2016,Salima
+education,numerator,female,33.104088,MWI,2016,Salima
+education,denominator,female,749.643787,MWI,2016,Salima
+education,statistic,male,0.108076164919066,MWI,2016,Mchinji
+education,numerator,male,76.360023,MWI,2016,Mchinji
+education,denominator,male,706.538977,MWI,2016,Mchinji
+education,statistic,female,0.0485505131521484,MWI,2016,Mchinji
+education,numerator,female,36.257256,MWI,2016,Mchinji
+education,denominator,female,746.794496,MWI,2016,Mchinji
+education,statistic,male,0.0687215713079516,MWI,2016,Dedza
+education,numerator,male,63.011763,MWI,2016,Dedza
+education,denominator,male,916.913886,MWI,2016,Dedza
+education,statistic,female,0.0249630533534734,MWI,2016,Dedza
+education,numerator,female,29.657887,MWI,2016,Dedza
+education,denominator,female,1188.07129,MWI,2016,Dedza
+education,statistic,male,0.176966500703498,MWI,2016,Ntcheu
+education,numerator,male,138.812406,MWI,2016,Ntcheu
+education,denominator,male,784.399338,MWI,2016,Ntcheu
+education,statistic,female,0.0505438190977273,MWI,2016,Ntcheu
+education,numerator,female,50.82003,MWI,2016,Ntcheu
+education,denominator,female,1005.464781,MWI,2016,Ntcheu
+education,statistic,male,0.578968162939138,MWI,2016,Lilongwe
+education,numerator,male,910.982504,MWI,2016,Lilongwe
+education,denominator,male,1573.458719,MWI,2016,Lilongwe
+education,statistic,female,0.431142038744133,MWI,2016,Lilongwe
+education,numerator,female,642.932612,MWI,2016,Lilongwe
+education,denominator,female,1491.231553,MWI,2016,Lilongwe
+education,statistic,male,0.109569737521919,MWI,2016,Mangochi
+education,numerator,male,131.70256,MWI,2016,Mangochi
+education,denominator,male,1201.997586,MWI,2016,Mangochi
+education,statistic,female,0.0274455124796658,MWI,2016,Mangochi
+education,numerator,female,45.069062,MWI,2016,Mangochi
+education,denominator,female,1642.128637,MWI,2016,Mangochi
+education,statistic,male,0.0767145389228386,MWI,2016,Machinga
+education,numerator,male,57.169012,MWI,2016,Machinga
+education,denominator,male,745.217436,MWI,2016,Machinga
+education,statistic,female,0.0275456293835554,MWI,2016,Machinga
+education,numerator,female,24.914969,MWI,2016,Machinga
+education,denominator,female,904.498084,MWI,2016,Machinga
+education,statistic,male,0.135701428851603,MWI,2016,Chiradzulu
+education,numerator,male,59.614786,MWI,2016,Chiradzulu
+education,denominator,male,439.308462,MWI,2016,Chiradzulu
+education,statistic,female,0.0485068010545118,MWI,2016,Chiradzulu
+education,numerator,female,28.300792,MWI,2016,Chiradzulu
+education,denominator,female,583.43967,MWI,2016,Chiradzulu
+education,statistic,male,0.154917312368061,MWI,2016,Mwanza
+education,numerator,male,26.218225,MWI,2016,Mwanza
+education,denominator,male,169.240123,MWI,2016,Mwanza
+education,statistic,female,0.05930844102322,MWI,2016,Mwanza
+education,numerator,female,10.823141,MWI,2016,Mwanza
+education,denominator,female,182.489049,MWI,2016,Mwanza
+education,statistic,male,0.145036060659623,MWI,2016,Thyolo
+education,numerator,male,136.341056,MWI,2016,Thyolo
+education,denominator,male,940.04936,MWI,2016,Thyolo
+education,statistic,female,0.0484537400603617,MWI,2016,Thyolo
+education,numerator,female,59.198287,MWI,2016,Thyolo
+education,denominator,female,1221.748557,MWI,2016,Thyolo
+education,statistic,male,0.126748857065746,MWI,2016,Mulange
+education,numerator,male,114.35312,MWI,2016,Mulange
+education,denominator,male,902.202376,MWI,2016,Mulange
+education,statistic,female,0.0305278835734754,MWI,2016,Mulange
+education,numerator,female,35.730354,MWI,2016,Mulange
+education,denominator,female,1170.417003,MWI,2016,Mulange
+education,statistic,male,0.0983973862879232,MWI,2016,Phalombe
+education,numerator,male,52.985127,MWI,2016,Phalombe
+education,denominator,male,538.481041,MWI,2016,Phalombe
+education,statistic,female,0.0215407455470271,MWI,2016,Phalombe
+education,numerator,female,14.609028,MWI,2016,Phalombe
+education,denominator,female,678.204381,MWI,2016,Phalombe
+education,statistic,male,0.132188240340925,MWI,2016,Chikwawa
+education,numerator,male,101.097914,MWI,2016,Chikwawa
+education,denominator,male,764.802631,MWI,2016,Chikwawa
+education,statistic,female,0.0362195573126276,MWI,2016,Chikwawa
+education,numerator,female,28.606088,MWI,2016,Chikwawa
+education,denominator,female,789.796732,MWI,2016,Chikwawa
+education,statistic,male,0.184787816389149,MWI,2016,Nsanje
+education,numerator,male,63.258809,MWI,2016,Nsanje
+education,denominator,male,342.332142,MWI,2016,Nsanje
+education,statistic,female,0.0333167535367823,MWI,2016,Nsanje
+education,numerator,female,13.808805,MWI,2016,Nsanje
+education,denominator,female,414.470305,MWI,2016,Nsanje
+education,statistic,male,0.133293356994255,MWI,2016,Balaka
+education,numerator,male,68.53911,MWI,2016,Balaka
+education,denominator,male,514.197493,MWI,2016,Balaka
+education,statistic,female,0.0608090874670553,MWI,2016,Balaka
+education,numerator,female,40.256253,MWI,2016,Balaka
+education,denominator,female,662.010477,MWI,2016,Balaka
+education,statistic,male,0.143029375795864,MWI,2016,Neno
+education,numerator,male,29.886521,MWI,2016,Neno
+education,denominator,male,208.953726,MWI,2016,Neno
+education,statistic,female,0.0476021977095121,MWI,2016,Neno
+education,numerator,female,11.591268,MWI,2016,Neno
+education,denominator,female,243.502791,MWI,2016,Neno
+education,statistic,male,0.470115492511542,MWI,2016,Zomba
+education,numerator,male,93.807921,MWI,2016,Zomba
+education,denominator,male,199.542288,MWI,2016,Zomba
+education,statistic,female,0.314855642062882,MWI,2016,Zomba
+education,numerator,female,70.74197,MWI,2016,Zomba
+education,denominator,female,224.680649,MWI,2016,Zomba
+education,statistic,male,0.444572165012514,MWI,2016,Blantyre
+education,numerator,male,501.6386,MWI,2016,Blantyre
+education,denominator,male,1128.362591,MWI,2016,Blantyre
+education,statistic,female,0.313542739096872,MWI,2016,Blantyre
+education,numerator,female,384.695931,MWI,2016,Blantyre
+education,denominator,female,1226.932992,MWI,2016,Blantyre
 registration,statistic,male,0.348521441905313,MOZ,2011,Niassa
 registration,numerator,male,122.078033,MOZ,2011,Niassa
 registration,denominator,male,350.274096,MOZ,2011,Niassa
