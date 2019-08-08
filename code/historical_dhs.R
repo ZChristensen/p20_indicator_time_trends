@@ -161,20 +161,19 @@ dataIndex <- 1
 # load("D:/DHSauto/kepr71fl.RData")
 # names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
 # regionlabel=fread("D:/git/mpi_recalc/region_dictionary/kenya_dict.csv")
-# reg.labs=attributes(data)$label.table$shdregion
-# data=merge(data,regionlabel,by=c("shdist"))
+# regionlabel=regionlabel[,c("hv001","shregion")]
+# regionlabel=unique(regionlabel)
+# data=merge(data,regionlabel,by=c("hv001"))
 # data$region.old=data$hv024
-# data$hv024=data$reg.lab
+# data$hv024=data$shregion.y
 # save(data,file="D:/DHSauto/kepr71fl.RData")
 # load("D:/DHSauto/kebr71fl.RData")
-# names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
-# regionlabel=fread("D:/git/mpi_recalc/region_dictionary/kenya_dict.csv")
-# reg.labs=attributes(data)$label.table$shdist
-# data=merge(data,regionlabel,by=c("shdist"))
-# data$region.old=data$hv024
-# data$hv024=data$reg.lab
+# data$hv001=data$v001
+# data=merge(data,regionlabel,by=c("hv001"))
+# data$region.old=data$v024
+# data$v024=data$shregion.y
 # save(data,file="D:/DHSauto/kebr71fl.RData")
-# 
+
 # load("D:/DHSauto/bdpr72fl.RData")
 # names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
 # regionlabel=fread("D:/git/mpi_recalc/region_dictionary/bangladesh_dict.csv")
@@ -232,7 +231,7 @@ for(i in 1:nrow(povcalcuts)){
     pr_patha <- paste0(country,"pr",phase)
     pr_path <- paste0(tolower(pr_patha),"fl.RData")
     load(pr_path)
-    if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl")){
+    if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl")){
     names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
     reg.labs=attributes(data)$label.table$HV024
     data$region=label.region(data$hv024,reg.labs)
@@ -252,7 +251,7 @@ for(i in 1:nrow(povcalcuts)){
     br_path <- paste0(tolower(br_patha),"fl.RData")
     if(!(br_path %in% missing.br)){
       load(br_path)
-      if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl")){
+      if(rdata_name %!in% c("nphr7hfl","ughr7bfl","bdhr72fl","rwhr70fl","kehr71fl")){
         names(attributes(data)$label.table)=toupper(names(attributes(data)$label.table))
         data$region=label.region(data$v024,reg.labs)
       }else{

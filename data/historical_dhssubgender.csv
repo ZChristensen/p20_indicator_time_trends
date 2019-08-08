@@ -3221,192 +3221,1128 @@ registration,denominator,male,845.975127,KEN,2014,nairobi
 registration,statistic,female,0.809862433995711,KEN,2014,nairobi
 registration,numerator,female,742.300659,KEN,2014,nairobi
 registration,denominator,female,916.576233,KEN,2014,nairobi
-registration,statistic,male,0.94037633377825,KEN,2014,central
-registration,numerator,male,834.291968,KEN,2014,central
-registration,denominator,male,887.189456,KEN,2014,central
-registration,statistic,female,0.950017895192549,KEN,2014,central
-registration,numerator,female,799.046968,KEN,2014,central
-registration,denominator,female,841.086228,KEN,2014,central
-registration,statistic,male,0.816299263414059,KEN,2014,coast
-registration,numerator,male,792.703552,KEN,2014,coast
-registration,denominator,male,971.094288,KEN,2014,coast
-registration,statistic,female,0.775365005821285,KEN,2014,coast
-registration,numerator,female,762.042278,KEN,2014,coast
-registration,denominator,female,982.817476,KEN,2014,coast
-registration,statistic,male,0.761296659975385,KEN,2014,eastern
-registration,numerator,male,986.664609,KEN,2014,eastern
-registration,denominator,male,1296.031706,KEN,2014,eastern
-registration,statistic,female,0.766690082001342,KEN,2014,eastern
-registration,numerator,female,909.862412,KEN,2014,eastern
-registration,denominator,female,1186.740814,KEN,2014,eastern
-registration,statistic,male,0.665554886094915,KEN,2014,north eastern
-registration,numerator,male,226.058947,KEN,2014,north eastern
-registration,denominator,male,339.654853,KEN,2014,north eastern
-registration,statistic,female,0.616321930766532,KEN,2014,north eastern
-registration,numerator,female,199.472967,KEN,2014,north eastern
-registration,denominator,female,323.650607,KEN,2014,north eastern
-registration,statistic,male,0.568002372895747,KEN,2014,nyanza
-registration,numerator,male,817.993822,KEN,2014,nyanza
-registration,denominator,male,1440.123952,KEN,2014,nyanza
-registration,statistic,female,0.569321106524251,KEN,2014,nyanza
-registration,numerator,female,792.465572,KEN,2014,nyanza
-registration,denominator,female,1391.948345,KEN,2014,nyanza
-registration,statistic,male,0.658714285713246,KEN,2014,rift valley
-registration,numerator,male,1901.301921,KEN,2014,rift valley
-registration,denominator,male,2886.383311,KEN,2014,rift valley
-registration,statistic,female,0.637557169603409,KEN,2014,rift valley
-registration,numerator,female,1758.357401,KEN,2014,rift valley
-registration,denominator,female,2757.96036,KEN,2014,rift valley
-registration,statistic,male,0.534284405543188,KEN,2014,western
-registration,numerator,male,711.634442,KEN,2014,western
-registration,denominator,male,1331.939384,KEN,2014,western
-registration,statistic,female,0.549379119769066,KEN,2014,western
-registration,numerator,female,691.8266,KEN,2014,western
-registration,denominator,female,1259.288122,KEN,2014,western
+registration,statistic,male,0.882460455002877,KEN,2014,nyandarua
+registration,numerator,male,117.153468,KEN,2014,nyandarua
+registration,denominator,male,132.757754,KEN,2014,nyandarua
+registration,statistic,female,0.816341517892023,KEN,2014,nyandarua
+registration,numerator,female,103.856741,KEN,2014,nyandarua
+registration,denominator,female,127.222172,KEN,2014,nyandarua
+registration,statistic,male,0.968463870664305,KEN,2014,nyeri
+registration,numerator,male,123.609276,KEN,2014,nyeri
+registration,denominator,male,127.63437,KEN,2014,nyeri
+registration,statistic,female,0.95992552765146,KEN,2014,nyeri
+registration,numerator,female,139.50873,KEN,2014,nyeri
+registration,denominator,female,145.332868,KEN,2014,nyeri
+registration,statistic,male,0.947976090472581,KEN,2014,kirinyaga
+registration,numerator,male,91.510246,KEN,2014,kirinyaga
+registration,denominator,male,96.53223,KEN,2014,kirinyaga
+registration,statistic,female,0.962458294313919,KEN,2014,kirinyaga
+registration,numerator,female,88.091005,KEN,2014,kirinyaga
+registration,denominator,female,91.527088,KEN,2014,kirinyaga
+registration,statistic,male,0.913885544497047,KEN,2014,muranga
+registration,numerator,male,172.203338,KEN,2014,muranga
+registration,denominator,male,188.429874,KEN,2014,muranga
+registration,statistic,female,0.94857358584877,KEN,2014,muranga
+registration,numerator,female,123.716436,KEN,2014,muranga
+registration,denominator,female,130.423657,KEN,2014,muranga
+registration,statistic,male,0.964838065197891,KEN,2014,kiambu
+registration,numerator,male,329.81564,KEN,2014,kiambu
+registration,denominator,male,341.835228,KEN,2014,kiambu
+registration,statistic,female,0.992191172194907,KEN,2014,kiambu
+registration,numerator,female,343.874056,KEN,2014,kiambu
+registration,denominator,female,346.580443,KEN,2014,kiambu
+registration,statistic,male,0.916798754743283,KEN,2014,mombasa
+registration,numerator,male,218.723554,KEN,2014,mombasa
+registration,denominator,male,238.573136,KEN,2014,mombasa
+registration,statistic,female,0.903559365806236,KEN,2014,mombasa
+registration,numerator,female,200.215793,KEN,2014,mombasa
+registration,denominator,female,221.585654,KEN,2014,mombasa
+registration,statistic,male,0.80037350671404,KEN,2014,kwale
+registration,numerator,male,159.827109,KEN,2014,kwale
+registration,denominator,male,199.690654,KEN,2014,kwale
+registration,statistic,female,0.662715259999622,KEN,2014,kwale
+registration,numerator,female,138.258879,KEN,2014,kwale
+registration,denominator,female,208.624861,KEN,2014,kwale
+registration,statistic,male,0.844787901700749,KEN,2014,kilifi
+registration,numerator,male,293.609226,KEN,2014,kilifi
+registration,denominator,male,347.553777,KEN,2014,kilifi
+registration,statistic,female,0.839512762145723,KEN,2014,kilifi
+registration,numerator,female,317.583749,KEN,2014,kilifi
+registration,denominator,female,378.29532,KEN,2014,kilifi
+registration,statistic,male,0.473947947783653,KEN,2014,tana river
+registration,numerator,male,43.441503,KEN,2014,tana river
+registration,denominator,male,91.658806,KEN,2014,tana river
+registration,statistic,female,0.439151249022099,KEN,2014,tana river
+registration,numerator,female,40.348865,KEN,2014,tana river
+registration,denominator,female,91.879199,KEN,2014,tana river
+registration,statistic,male,0.781333639070361,KEN,2014,lamu
+registration,numerator,male,21.85527,KEN,2014,lamu
+registration,denominator,male,27.971751,KEN,2014,lamu
+registration,statistic,female,0.720765639299988,KEN,2014,lamu
+registration,numerator,female,20.52593,KEN,2014,lamu
+registration,denominator,female,28.477953,KEN,2014,lamu
+registration,statistic,male,0.841585960757737,KEN,2014,taita taveta
+registration,numerator,male,55.24689,KEN,2014,taita taveta
+registration,denominator,male,65.646164,KEN,2014,taita taveta
+registration,statistic,female,0.836057626270911,KEN,2014,taita taveta
+registration,numerator,female,45.109062,KEN,2014,taita taveta
+registration,denominator,female,53.954489,KEN,2014,taita taveta
+registration,statistic,male,0.4948275448949,KEN,2014,marsabit
+registration,numerator,male,22.262219,KEN,2014,marsabit
+registration,denominator,male,44.989854,KEN,2014,marsabit
+registration,statistic,female,0.521175181804543,KEN,2014,marsabit
+registration,numerator,female,25.671823,KEN,2014,marsabit
+registration,denominator,female,49.25757,KEN,2014,marsabit
+registration,statistic,male,0.825717020499518,KEN,2014,isiolo
+registration,numerator,male,34.875643,KEN,2014,isiolo
+registration,denominator,male,42.236798,KEN,2014,isiolo
+registration,statistic,female,0.762747127320498,KEN,2014,isiolo
+registration,numerator,female,30.595865,KEN,2014,isiolo
+registration,denominator,female,40.112724,KEN,2014,isiolo
+registration,statistic,male,0.839078393981313,KEN,2014,meru
+registration,numerator,male,246.293393,KEN,2014,meru
+registration,denominator,male,293.528465,KEN,2014,meru
+registration,statistic,female,0.828475843188924,KEN,2014,meru
+registration,numerator,female,220.392674,KEN,2014,meru
+registration,denominator,female,266.021847,KEN,2014,meru
+registration,statistic,male,0.896312819952318,KEN,2014,tharaka
+registration,numerator,male,67.38458,KEN,2014,tharaka
+registration,denominator,male,75.179757,KEN,2014,tharaka
+registration,statistic,female,0.951312168076821,KEN,2014,tharaka
+registration,numerator,female,70.040268,KEN,2014,tharaka
+registration,denominator,female,73.624905,KEN,2014,tharaka
+registration,statistic,male,0.968600069091238,KEN,2014,embu
+registration,numerator,male,103.817375,KEN,2014,embu
+registration,denominator,male,107.182911,KEN,2014,embu
+registration,statistic,female,0.972543420691505,KEN,2014,embu
+registration,numerator,female,98.846702,KEN,2014,embu
+registration,denominator,female,101.637315,KEN,2014,embu
+registration,statistic,male,0.728788123706145,KEN,2014,kitui
+registration,numerator,male,199.656299,KEN,2014,kitui
+registration,denominator,male,273.956576,KEN,2014,kitui
+registration,statistic,female,0.689766595507456,KEN,2014,kitui
+registration,numerator,female,160.798048,KEN,2014,kitui
+registration,denominator,female,233.119506,KEN,2014,kitui
+registration,statistic,male,0.739354397184407,KEN,2014,machakos
+registration,numerator,male,197.332828,KEN,2014,machakos
+registration,denominator,male,266.898836,KEN,2014,machakos
+registration,statistic,female,0.816571236353137,KEN,2014,machakos
+registration,numerator,female,187.959797,KEN,2014,machakos
+registration,denominator,female,230.181751,KEN,2014,machakos
+registration,statistic,male,0.598995965338875,KEN,2014,makueni
+registration,numerator,male,115.042272,KEN,2014,makueni
+registration,denominator,male,192.058509,KEN,2014,makueni
+registration,statistic,female,0.599409277255916,KEN,2014,makueni
+registration,numerator,female,115.557235,KEN,2014,makueni
+registration,denominator,female,192.785196,KEN,2014,makueni
+registration,statistic,male,0.736111927683408,KEN,2014,garissa
+registration,numerator,male,86.841197,KEN,2014,garissa
+registration,denominator,male,117.972816,KEN,2014,garissa
+registration,statistic,female,0.727414890266135,KEN,2014,garissa
+registration,numerator,female,80.694204,KEN,2014,garissa
+registration,denominator,female,110.932846,KEN,2014,garissa
+registration,statistic,male,0.570184112309517,KEN,2014,wajir
+registration,numerator,male,78.451376,KEN,2014,wajir
+registration,denominator,male,137.589551,KEN,2014,wajir
+registration,statistic,female,0.453550631498878,KEN,2014,wajir
+registration,numerator,female,59.904449,KEN,2014,wajir
+registration,denominator,female,132.078857,KEN,2014,wajir
+registration,statistic,male,0.722613599507571,KEN,2014,mandera
+registration,numerator,male,60.766374,KEN,2014,mandera
+registration,denominator,male,84.092486,KEN,2014,mandera
+registration,statistic,female,0.730098142206893,KEN,2014,mandera
+registration,numerator,female,58.874314,KEN,2014,mandera
+registration,denominator,female,80.638904,KEN,2014,mandera
+registration,statistic,male,0.689051012637249,KEN,2014,siaya
+registration,numerator,male,134.022773,KEN,2014,siaya
+registration,denominator,male,194.503412,KEN,2014,siaya
+registration,statistic,female,0.657399428276563,KEN,2014,siaya
+registration,numerator,female,132.365404,KEN,2014,siaya
+registration,denominator,female,201.347002,KEN,2014,siaya
+registration,statistic,male,0.774718506537876,KEN,2014,kisumu
+registration,numerator,male,210.054665,KEN,2014,kisumu
+registration,denominator,male,271.136759,KEN,2014,kisumu
+registration,statistic,female,0.754701301518916,KEN,2014,kisumu
+registration,numerator,female,201.31253,KEN,2014,kisumu
+registration,denominator,female,266.744644,KEN,2014,kisumu
+registration,statistic,male,0.512097472291107,KEN,2014,migori
+registration,numerator,male,148.451545,KEN,2014,migori
+registration,denominator,male,289.889236,KEN,2014,migori
+registration,statistic,female,0.5291965948322,KEN,2014,migori
+registration,numerator,female,133.532489,KEN,2014,migori
+registration,denominator,female,252.33059,KEN,2014,migori
+registration,statistic,male,0.231013335471255,KEN,2014,homa bay
+registration,numerator,male,79.237511,KEN,2014,homa bay
+registration,denominator,male,342.999727,KEN,2014,homa bay
+registration,statistic,female,0.24493277833011,KEN,2014,homa bay
+registration,numerator,female,80.979043,KEN,2014,homa bay
+registration,denominator,female,330.617419,KEN,2014,homa bay
+registration,statistic,male,0.726901272922917,KEN,2014,kisii
+registration,numerator,male,177.167246,KEN,2014,kisii
+registration,denominator,male,243.729448,KEN,2014,kisii
+registration,statistic,female,0.720322921712044,KEN,2014,kisii
+registration,numerator,female,176.294286,KEN,2014,kisii
+registration,denominator,female,244.743407,KEN,2014,kisii
+registration,statistic,male,0.705664138397474,KEN,2014,nyamira
+registration,numerator,male,69.060082,KEN,2014,nyamira
+registration,denominator,male,97.86537,KEN,2014,nyamira
+registration,statistic,female,0.706926843859026,KEN,2014,nyamira
+registration,numerator,female,67.98182,KEN,2014,nyamira
+registration,denominator,female,96.165283,KEN,2014,nyamira
+registration,statistic,male,0.324219986183847,KEN,2014,turkana
+registration,numerator,male,57.521187,KEN,2014,turkana
+registration,denominator,male,177.414069,KEN,2014,turkana
+registration,statistic,female,0.318755527094607,KEN,2014,turkana
+registration,numerator,female,61.675284,KEN,2014,turkana
+registration,denominator,female,193.487732,KEN,2014,turkana
+registration,statistic,male,0.245334941483965,KEN,2014,west pokot
+registration,numerator,male,34.763512,KEN,2014,west pokot
+registration,denominator,male,141.698169,KEN,2014,west pokot
+registration,statistic,female,0.219675410571418,KEN,2014,west pokot
+registration,numerator,female,31.567965,KEN,2014,west pokot
+registration,denominator,female,143.70277,KEN,2014,west pokot
+registration,statistic,male,0.647383582023324,KEN,2014,samburu
+registration,numerator,male,38.472628,KEN,2014,samburu
+registration,denominator,male,59.427871,KEN,2014,samburu
+registration,statistic,female,0.694021960294823,KEN,2014,samburu
+registration,numerator,female,39.933222,KEN,2014,samburu
+registration,denominator,female,57.538845,KEN,2014,samburu
+registration,statistic,male,0.694223190265313,KEN,2014,trans-nzoia
+registration,numerator,male,205.500041,KEN,2014,trans-nzoia
+registration,denominator,male,296.014371,KEN,2014,trans-nzoia
+registration,statistic,female,0.708700107331054,KEN,2014,trans-nzoia
+registration,numerator,female,202.067678,KEN,2014,trans-nzoia
+registration,denominator,female,285.124379,KEN,2014,trans-nzoia
+registration,statistic,male,0.71722672829524,KEN,2014,baringo
+registration,numerator,male,89.406326,KEN,2014,baringo
+registration,denominator,male,124.655597,KEN,2014,baringo
+registration,statistic,female,0.668180801278085,KEN,2014,baringo
+registration,numerator,female,74.383741,KEN,2014,baringo
+registration,denominator,female,111.322775,KEN,2014,baringo
+registration,statistic,male,0.680155340380011,KEN,2014,uasin gishu
+registration,numerator,male,162.019839,KEN,2014,uasin gishu
+registration,denominator,male,238.210052,KEN,2014,uasin gishu
+registration,statistic,female,0.656136451448,KEN,2014,uasin gishu
+registration,numerator,female,171.723912,KEN,2014,uasin gishu
+registration,denominator,female,261.719817,KEN,2014,uasin gishu
+registration,statistic,male,0.80968365194048,KEN,2014,elgeyo marak
+registration,numerator,male,74.530564,KEN,2014,elgeyo marak
+registration,denominator,male,92.048992,KEN,2014,elgeyo marak
+registration,statistic,female,0.816894669576262,KEN,2014,elgeyo marak
+registration,numerator,female,68.91171,KEN,2014,elgeyo marak
+registration,denominator,female,84.358134,KEN,2014,elgeyo marak
+registration,statistic,male,0.7750868644152,KEN,2014,nandi
+registration,numerator,male,159.338686,KEN,2014,nandi
+registration,denominator,male,205.575263,KEN,2014,nandi
+registration,statistic,female,0.752667657871089,KEN,2014,nandi
+registration,numerator,female,164.440039,KEN,2014,nandi
+registration,denominator,female,218.476292,KEN,2014,nandi
+registration,statistic,male,0.722926861578335,KEN,2014,laikipia
+registration,numerator,male,81.050914,KEN,2014,laikipia
+registration,denominator,male,112.114957,KEN,2014,laikipia
+registration,statistic,female,0.758798881908105,KEN,2014,laikipia
+registration,numerator,female,77.826007,KEN,2014,laikipia
+registration,denominator,female,102.564736,KEN,2014,laikipia
+registration,statistic,male,0.870130609640231,KEN,2014,nakuru
+registration,numerator,male,400.925458,KEN,2014,nakuru
+registration,denominator,male,460.764687,KEN,2014,nakuru
+registration,statistic,female,0.872155739523126,KEN,2014,nakuru
+registration,numerator,female,349.103944,KEN,2014,nakuru
+registration,denominator,female,400.27707,KEN,2014,nakuru
+registration,statistic,male,0.459562000074563,KEN,2014,narok
+registration,numerator,male,144.962877,KEN,2014,narok
+registration,denominator,male,315.43704,KEN,2014,narok
+registration,statistic,female,0.399121218428421,KEN,2014,narok
+registration,numerator,female,127.912222,KEN,2014,narok
+registration,denominator,female,320.484645,KEN,2014,narok
+registration,statistic,male,0.799467014753421,KEN,2014,kajiado
+registration,numerator,male,172.780254,KEN,2014,kajiado
+registration,denominator,male,216.119303,KEN,2014,kajiado
+registration,statistic,female,0.793254198312382,KEN,2014,kajiado
+registration,numerator,female,183.41056,KEN,2014,kajiado
+registration,denominator,female,231.212845,KEN,2014,kajiado
+registration,statistic,male,0.656789535719776,KEN,2014,kericho
+registration,numerator,male,122.079444,KEN,2014,kericho
+registration,denominator,male,185.873004,KEN,2014,kericho
+registration,statistic,female,0.601486489116582,KEN,2014,kericho
+registration,numerator,female,86.470962,KEN,2014,kericho
+registration,denominator,female,143.762102,KEN,2014,kericho
+registration,statistic,male,0.605103741817567,KEN,2014,bomet
+registration,numerator,male,157.950191,KEN,2014,bomet
+registration,denominator,male,261.029936,KEN,2014,bomet
+registration,statistic,female,0.583196166604074,KEN,2014,bomet
+registration,numerator,female,118.930155,KEN,2014,bomet
+registration,denominator,female,203.928218,KEN,2014,bomet
+registration,statistic,male,0.416127213595185,KEN,2014,kakamega
+registration,numerator,male,187.140279,KEN,2014,kakamega
+registration,denominator,male,449.718915,KEN,2014,kakamega
+registration,statistic,female,0.369831933080968,KEN,2014,kakamega
+registration,numerator,female,157.68385,KEN,2014,kakamega
+registration,denominator,female,426.366238,KEN,2014,kakamega
+registration,statistic,male,0.780601894792188,KEN,2014,vihiga
+registration,numerator,male,96.578007,KEN,2014,vihiga
+registration,denominator,male,123.722486,KEN,2014,vihiga
+registration,statistic,female,0.735647433382802,KEN,2014,vihiga
+registration,numerator,female,97.935554,KEN,2014,vihiga
+registration,denominator,female,133.128384,KEN,2014,vihiga
+registration,statistic,male,0.554519859242944,KEN,2014,bungoma
+registration,numerator,male,302.414731,KEN,2014,bungoma
+registration,denominator,male,545.363211,KEN,2014,bungoma
+registration,statistic,female,0.644222090374399,KEN,2014,bungoma
+registration,numerator,female,298.051219,KEN,2014,bungoma
+registration,denominator,female,462.652901,KEN,2014,bungoma
+registration,statistic,male,0.588835992467714,KEN,2014,busia
+registration,numerator,male,125.501425,KEN,2014,busia
+registration,denominator,male,213.134772,KEN,2014,busia
+registration,statistic,female,0.582590992780616,KEN,2014,busia
+registration,numerator,female,138.155977,KEN,2014,busia
+registration,denominator,female,237.140599,KEN,2014,busia
 mortality,statistic,male,0.068064395227187,KEN,2014,nairobi
 mortality,numerator,male,138.5201625,KEN,2014,nairobi
 mortality,denominator,male,2035.1339645,KEN,2014,nairobi
 mortality,statistic,female,0.0607522313578401,KEN,2014,nairobi
 mortality,numerator,female,130.1564405,KEN,2014,nairobi
 mortality,denominator,female,2142.4141565,KEN,2014,nairobi
-mortality,statistic,male,0.0478722462714111,KEN,2014,central
-mortality,numerator,male,108.7640815,KEN,2014,central
-mortality,denominator,male,2271.965282,KEN,2014,central
-mortality,statistic,female,0.0382614933977571,KEN,2014,central
-mortality,numerator,female,83.923643,KEN,2014,central
-mortality,denominator,female,2193.423088,KEN,2014,central
-mortality,statistic,male,0.0580226629433915,KEN,2014,coast
-mortality,numerator,male,139.0124835,KEN,2014,coast
-mortality,denominator,male,2395.830809,KEN,2014,coast
-mortality,statistic,female,0.0477109543223862,KEN,2014,coast
-mortality,numerator,female,115.5989755,KEN,2014,coast
-mortality,denominator,female,2422.9021855,KEN,2014,coast
-mortality,statistic,male,0.0462032674687717,KEN,2014,eastern
-mortality,numerator,male,144.562097,KEN,2014,eastern
-mortality,denominator,male,3128.828434,KEN,2014,eastern
-mortality,statistic,female,0.0437328825305338,KEN,2014,eastern
-mortality,numerator,female,132.1503785,KEN,2014,eastern
-mortality,denominator,female,3021.762364,KEN,2014,eastern
-mortality,statistic,male,0.0444134275104299,KEN,2014,north eastern
-mortality,numerator,male,38.0228325,KEN,2014,north eastern
-mortality,denominator,male,856.111195,KEN,2014,north eastern
-mortality,statistic,female,0.0425236289790379,KEN,2014,north eastern
-mortality,numerator,female,32.63913,KEN,2014,north eastern
-mortality,denominator,female,767.5527885,KEN,2014,north eastern
-mortality,statistic,male,0.0863543005135661,KEN,2014,nyanza
-mortality,numerator,male,311.863681,KEN,2014,nyanza
-mortality,denominator,male,3611.443543,KEN,2014,nyanza
-mortality,statistic,female,0.0792084453928672,KEN,2014,nyanza
-mortality,numerator,female,282.023237,KEN,2014,nyanza
-mortality,denominator,female,3560.5197855,KEN,2014,nyanza
-mortality,statistic,male,0.0481637553836645,KEN,2014,rift valley
-mortality,numerator,male,325.4246775,KEN,2014,rift valley
-mortality,denominator,male,6756.6300615,KEN,2014,rift valley
-mortality,statistic,female,0.0379135005617024,KEN,2014,rift valley
-mortality,numerator,female,247.7753625,KEN,2014,rift valley
-mortality,denominator,female,6535.280542,KEN,2014,rift valley
-mortality,statistic,male,0.0655155686890165,KEN,2014,western
-mortality,numerator,male,180.8393375,KEN,2014,western
-mortality,denominator,male,2760.2498325,KEN,2014,western
-mortality,statistic,female,0.0668831096587352,KEN,2014,western
-mortality,numerator,female,189.060977,KEN,2014,western
-mortality,denominator,female,2826.737243,KEN,2014,western
-mortality,statistic,male,0.0655155686890165,KEN,2014,nairobi
-mortality,numerator,male,180.8393375,KEN,2014,nairobi
-mortality,denominator,male,2760.2498325,KEN,2014,nairobi
-mortality,statistic,female,0.0668831096587352,KEN,2014,nairobi
-mortality,numerator,female,189.060977,KEN,2014,nairobi
-mortality,denominator,female,2826.737243,KEN,2014,nairobi
-mortality,statistic,male,0.0655155686890165,KEN,2014,central
-mortality,numerator,male,180.8393375,KEN,2014,central
-mortality,denominator,male,2760.2498325,KEN,2014,central
-mortality,statistic,female,0.0668831096587352,KEN,2014,central
-mortality,numerator,female,189.060977,KEN,2014,central
-mortality,denominator,female,2826.737243,KEN,2014,central
-mortality,statistic,male,0.0655155686890165,KEN,2014,coast
-mortality,numerator,male,180.8393375,KEN,2014,coast
-mortality,denominator,male,2760.2498325,KEN,2014,coast
-mortality,statistic,female,0.0668831096587352,KEN,2014,coast
-mortality,numerator,female,189.060977,KEN,2014,coast
-mortality,denominator,female,2826.737243,KEN,2014,coast
-mortality,statistic,male,0.0655155686890165,KEN,2014,eastern
-mortality,numerator,male,180.8393375,KEN,2014,eastern
-mortality,denominator,male,2760.2498325,KEN,2014,eastern
-mortality,statistic,female,0.0668831096587352,KEN,2014,eastern
-mortality,numerator,female,189.060977,KEN,2014,eastern
-mortality,denominator,female,2826.737243,KEN,2014,eastern
-mortality,statistic,male,0.0655155686890165,KEN,2014,north eastern
-mortality,numerator,male,180.8393375,KEN,2014,north eastern
-mortality,denominator,male,2760.2498325,KEN,2014,north eastern
-mortality,statistic,female,0.0668831096587352,KEN,2014,north eastern
-mortality,numerator,female,189.060977,KEN,2014,north eastern
-mortality,denominator,female,2826.737243,KEN,2014,north eastern
-mortality,statistic,male,0.0655155686890165,KEN,2014,nyanza
-mortality,numerator,male,180.8393375,KEN,2014,nyanza
-mortality,denominator,male,2760.2498325,KEN,2014,nyanza
-mortality,statistic,female,0.0668831096587352,KEN,2014,nyanza
-mortality,numerator,female,189.060977,KEN,2014,nyanza
-mortality,denominator,female,2826.737243,KEN,2014,nyanza
-mortality,statistic,male,0.0655155686890165,KEN,2014,rift valley
-mortality,numerator,male,180.8393375,KEN,2014,rift valley
-mortality,denominator,male,2760.2498325,KEN,2014,rift valley
-mortality,statistic,female,0.0668831096587352,KEN,2014,rift valley
-mortality,numerator,female,189.060977,KEN,2014,rift valley
-mortality,denominator,female,2826.737243,KEN,2014,rift valley
-mortality,statistic,male,0.0655155686890165,KEN,2014,western
-mortality,numerator,male,180.8393375,KEN,2014,western
-mortality,denominator,male,2760.2498325,KEN,2014,western
-mortality,statistic,female,0.0668831096587352,KEN,2014,western
-mortality,numerator,female,189.060977,KEN,2014,western
-mortality,denominator,female,2826.737243,KEN,2014,western
+mortality,statistic,male,0.0633687884476806,KEN,2014,nyandarua
+mortality,numerator,male,22.067498,KEN,2014,nyandarua
+mortality,denominator,male,348.2392285,KEN,2014,nyandarua
+mortality,statistic,female,0.0556628677488704,KEN,2014,nyandarua
+mortality,numerator,female,16.7584145,KEN,2014,nyandarua
+mortality,denominator,female,301.0699085,KEN,2014,nyandarua
+mortality,statistic,male,0.037785117345042,KEN,2014,nyeri
+mortality,numerator,male,11.1475185,KEN,2014,nyeri
+mortality,denominator,male,295.024054,KEN,2014,nyeri
+mortality,statistic,female,0.0331083344108287,KEN,2014,nyeri
+mortality,numerator,female,10.0818255,KEN,2014,nyeri
+mortality,denominator,female,304.510199,KEN,2014,nyeri
+mortality,statistic,male,0.0471717257967181,KEN,2014,kirinyaga
+mortality,numerator,male,12.249317,KEN,2014,kirinyaga
+mortality,denominator,male,259.674981,KEN,2014,kirinyaga
+mortality,statistic,female,0.0414135633500838,KEN,2014,kirinyaga
+mortality,numerator,female,10.331149,KEN,2014,kirinyaga
+mortality,denominator,female,249.4629335,KEN,2014,kirinyaga
+mortality,statistic,male,0.047895924146053,KEN,2014,muranga
+mortality,numerator,male,21.2692275,KEN,2014,muranga
+mortality,denominator,male,444.0717635,KEN,2014,muranga
+mortality,statistic,female,0.0408283019931662,KEN,2014,muranga
+mortality,numerator,female,15.5186085,KEN,2014,muranga
+mortality,denominator,female,380.094389,KEN,2014,muranga
+mortality,statistic,male,0.0454405986373903,KEN,2014,kiambu
+mortality,numerator,male,42.0305205,KEN,2014,kiambu
+mortality,denominator,male,924.955255,KEN,2014,kiambu
+mortality,statistic,female,0.0325932515417026,KEN,2014,kiambu
+mortality,numerator,female,31.2336455,KEN,2014,kiambu
+mortality,denominator,female,958.285658,KEN,2014,kiambu
+mortality,statistic,male,0.0559085573822129,KEN,2014,mombasa
+mortality,numerator,male,31.1233075,KEN,2014,mombasa
+mortality,denominator,male,556.682357,KEN,2014,mombasa
+mortality,statistic,female,0.0394240679571328,KEN,2014,mombasa
+mortality,numerator,female,22.01841,KEN,2014,mombasa
+mortality,denominator,female,558.501726,KEN,2014,mombasa
+mortality,statistic,male,0.060940111428897,KEN,2014,kwale
+mortality,numerator,male,33.297814,KEN,2014,kwale
+mortality,denominator,male,546.40225,KEN,2014,kwale
+mortality,statistic,female,0.0478202458123824,KEN,2014,kwale
+mortality,numerator,female,24.696444,KEN,2014,kwale
+mortality,denominator,female,516.4432675,KEN,2014,kwale
+mortality,statistic,male,0.0561137188480594,KEN,2014,kilifi
+mortality,numerator,male,47.2933325,KEN,2014,kilifi
+mortality,denominator,male,842.812301,KEN,2014,kilifi
+mortality,statistic,female,0.0476661501624883,KEN,2014,kilifi
+mortality,numerator,female,43.7140435,KEN,2014,kilifi
+mortality,denominator,female,917.087773,KEN,2014,kilifi
+mortality,statistic,male,0.0641069033322498,KEN,2014,tana river
+mortality,numerator,male,13.9262935,KEN,2014,tana river
+mortality,denominator,male,217.2354735,KEN,2014,tana river
+mortality,statistic,female,0.0693830997686535,KEN,2014,tana river
+mortality,numerator,female,14.875776,KEN,2014,tana river
+mortality,denominator,female,214.400568,KEN,2014,tana river
+mortality,statistic,male,0.061094761938422,KEN,2014,lamu
+mortality,numerator,male,4.535898,KEN,2014,lamu
+mortality,denominator,male,74.243648,KEN,2014,lamu
+mortality,statistic,female,0.0706804134906253,KEN,2014,lamu
+mortality,numerator,female,5.035274,KEN,2014,lamu
+mortality,denominator,female,71.240019,KEN,2014,lamu
+mortality,statistic,male,0.0557625211929944,KEN,2014,taita taveta
+mortality,numerator,male,8.835838,KEN,2014,taita taveta
+mortality,denominator,male,158.4547795,KEN,2014,taita taveta
+mortality,statistic,female,0.0362120105737682,KEN,2014,taita taveta
+mortality,numerator,female,5.259028,KEN,2014,taita taveta
+mortality,denominator,female,145.228832,KEN,2014,taita taveta
+mortality,statistic,male,0.0380589849882702,KEN,2014,marsabit
+mortality,numerator,male,4.4110795,KEN,2014,marsabit
+mortality,denominator,male,115.9011335,KEN,2014,marsabit
+mortality,statistic,female,0.0300422567519125,KEN,2014,marsabit
+mortality,numerator,female,3.2489295,KEN,2014,marsabit
+mortality,denominator,female,108.145321,KEN,2014,marsabit
+mortality,statistic,male,0.0312847918390059,KEN,2014,isiolo
+mortality,numerator,male,3.2549885,KEN,2014,isiolo
+mortality,denominator,male,104.043796,KEN,2014,isiolo
+mortality,statistic,female,0.0407745697687999,KEN,2014,isiolo
+mortality,numerator,female,4.1323065,KEN,2014,isiolo
+mortality,denominator,female,101.3451895,KEN,2014,isiolo
+mortality,statistic,male,0.0674351223052056,KEN,2014,meru
+mortality,numerator,male,51.291652,KEN,2014,meru
+mortality,denominator,male,760.6073845,KEN,2014,meru
+mortality,statistic,female,0.0568229127615199,KEN,2014,meru
+mortality,numerator,female,39.254505,KEN,2014,meru
+mortality,denominator,female,690.821767,KEN,2014,meru
+mortality,statistic,male,0.0323081573966859,KEN,2014,tharaka
+mortality,numerator,male,6.340485,KEN,2014,tharaka
+mortality,denominator,male,196.250282,KEN,2014,tharaka
+mortality,statistic,female,0.0572201172508011,KEN,2014,tharaka
+mortality,numerator,female,10.7624815,KEN,2014,tharaka
+mortality,denominator,female,188.08912,KEN,2014,tharaka
+mortality,statistic,male,0.0558946802862162,KEN,2014,embu
+mortality,numerator,male,14.096976,KEN,2014,embu
+mortality,denominator,male,252.2060405,KEN,2014,embu
+mortality,statistic,female,0.059903958326383,KEN,2014,embu
+mortality,numerator,female,15.022764,KEN,2014,embu
+mortality,denominator,female,250.7808235,KEN,2014,embu
+mortality,statistic,male,0.0456852270293845,KEN,2014,kitui
+mortality,numerator,male,27.4906035,KEN,2014,kitui
+mortality,denominator,male,601.7394525,KEN,2014,kitui
+mortality,statistic,female,0.0313916495411434,KEN,2014,kitui
+mortality,numerator,female,19.970467,KEN,2014,kitui
+mortality,denominator,female,636.171316,KEN,2014,kitui
+mortality,statistic,male,0.0350246890378554,KEN,2014,machakos
+mortality,numerator,male,21.8925605,KEN,2014,machakos
+mortality,denominator,male,625.06081,KEN,2014,machakos
+mortality,statistic,female,0.0504865223518654,KEN,2014,machakos
+mortality,numerator,female,29.129507,KEN,2014,machakos
+mortality,denominator,female,576.9759065,KEN,2014,machakos
+mortality,statistic,male,0.0333680764368431,KEN,2014,makueni
+mortality,numerator,male,15.783752,KEN,2014,makueni
+mortality,denominator,male,473.019535,KEN,2014,makueni
+mortality,statistic,female,0.0226431030629007,KEN,2014,makueni
+mortality,numerator,female,10.629418,KEN,2014,makueni
+mortality,denominator,female,469.4329205,KEN,2014,makueni
+mortality,statistic,male,0.0614134421500956,KEN,2014,garissa
+mortality,numerator,male,18.7897765,KEN,2014,garissa
+mortality,denominator,male,305.9554365,KEN,2014,garissa
+mortality,statistic,female,0.0754122428745672,KEN,2014,garissa
+mortality,numerator,female,20.671427,KEN,2014,garissa
+mortality,denominator,female,274.1123485,KEN,2014,garissa
+mortality,statistic,male,0.0387940419440708,KEN,2014,wajir
+mortality,numerator,male,12.460877,KEN,2014,wajir
+mortality,denominator,male,321.2059475,KEN,2014,wajir
+mortality,statistic,female,0.0322807541972041,KEN,2014,wajir
+mortality,numerator,female,9.340687,KEN,2014,wajir
+mortality,denominator,female,289.3577685,KEN,2014,wajir
+mortality,statistic,male,0.0295793168398816,KEN,2014,mandera
+mortality,numerator,male,6.772179,KEN,2014,mandera
+mortality,denominator,male,228.949811,KEN,2014,mandera
+mortality,statistic,female,0.0128723128754221,KEN,2014,mandera
+mortality,numerator,female,2.627016,KEN,2014,mandera
+mortality,denominator,female,204.0826715,KEN,2014,mandera
+mortality,statistic,male,0.0905245000933861,KEN,2014,siaya
+mortality,numerator,male,46.081807,KEN,2014,siaya
+mortality,denominator,male,509.053427,KEN,2014,siaya
+mortality,statistic,female,0.0751901179114228,KEN,2014,siaya
+mortality,numerator,female,36.964415,KEN,2014,siaya
+mortality,denominator,female,491.612675,KEN,2014,siaya
+mortality,statistic,male,0.0717113484489923,KEN,2014,kisumu
+mortality,numerator,male,44.365212,KEN,2014,kisumu
+mortality,denominator,male,618.6637535,KEN,2014,kisumu
+mortality,statistic,female,0.0679878594793613,KEN,2014,kisumu
+mortality,numerator,female,41.747706,KEN,2014,kisumu
+mortality,denominator,female,614.046483,KEN,2014,kisumu
+mortality,statistic,male,0.10845076776522,KEN,2014,migori
+mortality,numerator,male,81.0135895,KEN,2014,migori
+mortality,denominator,male,747.007985,KEN,2014,migori
+mortality,statistic,female,0.115440540006277,KEN,2014,migori
+mortality,numerator,female,83.676479,KEN,2014,migori
+mortality,denominator,female,724.8448335,KEN,2014,migori
+mortality,statistic,male,0.121173990992157,KEN,2014,homa bay
+mortality,numerator,male,101.342335,KEN,2014,homa bay
+mortality,denominator,male,836.337354,KEN,2014,homa bay
+mortality,statistic,female,0.107765944990919,KEN,2014,homa bay
+mortality,numerator,female,87.588034,KEN,2014,homa bay
+mortality,denominator,female,812.7617125,KEN,2014,homa bay
+mortality,statistic,male,0.0375299685009757,KEN,2014,kisii
+mortality,numerator,male,23.630309,KEN,2014,kisii
+mortality,denominator,male,629.6383915,KEN,2014,kisii
+mortality,statistic,female,0.0390080161510133,KEN,2014,kisii
+mortality,numerator,female,25.758611,KEN,2014,kisii
+mortality,denominator,female,660.341477,KEN,2014,kisii
+mortality,statistic,male,0.0569929766362026,KEN,2014,nyamira
+mortality,numerator,male,15.4304285,KEN,2014,nyamira
+mortality,denominator,male,270.742632,KEN,2014,nyamira
+mortality,statistic,female,0.0244752179918833,KEN,2014,nyamira
+mortality,numerator,female,6.287992,KEN,2014,nyamira
+mortality,denominator,female,256.9126045,KEN,2014,nyamira
+mortality,statistic,male,0.0556212993681062,KEN,2014,turkana
+mortality,numerator,male,20.9473735,KEN,2014,turkana
+mortality,denominator,male,376.6070505,KEN,2014,turkana
+mortality,statistic,female,0.0644319796450663,KEN,2014,turkana
+mortality,numerator,female,24.5654315,KEN,2014,turkana
+mortality,denominator,female,381.2614735,KEN,2014,turkana
+mortality,statistic,male,0.0234750997916491,KEN,2014,west pokot
+mortality,numerator,male,8.190452,KEN,2014,west pokot
+mortality,denominator,male,348.8995605,KEN,2014,west pokot
+mortality,statistic,female,0.02199776914107,KEN,2014,west pokot
+mortality,numerator,female,7.520725,KEN,2014,west pokot
+mortality,denominator,female,341.8858045,KEN,2014,west pokot
+mortality,statistic,male,0.0240016025404211,KEN,2014,samburu
+mortality,numerator,male,3.4555445,KEN,2014,samburu
+mortality,denominator,male,143.9714075,KEN,2014,samburu
+mortality,statistic,female,0.026278486410975,KEN,2014,samburu
+mortality,numerator,female,3.422198,KEN,2014,samburu
+mortality,denominator,female,130.2281245,KEN,2014,samburu
+mortality,statistic,male,0.0617795866252011,KEN,2014,trans-nzoia
+mortality,numerator,male,40.7212555,KEN,2014,trans-nzoia
+mortality,denominator,male,659.137714,KEN,2014,trans-nzoia
+mortality,statistic,female,0.0475543676459977,KEN,2014,trans-nzoia
+mortality,numerator,female,29.2776085,KEN,2014,trans-nzoia
+mortality,denominator,female,615.666025,KEN,2014,trans-nzoia
+mortality,statistic,male,0.0393974555390262,KEN,2014,baringo
+mortality,numerator,male,11.3083905,KEN,2014,baringo
+mortality,denominator,male,287.033524,KEN,2014,baringo
+mortality,statistic,female,0.0347509085258694,KEN,2014,baringo
+mortality,numerator,female,9.363468,KEN,2014,baringo
+mortality,denominator,female,269.445272,KEN,2014,baringo
+mortality,statistic,male,0.0429733385884151,KEN,2014,uasin gishu
+mortality,numerator,male,24.5203445,KEN,2014,uasin gishu
+mortality,denominator,male,570.594357,KEN,2014,uasin gishu
+mortality,statistic,female,0.0285197099817281,KEN,2014,uasin gishu
+mortality,numerator,female,16.948184,KEN,2014,uasin gishu
+mortality,denominator,female,594.262144,KEN,2014,uasin gishu
+mortality,statistic,male,0.0395428259462889,KEN,2014,elgeyo marak
+mortality,numerator,male,8.2091535,KEN,2014,elgeyo marak
+mortality,denominator,male,207.601589,KEN,2014,elgeyo marak
+mortality,statistic,female,0.0164024993746084,KEN,2014,elgeyo marak
+mortality,numerator,female,3.5350495,KEN,2014,elgeyo marak
+mortality,denominator,female,215.5189535,KEN,2014,elgeyo marak
+mortality,statistic,male,0.0448420571230384,KEN,2014,nandi
+mortality,numerator,male,22.666298,KEN,2014,nandi
+mortality,denominator,male,505.4696295,KEN,2014,nandi
+mortality,statistic,female,0.0300409240848509,KEN,2014,nandi
+mortality,numerator,female,14.6389375,KEN,2014,nandi
+mortality,denominator,female,487.29984,KEN,2014,nandi
+mortality,statistic,male,0.0307859858793583,KEN,2014,laikipia
+mortality,numerator,male,7.9242775,KEN,2014,laikipia
+mortality,denominator,male,257.3988545,KEN,2014,laikipia
+mortality,statistic,female,0.0396512001815332,KEN,2014,laikipia
+mortality,numerator,female,10.1848435,KEN,2014,laikipia
+mortality,denominator,female,256.8609135,KEN,2014,laikipia
+mortality,statistic,male,0.0686590844811847,KEN,2014,nakuru
+mortality,numerator,male,75.442052,KEN,2014,nakuru
+mortality,denominator,male,1098.791989,KEN,2014,nakuru
+mortality,statistic,female,0.0482238696476419,KEN,2014,nakuru
+mortality,numerator,female,50.740345,KEN,2014,nakuru
+mortality,denominator,female,1052.18319,KEN,2014,nakuru
+mortality,statistic,male,0.0503143108373123,KEN,2014,narok
+mortality,numerator,male,35.971743,KEN,2014,narok
+mortality,denominator,male,714.9405885,KEN,2014,narok
+mortality,statistic,female,0.0355898736116744,KEN,2014,narok
+mortality,numerator,female,25.9140275,KEN,2014,narok
+mortality,denominator,female,728.1292365,KEN,2014,narok
+mortality,statistic,male,0.0291190952826287,KEN,2014,kajiado
+mortality,numerator,male,13.5194515,KEN,2014,kajiado
+mortality,denominator,male,464.281303,KEN,2014,kajiado
+mortality,statistic,female,0.0155379597028456,KEN,2014,kajiado
+mortality,numerator,female,7.247179,KEN,2014,kajiado
+mortality,denominator,female,466.4176725,KEN,2014,kajiado
+mortality,statistic,male,0.0450806746752662,KEN,2014,kericho
+mortality,numerator,male,21.386428,KEN,2014,kericho
+mortality,denominator,male,474.403459,KEN,2014,kericho
+mortality,statistic,female,0.0468860973165762,KEN,2014,kericho
+mortality,numerator,female,19.7644895,KEN,2014,kericho
+mortality,denominator,female,421.5426455,KEN,2014,kericho
+mortality,statistic,male,0.0481265790240703,KEN,2014,bomet
+mortality,numerator,male,31.1619135,KEN,2014,bomet
+mortality,denominator,male,647.4990355,KEN,2014,bomet
+mortality,statistic,female,0.0429059631525467,KEN,2014,bomet
+mortality,numerator,female,24.652876,KEN,2014,bomet
+mortality,denominator,female,574.579247,KEN,2014,bomet
+mortality,statistic,male,0.0567501340044734,KEN,2014,kakamega
+mortality,numerator,male,52.153432,KEN,2014,kakamega
+mortality,denominator,male,919.001037,KEN,2014,kakamega
+mortality,statistic,female,0.062198886957471,KEN,2014,kakamega
+mortality,numerator,female,58.181449,KEN,2014,kakamega
+mortality,denominator,female,935.4098095,KEN,2014,kakamega
+mortality,statistic,male,0.0833636656369954,KEN,2014,vihiga
+mortality,numerator,male,23.312845,KEN,2014,vihiga
+mortality,denominator,male,279.65235,KEN,2014,vihiga
+mortality,statistic,female,0.0784106253659794,KEN,2014,vihiga
+mortality,numerator,female,22.8552525,KEN,2014,vihiga
+mortality,denominator,female,291.481574,KEN,2014,vihiga
+mortality,statistic,male,0.0574505024339407,KEN,2014,bungoma
+mortality,numerator,male,61.1879185,KEN,2014,bungoma
+mortality,denominator,male,1065.054541,KEN,2014,bungoma
+mortality,statistic,female,0.0633550208183235,KEN,2014,bungoma
+mortality,numerator,female,68.4988435,KEN,2014,bungoma
+mortality,denominator,female,1081.1904505,KEN,2014,bungoma
+mortality,statistic,male,0.0889857262792209,KEN,2014,busia
+mortality,numerator,male,44.185142,KEN,2014,busia
+mortality,denominator,male,496.5419045,KEN,2014,busia
+mortality,statistic,female,0.0762074998431184,KEN,2014,busia
+mortality,numerator,female,39.525432,KEN,2014,busia
+mortality,denominator,female,518.655409,KEN,2014,busia
+mortality,statistic,male,0.0889857262792209,KEN,2014,nairobi
+mortality,numerator,male,44.185142,KEN,2014,nairobi
+mortality,denominator,male,496.5419045,KEN,2014,nairobi
+mortality,statistic,female,0.0762074998431184,KEN,2014,nairobi
+mortality,numerator,female,39.525432,KEN,2014,nairobi
+mortality,denominator,female,518.655409,KEN,2014,nairobi
+mortality,statistic,male,0.0889857262792209,KEN,2014,nyandarua
+mortality,numerator,male,44.185142,KEN,2014,nyandarua
+mortality,denominator,male,496.5419045,KEN,2014,nyandarua
+mortality,statistic,female,0.0762074998431184,KEN,2014,nyandarua
+mortality,numerator,female,39.525432,KEN,2014,nyandarua
+mortality,denominator,female,518.655409,KEN,2014,nyandarua
+mortality,statistic,male,0.0889857262792209,KEN,2014,nyeri
+mortality,numerator,male,44.185142,KEN,2014,nyeri
+mortality,denominator,male,496.5419045,KEN,2014,nyeri
+mortality,statistic,female,0.0762074998431184,KEN,2014,nyeri
+mortality,numerator,female,39.525432,KEN,2014,nyeri
+mortality,denominator,female,518.655409,KEN,2014,nyeri
+mortality,statistic,male,0.0889857262792209,KEN,2014,kirinyaga
+mortality,numerator,male,44.185142,KEN,2014,kirinyaga
+mortality,denominator,male,496.5419045,KEN,2014,kirinyaga
+mortality,statistic,female,0.0762074998431184,KEN,2014,kirinyaga
+mortality,numerator,female,39.525432,KEN,2014,kirinyaga
+mortality,denominator,female,518.655409,KEN,2014,kirinyaga
+mortality,statistic,male,0.0889857262792209,KEN,2014,muranga
+mortality,numerator,male,44.185142,KEN,2014,muranga
+mortality,denominator,male,496.5419045,KEN,2014,muranga
+mortality,statistic,female,0.0762074998431184,KEN,2014,muranga
+mortality,numerator,female,39.525432,KEN,2014,muranga
+mortality,denominator,female,518.655409,KEN,2014,muranga
+mortality,statistic,male,0.0889857262792209,KEN,2014,kiambu
+mortality,numerator,male,44.185142,KEN,2014,kiambu
+mortality,denominator,male,496.5419045,KEN,2014,kiambu
+mortality,statistic,female,0.0762074998431184,KEN,2014,kiambu
+mortality,numerator,female,39.525432,KEN,2014,kiambu
+mortality,denominator,female,518.655409,KEN,2014,kiambu
+mortality,statistic,male,0.0889857262792209,KEN,2014,mombasa
+mortality,numerator,male,44.185142,KEN,2014,mombasa
+mortality,denominator,male,496.5419045,KEN,2014,mombasa
+mortality,statistic,female,0.0762074998431184,KEN,2014,mombasa
+mortality,numerator,female,39.525432,KEN,2014,mombasa
+mortality,denominator,female,518.655409,KEN,2014,mombasa
+mortality,statistic,male,0.0889857262792209,KEN,2014,kwale
+mortality,numerator,male,44.185142,KEN,2014,kwale
+mortality,denominator,male,496.5419045,KEN,2014,kwale
+mortality,statistic,female,0.0762074998431184,KEN,2014,kwale
+mortality,numerator,female,39.525432,KEN,2014,kwale
+mortality,denominator,female,518.655409,KEN,2014,kwale
+mortality,statistic,male,0.0889857262792209,KEN,2014,kilifi
+mortality,numerator,male,44.185142,KEN,2014,kilifi
+mortality,denominator,male,496.5419045,KEN,2014,kilifi
+mortality,statistic,female,0.0762074998431184,KEN,2014,kilifi
+mortality,numerator,female,39.525432,KEN,2014,kilifi
+mortality,denominator,female,518.655409,KEN,2014,kilifi
+mortality,statistic,male,0.0889857262792209,KEN,2014,tana river
+mortality,numerator,male,44.185142,KEN,2014,tana river
+mortality,denominator,male,496.5419045,KEN,2014,tana river
+mortality,statistic,female,0.0762074998431184,KEN,2014,tana river
+mortality,numerator,female,39.525432,KEN,2014,tana river
+mortality,denominator,female,518.655409,KEN,2014,tana river
+mortality,statistic,male,0.0889857262792209,KEN,2014,lamu
+mortality,numerator,male,44.185142,KEN,2014,lamu
+mortality,denominator,male,496.5419045,KEN,2014,lamu
+mortality,statistic,female,0.0762074998431184,KEN,2014,lamu
+mortality,numerator,female,39.525432,KEN,2014,lamu
+mortality,denominator,female,518.655409,KEN,2014,lamu
+mortality,statistic,male,0.0889857262792209,KEN,2014,taita taveta
+mortality,numerator,male,44.185142,KEN,2014,taita taveta
+mortality,denominator,male,496.5419045,KEN,2014,taita taveta
+mortality,statistic,female,0.0762074998431184,KEN,2014,taita taveta
+mortality,numerator,female,39.525432,KEN,2014,taita taveta
+mortality,denominator,female,518.655409,KEN,2014,taita taveta
+mortality,statistic,male,0.0889857262792209,KEN,2014,marsabit
+mortality,numerator,male,44.185142,KEN,2014,marsabit
+mortality,denominator,male,496.5419045,KEN,2014,marsabit
+mortality,statistic,female,0.0762074998431184,KEN,2014,marsabit
+mortality,numerator,female,39.525432,KEN,2014,marsabit
+mortality,denominator,female,518.655409,KEN,2014,marsabit
+mortality,statistic,male,0.0889857262792209,KEN,2014,isiolo
+mortality,numerator,male,44.185142,KEN,2014,isiolo
+mortality,denominator,male,496.5419045,KEN,2014,isiolo
+mortality,statistic,female,0.0762074998431184,KEN,2014,isiolo
+mortality,numerator,female,39.525432,KEN,2014,isiolo
+mortality,denominator,female,518.655409,KEN,2014,isiolo
+mortality,statistic,male,0.0889857262792209,KEN,2014,meru
+mortality,numerator,male,44.185142,KEN,2014,meru
+mortality,denominator,male,496.5419045,KEN,2014,meru
+mortality,statistic,female,0.0762074998431184,KEN,2014,meru
+mortality,numerator,female,39.525432,KEN,2014,meru
+mortality,denominator,female,518.655409,KEN,2014,meru
+mortality,statistic,male,0.0889857262792209,KEN,2014,tharaka
+mortality,numerator,male,44.185142,KEN,2014,tharaka
+mortality,denominator,male,496.5419045,KEN,2014,tharaka
+mortality,statistic,female,0.0762074998431184,KEN,2014,tharaka
+mortality,numerator,female,39.525432,KEN,2014,tharaka
+mortality,denominator,female,518.655409,KEN,2014,tharaka
+mortality,statistic,male,0.0889857262792209,KEN,2014,embu
+mortality,numerator,male,44.185142,KEN,2014,embu
+mortality,denominator,male,496.5419045,KEN,2014,embu
+mortality,statistic,female,0.0762074998431184,KEN,2014,embu
+mortality,numerator,female,39.525432,KEN,2014,embu
+mortality,denominator,female,518.655409,KEN,2014,embu
+mortality,statistic,male,0.0889857262792209,KEN,2014,kitui
+mortality,numerator,male,44.185142,KEN,2014,kitui
+mortality,denominator,male,496.5419045,KEN,2014,kitui
+mortality,statistic,female,0.0762074998431184,KEN,2014,kitui
+mortality,numerator,female,39.525432,KEN,2014,kitui
+mortality,denominator,female,518.655409,KEN,2014,kitui
+mortality,statistic,male,0.0889857262792209,KEN,2014,machakos
+mortality,numerator,male,44.185142,KEN,2014,machakos
+mortality,denominator,male,496.5419045,KEN,2014,machakos
+mortality,statistic,female,0.0762074998431184,KEN,2014,machakos
+mortality,numerator,female,39.525432,KEN,2014,machakos
+mortality,denominator,female,518.655409,KEN,2014,machakos
+mortality,statistic,male,0.0889857262792209,KEN,2014,makueni
+mortality,numerator,male,44.185142,KEN,2014,makueni
+mortality,denominator,male,496.5419045,KEN,2014,makueni
+mortality,statistic,female,0.0762074998431184,KEN,2014,makueni
+mortality,numerator,female,39.525432,KEN,2014,makueni
+mortality,denominator,female,518.655409,KEN,2014,makueni
+mortality,statistic,male,0.0889857262792209,KEN,2014,garissa
+mortality,numerator,male,44.185142,KEN,2014,garissa
+mortality,denominator,male,496.5419045,KEN,2014,garissa
+mortality,statistic,female,0.0762074998431184,KEN,2014,garissa
+mortality,numerator,female,39.525432,KEN,2014,garissa
+mortality,denominator,female,518.655409,KEN,2014,garissa
+mortality,statistic,male,0.0889857262792209,KEN,2014,wajir
+mortality,numerator,male,44.185142,KEN,2014,wajir
+mortality,denominator,male,496.5419045,KEN,2014,wajir
+mortality,statistic,female,0.0762074998431184,KEN,2014,wajir
+mortality,numerator,female,39.525432,KEN,2014,wajir
+mortality,denominator,female,518.655409,KEN,2014,wajir
+mortality,statistic,male,0.0889857262792209,KEN,2014,mandera
+mortality,numerator,male,44.185142,KEN,2014,mandera
+mortality,denominator,male,496.5419045,KEN,2014,mandera
+mortality,statistic,female,0.0762074998431184,KEN,2014,mandera
+mortality,numerator,female,39.525432,KEN,2014,mandera
+mortality,denominator,female,518.655409,KEN,2014,mandera
+mortality,statistic,male,0.0889857262792209,KEN,2014,siaya
+mortality,numerator,male,44.185142,KEN,2014,siaya
+mortality,denominator,male,496.5419045,KEN,2014,siaya
+mortality,statistic,female,0.0762074998431184,KEN,2014,siaya
+mortality,numerator,female,39.525432,KEN,2014,siaya
+mortality,denominator,female,518.655409,KEN,2014,siaya
+mortality,statistic,male,0.0889857262792209,KEN,2014,kisumu
+mortality,numerator,male,44.185142,KEN,2014,kisumu
+mortality,denominator,male,496.5419045,KEN,2014,kisumu
+mortality,statistic,female,0.0762074998431184,KEN,2014,kisumu
+mortality,numerator,female,39.525432,KEN,2014,kisumu
+mortality,denominator,female,518.655409,KEN,2014,kisumu
+mortality,statistic,male,0.0889857262792209,KEN,2014,migori
+mortality,numerator,male,44.185142,KEN,2014,migori
+mortality,denominator,male,496.5419045,KEN,2014,migori
+mortality,statistic,female,0.0762074998431184,KEN,2014,migori
+mortality,numerator,female,39.525432,KEN,2014,migori
+mortality,denominator,female,518.655409,KEN,2014,migori
+mortality,statistic,male,0.0889857262792209,KEN,2014,homa bay
+mortality,numerator,male,44.185142,KEN,2014,homa bay
+mortality,denominator,male,496.5419045,KEN,2014,homa bay
+mortality,statistic,female,0.0762074998431184,KEN,2014,homa bay
+mortality,numerator,female,39.525432,KEN,2014,homa bay
+mortality,denominator,female,518.655409,KEN,2014,homa bay
+mortality,statistic,male,0.0889857262792209,KEN,2014,kisii
+mortality,numerator,male,44.185142,KEN,2014,kisii
+mortality,denominator,male,496.5419045,KEN,2014,kisii
+mortality,statistic,female,0.0762074998431184,KEN,2014,kisii
+mortality,numerator,female,39.525432,KEN,2014,kisii
+mortality,denominator,female,518.655409,KEN,2014,kisii
+mortality,statistic,male,0.0889857262792209,KEN,2014,nyamira
+mortality,numerator,male,44.185142,KEN,2014,nyamira
+mortality,denominator,male,496.5419045,KEN,2014,nyamira
+mortality,statistic,female,0.0762074998431184,KEN,2014,nyamira
+mortality,numerator,female,39.525432,KEN,2014,nyamira
+mortality,denominator,female,518.655409,KEN,2014,nyamira
+mortality,statistic,male,0.0889857262792209,KEN,2014,turkana
+mortality,numerator,male,44.185142,KEN,2014,turkana
+mortality,denominator,male,496.5419045,KEN,2014,turkana
+mortality,statistic,female,0.0762074998431184,KEN,2014,turkana
+mortality,numerator,female,39.525432,KEN,2014,turkana
+mortality,denominator,female,518.655409,KEN,2014,turkana
+mortality,statistic,male,0.0889857262792209,KEN,2014,west pokot
+mortality,numerator,male,44.185142,KEN,2014,west pokot
+mortality,denominator,male,496.5419045,KEN,2014,west pokot
+mortality,statistic,female,0.0762074998431184,KEN,2014,west pokot
+mortality,numerator,female,39.525432,KEN,2014,west pokot
+mortality,denominator,female,518.655409,KEN,2014,west pokot
+mortality,statistic,male,0.0889857262792209,KEN,2014,samburu
+mortality,numerator,male,44.185142,KEN,2014,samburu
+mortality,denominator,male,496.5419045,KEN,2014,samburu
+mortality,statistic,female,0.0762074998431184,KEN,2014,samburu
+mortality,numerator,female,39.525432,KEN,2014,samburu
+mortality,denominator,female,518.655409,KEN,2014,samburu
+mortality,statistic,male,0.0889857262792209,KEN,2014,trans-nzoia
+mortality,numerator,male,44.185142,KEN,2014,trans-nzoia
+mortality,denominator,male,496.5419045,KEN,2014,trans-nzoia
+mortality,statistic,female,0.0762074998431184,KEN,2014,trans-nzoia
+mortality,numerator,female,39.525432,KEN,2014,trans-nzoia
+mortality,denominator,female,518.655409,KEN,2014,trans-nzoia
+mortality,statistic,male,0.0889857262792209,KEN,2014,baringo
+mortality,numerator,male,44.185142,KEN,2014,baringo
+mortality,denominator,male,496.5419045,KEN,2014,baringo
+mortality,statistic,female,0.0762074998431184,KEN,2014,baringo
+mortality,numerator,female,39.525432,KEN,2014,baringo
+mortality,denominator,female,518.655409,KEN,2014,baringo
+mortality,statistic,male,0.0889857262792209,KEN,2014,uasin gishu
+mortality,numerator,male,44.185142,KEN,2014,uasin gishu
+mortality,denominator,male,496.5419045,KEN,2014,uasin gishu
+mortality,statistic,female,0.0762074998431184,KEN,2014,uasin gishu
+mortality,numerator,female,39.525432,KEN,2014,uasin gishu
+mortality,denominator,female,518.655409,KEN,2014,uasin gishu
+mortality,statistic,male,0.0889857262792209,KEN,2014,elgeyo marak
+mortality,numerator,male,44.185142,KEN,2014,elgeyo marak
+mortality,denominator,male,496.5419045,KEN,2014,elgeyo marak
+mortality,statistic,female,0.0762074998431184,KEN,2014,elgeyo marak
+mortality,numerator,female,39.525432,KEN,2014,elgeyo marak
+mortality,denominator,female,518.655409,KEN,2014,elgeyo marak
+mortality,statistic,male,0.0889857262792209,KEN,2014,nandi
+mortality,numerator,male,44.185142,KEN,2014,nandi
+mortality,denominator,male,496.5419045,KEN,2014,nandi
+mortality,statistic,female,0.0762074998431184,KEN,2014,nandi
+mortality,numerator,female,39.525432,KEN,2014,nandi
+mortality,denominator,female,518.655409,KEN,2014,nandi
+mortality,statistic,male,0.0889857262792209,KEN,2014,laikipia
+mortality,numerator,male,44.185142,KEN,2014,laikipia
+mortality,denominator,male,496.5419045,KEN,2014,laikipia
+mortality,statistic,female,0.0762074998431184,KEN,2014,laikipia
+mortality,numerator,female,39.525432,KEN,2014,laikipia
+mortality,denominator,female,518.655409,KEN,2014,laikipia
+mortality,statistic,male,0.0889857262792209,KEN,2014,nakuru
+mortality,numerator,male,44.185142,KEN,2014,nakuru
+mortality,denominator,male,496.5419045,KEN,2014,nakuru
+mortality,statistic,female,0.0762074998431184,KEN,2014,nakuru
+mortality,numerator,female,39.525432,KEN,2014,nakuru
+mortality,denominator,female,518.655409,KEN,2014,nakuru
+mortality,statistic,male,0.0889857262792209,KEN,2014,narok
+mortality,numerator,male,44.185142,KEN,2014,narok
+mortality,denominator,male,496.5419045,KEN,2014,narok
+mortality,statistic,female,0.0762074998431184,KEN,2014,narok
+mortality,numerator,female,39.525432,KEN,2014,narok
+mortality,denominator,female,518.655409,KEN,2014,narok
+mortality,statistic,male,0.0889857262792209,KEN,2014,kajiado
+mortality,numerator,male,44.185142,KEN,2014,kajiado
+mortality,denominator,male,496.5419045,KEN,2014,kajiado
+mortality,statistic,female,0.0762074998431184,KEN,2014,kajiado
+mortality,numerator,female,39.525432,KEN,2014,kajiado
+mortality,denominator,female,518.655409,KEN,2014,kajiado
+mortality,statistic,male,0.0889857262792209,KEN,2014,kericho
+mortality,numerator,male,44.185142,KEN,2014,kericho
+mortality,denominator,male,496.5419045,KEN,2014,kericho
+mortality,statistic,female,0.0762074998431184,KEN,2014,kericho
+mortality,numerator,female,39.525432,KEN,2014,kericho
+mortality,denominator,female,518.655409,KEN,2014,kericho
+mortality,statistic,male,0.0889857262792209,KEN,2014,bomet
+mortality,numerator,male,44.185142,KEN,2014,bomet
+mortality,denominator,male,496.5419045,KEN,2014,bomet
+mortality,statistic,female,0.0762074998431184,KEN,2014,bomet
+mortality,numerator,female,39.525432,KEN,2014,bomet
+mortality,denominator,female,518.655409,KEN,2014,bomet
+mortality,statistic,male,0.0889857262792209,KEN,2014,kakamega
+mortality,numerator,male,44.185142,KEN,2014,kakamega
+mortality,denominator,male,496.5419045,KEN,2014,kakamega
+mortality,statistic,female,0.0762074998431184,KEN,2014,kakamega
+mortality,numerator,female,39.525432,KEN,2014,kakamega
+mortality,denominator,female,518.655409,KEN,2014,kakamega
+mortality,statistic,male,0.0889857262792209,KEN,2014,vihiga
+mortality,numerator,male,44.185142,KEN,2014,vihiga
+mortality,denominator,male,496.5419045,KEN,2014,vihiga
+mortality,statistic,female,0.0762074998431184,KEN,2014,vihiga
+mortality,numerator,female,39.525432,KEN,2014,vihiga
+mortality,denominator,female,518.655409,KEN,2014,vihiga
+mortality,statistic,male,0.0889857262792209,KEN,2014,bungoma
+mortality,numerator,male,44.185142,KEN,2014,bungoma
+mortality,denominator,male,496.5419045,KEN,2014,bungoma
+mortality,statistic,female,0.0762074998431184,KEN,2014,bungoma
+mortality,numerator,female,39.525432,KEN,2014,bungoma
+mortality,denominator,female,518.655409,KEN,2014,bungoma
+mortality,statistic,male,0.0889857262792209,KEN,2014,busia
+mortality,numerator,male,44.185142,KEN,2014,busia
+mortality,denominator,male,496.5419045,KEN,2014,busia
+mortality,statistic,female,0.0762074998431184,KEN,2014,busia
+mortality,numerator,female,39.525432,KEN,2014,busia
+mortality,denominator,female,518.655409,KEN,2014,busia
 education,statistic,male,0.638378317980282,KEN,2014,nairobi
 education,numerator,male,2551.719794,KEN,2014,nairobi
 education,denominator,male,3997.190572,KEN,2014,nairobi
 education,statistic,female,0.549221623992508,KEN,2014,nairobi
 education,numerator,female,1979.25345,KEN,2014,nairobi
 education,denominator,female,3603.742758,KEN,2014,nairobi
-education,statistic,male,0.422521189423085,KEN,2014,central
-education,numerator,male,1788.055915,KEN,2014,central
-education,denominator,male,4231.872767,KEN,2014,central
-education,statistic,female,0.329410566423078,KEN,2014,central
-education,numerator,female,1570.823452,KEN,2014,central
-education,denominator,female,4768.58854,KEN,2014,central
-education,statistic,male,0.351364203882169,KEN,2014,coast
-education,numerator,male,1152.678413,KEN,2014,coast
-education,denominator,male,3280.580094,KEN,2014,coast
-education,statistic,female,0.209681623346273,KEN,2014,coast
-education,numerator,female,667.455307,KEN,2014,coast
-education,denominator,female,3183.184565,KEN,2014,coast
-education,statistic,male,0.273363777836318,KEN,2014,eastern
-education,numerator,male,1314.719291,KEN,2014,eastern
-education,denominator,male,4809.412942,KEN,2014,eastern
-education,statistic,female,0.184175948146406,KEN,2014,eastern
-education,numerator,female,972.781637,KEN,2014,eastern
-education,denominator,female,5281.806049,KEN,2014,eastern
-education,statistic,male,0.131884736043521,KEN,2014,north eastern
-education,numerator,male,85.976372,KEN,2014,north eastern
-education,denominator,male,651.905403,KEN,2014,north eastern
-education,statistic,female,0.0453363397825473,KEN,2014,north eastern
-education,numerator,female,32.288685,KEN,2014,north eastern
-education,denominator,female,712.203172,KEN,2014,north eastern
-education,statistic,male,0.363806749994433,KEN,2014,nyanza
-education,numerator,male,1299.801151,KEN,2014,nyanza
-education,denominator,male,3572.779095,KEN,2014,nyanza
-education,statistic,female,0.208997019509111,KEN,2014,nyanza
-education,numerator,female,926.085138,KEN,2014,nyanza
-education,denominator,female,4431.092559,KEN,2014,nyanza
-education,statistic,male,0.340129223195126,KEN,2014,rift valley
-education,numerator,male,2694.321586,KEN,2014,rift valley
-education,denominator,male,7921.464556,KEN,2014,rift valley
-education,statistic,female,0.239900162730052,KEN,2014,rift valley
-education,numerator,female,2036.665632,KEN,2014,rift valley
-education,denominator,female,8489.638393,KEN,2014,rift valley
-education,statistic,male,0.283525615950484,KEN,2014,western
-education,numerator,male,853.262743,KEN,2014,western
-education,denominator,male,3009.473201,KEN,2014,western
-education,statistic,female,0.172939632078911,KEN,2014,western
-education,numerator,female,625.59985,KEN,2014,western
-education,denominator,female,3617.446403,KEN,2014,western
+education,statistic,male,0.265939436003662,KEN,2014,nyandarua
+education,numerator,male,127.581576,KEN,2014,nyandarua
+education,denominator,male,479.739214,KEN,2014,nyandarua
+education,statistic,female,0.200841805526948,KEN,2014,nyandarua
+education,numerator,female,113.18008,KEN,2014,nyandarua
+education,denominator,female,563.528493,KEN,2014,nyandarua
+education,statistic,male,0.473309036035314,KEN,2014,nyeri
+education,numerator,male,301.495541,KEN,2014,nyeri
+education,denominator,male,636.995109,KEN,2014,nyeri
+education,statistic,female,0.366484764335818,KEN,2014,nyeri
+education,numerator,female,285.140163,KEN,2014,nyeri
+education,denominator,female,778.040974,KEN,2014,nyeri
+education,statistic,male,0.288226913145635,KEN,2014,kirinyaga
+education,numerator,male,144.443481,KEN,2014,kirinyaga
+education,denominator,male,501.145016,KEN,2014,kirinyaga
+education,statistic,female,0.22590198044242,KEN,2014,kirinyaga
+education,numerator,female,129.983775,KEN,2014,kirinyaga
+education,denominator,female,575.399006,KEN,2014,kirinyaga
+education,statistic,male,0.315529242448919,KEN,2014,muranga
+education,numerator,male,255.505636,KEN,2014,muranga
+education,denominator,male,809.768483,KEN,2014,muranga
+education,statistic,female,0.223712795118096,KEN,2014,muranga
+education,numerator,female,217.536475,KEN,2014,muranga
+education,denominator,female,972.391744,KEN,2014,muranga
+education,statistic,male,0.531546625412609,KEN,2014,kiambu
+education,numerator,male,959.029681,KEN,2014,kiambu
+education,denominator,male,1804.224945,KEN,2014,kiambu
+education,statistic,female,0.439000918037994,KEN,2014,kiambu
+education,numerator,female,824.982959,KEN,2014,kiambu
+education,denominator,female,1879.228323,KEN,2014,kiambu
+education,statistic,male,0.455214484651511,KEN,2014,mombasa
+education,numerator,male,543.510296,KEN,2014,mombasa
+education,denominator,male,1193.965294,KEN,2014,mombasa
+education,statistic,female,0.371322227507312,KEN,2014,mombasa
+education,numerator,female,334.012574,KEN,2014,mombasa
+education,denominator,female,899.522165,KEN,2014,mombasa
+education,statistic,male,0.249951699883439,KEN,2014,kwale
+education,numerator,male,148.235749,KEN,2014,kwale
+education,denominator,male,593.057575,KEN,2014,kwale
+education,statistic,female,0.128026418781507,KEN,2014,kwale
+education,numerator,female,83.966835,KEN,2014,kwale
+education,denominator,female,655.855532,KEN,2014,kwale
+education,statistic,male,0.323632368792759,KEN,2014,kilifi
+education,numerator,male,305.389529,KEN,2014,kilifi
+education,denominator,male,943.630979,KEN,2014,kilifi
+education,statistic,female,0.15154188600599,KEN,2014,kilifi
+education,numerator,female,162.784186,KEN,2014,kilifi
+education,denominator,female,1074.18609,KEN,2014,kilifi
+education,statistic,male,0.20459406382152,KEN,2014,tana river
+education,numerator,male,39.258704,KEN,2014,tana river
+education,denominator,male,191.885841,KEN,2014,tana river
+education,statistic,female,0.0683039388631429,KEN,2014,tana river
+education,numerator,female,14.197832,KEN,2014,tana river
+education,denominator,female,207.862566,KEN,2014,tana river
+education,statistic,male,0.229826838563757,KEN,2014,lamu
+education,numerator,male,22.165683,KEN,2014,lamu
+education,denominator,male,96.445146,KEN,2014,lamu
+education,statistic,female,0.125529328837001,KEN,2014,lamu
+education,numerator,female,12.699933,KEN,2014,lamu
+education,denominator,female,101.171042,KEN,2014,lamu
+education,statistic,male,0.359786535733815,KEN,2014,taita taveta
+education,numerator,male,94.118452,KEN,2014,taita taveta
+education,denominator,male,261.595259,KEN,2014,taita taveta
+education,statistic,female,0.244468861551487,KEN,2014,taita taveta
+education,numerator,female,59.793947,KEN,2014,taita taveta
+education,denominator,female,244.58717,KEN,2014,taita taveta
+education,statistic,male,0.243798959994237,KEN,2014,marsabit
+education,numerator,male,30.569454,KEN,2014,marsabit
+education,denominator,male,125.387959,KEN,2014,marsabit
+education,statistic,female,0.0581319106539282,KEN,2014,marsabit
+education,numerator,female,7.501924,KEN,2014,marsabit
+education,denominator,female,129.050016,KEN,2014,marsabit
+education,statistic,male,0.237978624136933,KEN,2014,isiolo
+education,numerator,male,22.983966,KEN,2014,isiolo
+education,denominator,male,96.57996,KEN,2014,isiolo
+education,statistic,female,0.124353093323947,KEN,2014,isiolo
+education,numerator,female,13.772506,KEN,2014,isiolo
+education,denominator,female,110.753224,KEN,2014,isiolo
+education,statistic,male,0.249263767332013,KEN,2014,meru
+education,numerator,male,323.397685,KEN,2014,meru
+education,denominator,male,1297.411527,KEN,2014,meru
+education,statistic,female,0.185422365330226,KEN,2014,meru
+education,numerator,female,251.891502,KEN,2014,meru
+education,denominator,female,1358.474214,KEN,2014,meru
+education,statistic,male,0.226194046151712,KEN,2014,tharaka
+education,numerator,male,73.076375,KEN,2014,tharaka
+education,denominator,male,323.069401,KEN,2014,tharaka
+education,statistic,female,0.184088572927476,KEN,2014,tharaka
+education,numerator,female,66.388064,KEN,2014,tharaka
+education,denominator,female,360.631097,KEN,2014,tharaka
+education,statistic,male,0.263070153117367,KEN,2014,embu
+education,numerator,male,134.011086,KEN,2014,embu
+education,denominator,male,509.411974,KEN,2014,embu
+education,statistic,female,0.233811990168279,KEN,2014,embu
+education,numerator,female,129.73766,KEN,2014,embu
+education,denominator,female,554.880269,KEN,2014,embu
+education,statistic,male,0.194141179400137,KEN,2014,kitui
+education,numerator,male,145.686418,KEN,2014,kitui
+education,denominator,male,750.414819,KEN,2014,kitui
+education,statistic,female,0.116010866391402,KEN,2014,kitui
+education,numerator,female,103.118949,KEN,2014,kitui
+education,denominator,female,888.873191,KEN,2014,kitui
+education,statistic,male,0.386215152874297,KEN,2014,machakos
+education,numerator,male,391.756335,KEN,2014,machakos
+education,denominator,male,1014.347397,KEN,2014,machakos
+education,statistic,female,0.237303128751999,KEN,2014,machakos
+education,numerator,female,255.795635,KEN,2014,machakos
+education,denominator,female,1077.927781,KEN,2014,machakos
+education,statistic,male,0.278927234079717,KEN,2014,makueni
+education,numerator,male,193.237972,KEN,2014,makueni
+education,denominator,male,692.789905,KEN,2014,makueni
+education,statistic,female,0.180444912015808,KEN,2014,makueni
+education,numerator,female,144.575397,KEN,2014,makueni
+education,denominator,female,801.216257,KEN,2014,makueni
+education,statistic,male,0.175108143843006,KEN,2014,garissa
+education,numerator,male,46.368208,KEN,2014,garissa
+education,denominator,male,264.797553,KEN,2014,garissa
+education,statistic,female,0.0637237053989098,KEN,2014,garissa
+education,numerator,female,17.763422,KEN,2014,garissa
+education,denominator,female,278.756891,KEN,2014,garissa
+education,statistic,male,0.0937305053743257,KEN,2014,wajir
+education,numerator,male,21.386814,KEN,2014,wajir
+education,denominator,male,228.173463,KEN,2014,wajir
+education,statistic,female,0.0264209580842157,KEN,2014,wajir
+education,numerator,female,6.190482,KEN,2014,wajir
+education,denominator,female,234.30195,KEN,2014,wajir
+education,statistic,male,0.114646995807144,KEN,2014,mandera
+education,numerator,male,18.22135,KEN,2014,mandera
+education,denominator,male,158.934387,KEN,2014,mandera
+education,statistic,female,0.0418529664296595,KEN,2014,mandera
+education,numerator,female,8.334781,KEN,2014,mandera
+education,denominator,female,199.144331,KEN,2014,mandera
+education,statistic,male,0.287247228212765,KEN,2014,siaya
+education,numerator,male,152.041825,KEN,2014,siaya
+education,denominator,male,529.3065,KEN,2014,siaya
+education,statistic,female,0.147123754064633,KEN,2014,siaya
+education,numerator,female,104.091987,KEN,2014,siaya
+education,denominator,female,707.513125,KEN,2014,siaya
+education,statistic,male,0.437226547561587,KEN,2014,kisumu
+education,numerator,male,339.755935,KEN,2014,kisumu
+education,denominator,male,777.07069,KEN,2014,kisumu
+education,statistic,female,0.321138408679738,KEN,2014,kisumu
+education,numerator,female,275.654431,KEN,2014,kisumu
+education,denominator,female,858.366435,KEN,2014,kisumu
+education,statistic,male,0.209392966206976,KEN,2014,migori
+education,numerator,male,109.421672,KEN,2014,migori
+education,denominator,male,522.56613,KEN,2014,migori
+education,statistic,female,0.0846213981513226,KEN,2014,migori
+education,numerator,female,56.896267,KEN,2014,migori
+education,denominator,female,672.362644,KEN,2014,migori
+education,statistic,male,0.279542824276627,KEN,2014,homa bay
+education,numerator,male,187.726961,KEN,2014,homa bay
+education,denominator,male,671.549919,KEN,2014,homa bay
+education,statistic,female,0.111844144354643,KEN,2014,homa bay
+education,numerator,female,100.365014,KEN,2014,homa bay
+education,denominator,female,897.364941,KEN,2014,homa bay
+education,statistic,male,0.43758784789451,KEN,2014,kisii
+education,numerator,male,320.118313,KEN,2014,kisii
+education,denominator,male,731.552109,KEN,2014,kisii
+education,statistic,female,0.293897433821443,KEN,2014,kisii
+education,numerator,female,266.034671,KEN,2014,kisii
+education,denominator,female,905.195624,KEN,2014,kisii
+education,statistic,male,0.559781491206388,KEN,2014,nyamira
+education,numerator,male,190.736445,KEN,2014,nyamira
+education,denominator,male,340.733747,KEN,2014,nyamira
+education,statistic,female,0.315260022559135,KEN,2014,nyamira
+education,numerator,female,123.042768,KEN,2014,nyamira
+education,denominator,female,390.28979,KEN,2014,nyamira
+education,statistic,male,0.104645025966829,KEN,2014,turkana
+education,numerator,male,28.027316,KEN,2014,turkana
+education,denominator,male,267.832281,KEN,2014,turkana
+education,statistic,female,0.0451191729122377,KEN,2014,turkana
+education,numerator,female,19.07496,KEN,2014,turkana
+education,denominator,female,422.768388,KEN,2014,turkana
+education,statistic,male,0.159810376385715,KEN,2014,west pokot
+education,numerator,male,45.864215,KEN,2014,west pokot
+education,denominator,male,286.991471,KEN,2014,west pokot
+education,statistic,female,0.0667930397863892,KEN,2014,west pokot
+education,numerator,female,21.225501,KEN,2014,west pokot
+education,denominator,female,317.780132,KEN,2014,west pokot
+education,statistic,male,0.252815576872872,KEN,2014,samburu
+education,numerator,male,26.998853,KEN,2014,samburu
+education,denominator,male,106.79268,KEN,2014,samburu
+education,statistic,female,0.0914766052020819,KEN,2014,samburu
+education,numerator,female,11.446135,KEN,2014,samburu
+education,denominator,female,125.126364,KEN,2014,samburu
+education,statistic,male,0.286843649298153,KEN,2014,trans-nzoia
+education,numerator,male,218.423907,KEN,2014,trans-nzoia
+education,denominator,male,761.473742,KEN,2014,trans-nzoia
+education,statistic,female,0.166701925518463,KEN,2014,trans-nzoia
+education,numerator,female,130.537784,KEN,2014,trans-nzoia
+education,denominator,female,783.061045,KEN,2014,trans-nzoia
+education,statistic,male,0.293838797827772,KEN,2014,baringo
+education,numerator,male,100.618673,KEN,2014,baringo
+education,denominator,male,342.42814,KEN,2014,baringo
+education,statistic,female,0.209481417318942,KEN,2014,baringo
+education,numerator,female,73.98501,KEN,2014,baringo
+education,denominator,female,353.181733,KEN,2014,baringo
+education,statistic,male,0.398536164782792,KEN,2014,uasin gishu
+education,numerator,male,357.510901,KEN,2014,uasin gishu
+education,denominator,male,897.060123,KEN,2014,uasin gishu
+education,statistic,female,0.313973354807205,KEN,2014,uasin gishu
+education,numerator,female,262.537918,KEN,2014,uasin gishu
+education,denominator,female,836.178975,KEN,2014,uasin gishu
+education,statistic,male,0.348288034559255,KEN,2014,elgeyo marak
+education,numerator,male,86.890708,KEN,2014,elgeyo marak
+education,denominator,male,249.479452,KEN,2014,elgeyo marak
+education,statistic,female,0.263918864695863,KEN,2014,elgeyo marak
+education,numerator,female,75.019932,KEN,2014,elgeyo marak
+education,denominator,female,284.253769,KEN,2014,elgeyo marak
+education,statistic,male,0.29878948054205,KEN,2014,nandi
+education,numerator,male,195.232869,KEN,2014,nandi
+education,denominator,male,653.412793,KEN,2014,nandi
+education,statistic,female,0.189933912420129,KEN,2014,nandi
+education,numerator,female,125.235064,KEN,2014,nandi
+education,denominator,female,659.361261,KEN,2014,nandi
+education,statistic,male,0.363537339342873,KEN,2014,laikipia
+education,numerator,male,117.815607,KEN,2014,laikipia
+education,denominator,male,324.081172,KEN,2014,laikipia
+education,statistic,female,0.283166132461468,KEN,2014,laikipia
+education,numerator,female,105.742156,KEN,2014,laikipia
+education,denominator,female,373.427977,KEN,2014,laikipia
+education,statistic,male,0.39379744668985,KEN,2014,nakuru
+education,numerator,male,600.943681,KEN,2014,nakuru
+education,denominator,male,1526.022289,KEN,2014,nakuru
+education,statistic,female,0.312936964134233,KEN,2014,nakuru
+education,numerator,female,517.380838,KEN,2014,nakuru
+education,denominator,female,1653.306887,KEN,2014,nakuru
+education,statistic,male,0.244063660420394,KEN,2014,narok
+education,numerator,male,156.117207,KEN,2014,narok
+education,denominator,male,639.65773,KEN,2014,narok
+education,statistic,female,0.182295676633973,KEN,2014,narok
+education,numerator,female,120.458855,KEN,2014,narok
+education,denominator,female,660.788326,KEN,2014,narok
+education,statistic,male,0.513936473376092,KEN,2014,kajiado
+education,numerator,male,339.141395,KEN,2014,kajiado
+education,denominator,male,659.889719,KEN,2014,kajiado
+education,statistic,female,0.395466489177888,KEN,2014,kajiado
+education,numerator,female,265.880798,KEN,2014,kajiado
+education,denominator,female,672.321942,KEN,2014,kajiado
+education,statistic,male,0.377066302001896,KEN,2014,kericho
+education,numerator,male,216.674591,KEN,2014,kericho
+education,denominator,male,574.632604,KEN,2014,kericho
+education,statistic,female,0.266102192760308,KEN,2014,kericho
+education,numerator,female,163.723442,KEN,2014,kericho
+education,denominator,female,615.265287,KEN,2014,kericho
+education,statistic,male,0.323030420143814,KEN,2014,bomet
+education,numerator,male,204.061663,KEN,2014,bomet
+education,denominator,male,631.71036,KEN,2014,bomet
+education,statistic,female,0.197071541149534,KEN,2014,bomet
+education,numerator,female,144.417239,KEN,2014,bomet
+education,denominator,female,732.816307,KEN,2014,bomet
+education,statistic,male,0.277855645104918,KEN,2014,kakamega
+education,numerator,male,305.007619,KEN,2014,kakamega
+education,denominator,male,1097.719713,KEN,2014,kakamega
+education,statistic,female,0.178177095566843,KEN,2014,kakamega
+education,numerator,female,231.339392,KEN,2014,kakamega
+education,denominator,female,1298.367735,KEN,2014,kakamega
+education,statistic,male,0.264353500034702,KEN,2014,vihiga
+education,numerator,male,93.303534,KEN,2014,vihiga
+education,denominator,male,352.949872,KEN,2014,vihiga
+education,statistic,female,0.150275536524687,KEN,2014,vihiga
+education,numerator,female,70.0102,KEN,2014,vihiga
+education,denominator,female,465.878889,KEN,2014,vihiga
+education,statistic,male,0.321908777962426,KEN,2014,bungoma
+education,numerator,male,337.511408,KEN,2014,bungoma
+education,denominator,male,1048.469104,KEN,2014,bungoma
+education,statistic,female,0.208894865268263,KEN,2014,bungoma
+education,numerator,female,258.883474,KEN,2014,bungoma
+education,denominator,female,1239.300323,KEN,2014,bungoma
+education,statistic,male,0.230123927029258,KEN,2014,busia
+education,numerator,male,117.440182,KEN,2014,busia
+education,denominator,male,510.334512,KEN,2014,busia
+education,statistic,female,0.106477996292605,KEN,2014,busia
+education,numerator,female,65.366784,KEN,2014,busia
+education,denominator,female,613.899456,KEN,2014,busia
 registration,statistic,male,0.937857443178623,MMR,2016,magway
 registration,numerator,male,171.350507,MMR,2016,magway
 registration,denominator,male,182.704214,MMR,2016,magway
