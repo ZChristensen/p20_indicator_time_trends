@@ -211,6 +211,18 @@ dataIndex <- 1
 # data$v024=data$shdistrict
 # save(data,file="D:/DHSauto/rwbr70fl.RData")
 
+# Cameroon DHS disaggregated Yaounde from the Centre Region and Douala from the Littoral Region where they are classified for adminstrative purposes
+# load("D:/DHSauto/cmpr61fl.RData")
+# data$hv024[which(data$hv024==3)]=6
+# data$hv024[which(data$hv024==12)]=2
+# save(data,file="D:/DHSauto/cmpr61fl.RData")
+# rm(data)
+# load("D:/DHSauto/cmbr61fl.RData")
+# data$v024[which(data$v024==3)]=6
+# data$v024[which(data$v024==12)]=2
+# save(data,file="D:/DHSauto/cmbr61fl.RData")
+
+
 
 
 # Loop through every povcalcut
@@ -621,5 +633,6 @@ setnames(educ, "value", "education")
 data.wide=merge(reg,U5M, c("region","iso3","survey_year"))
 # data.wide=merge(data.wide, stunt, c("region","iso3","survey_year"))
 data.wide=merge(data.wide, educ, c("region","iso3","survey_year"))
+data.wide=subset(data.wide, region!="")
 
 fwrite(data.wide,"data/historical_dhs_sub.csv")
