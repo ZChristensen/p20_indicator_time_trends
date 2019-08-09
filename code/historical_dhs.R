@@ -42,7 +42,7 @@ dhsmeta=dhsmeta[which(!is.na(dhsmeta$dhs_cc)),]
 
 dhsmeta2 <- unique(dhsmeta[,c("CountryName","surveyyr","filename")])
 
-variables <- c("birth.registration","u5.mortality","stunting","education")
+variables <- c("birth.registration","u5.mortality","education")
 grid = as.data.table(expand.grid(filename=unique(dhsmeta2$filename), variable = variables))
 
 dhsmeta2 <- merge(grid, dhsmeta2, all=T)
@@ -74,7 +74,7 @@ label.region=function(region.vals,region.labs){
 rm(grid,dhsmeta,dhsmeta2)
 gc()
 
-####Run function####
+
 setwd(wd2)
 
 missing.br = c(
@@ -113,20 +113,28 @@ last_filename <- ""
 dataList <- list()
 dataIndex <- 1
 
-# load("UGHR7BFL.RData")
+# load("D:/DHSauto/UGHR7BFL.RData")
 # dict=fread("C:/Users/zachc/Box Sync/Subnational paper - Q1 2019/Uganda/input/ug_region_dictionary.csv")
 # setnames(dict,"hh_id","hhid")
+# colnames(data)[29] = "hv024"
 # data$hhid=as.numeric(data$hhid)
+# dict$hhid=as.numeric(dict$hhid)
 # data=merge(dict,data,by=c("hhid"))
-# setnames(data,"hv024","dhs.region")
-# setnames(data,"adm1","hv024")
+# setnames(data,"hv024","old.region")
+# setnames(data,"dhs.region","hv024")
+# dict=data[,c("hv002","hv001","hv024")]
+# dict=unique(dict)
 # save(data,file="UGHR7BFL.RData")
-# load("UGPR7BFL.RData")
-# data$hhid=as.numeric(data$hhid)
-# data=merge(dict,data,by=c("hhid"))
-# setnames(data,"hv024","dhs.region")
-# setnames(data,"adm1","hv024")
-# save(data,file="UGPR7BFL.RData")
+# rm(data)
+# load("D:/DHSauto/ugbr7bfl.RData")
+# setnames(dict,"hv002","v002")
+# setnames(dict,"hv001","v001")
+# data$v002=as.numeric(data$v002)
+# dict$v002=as.numeric(dict$v002)
+# setnames(data,"v024","old.region")
+# data=merge(dict,data,by=c("v002","v001"))
+# setnames(data,"hv024","v024")
+# save(data,file="D:/DHSauto/UGBR7BFL.RData")
 # 
 # 
 # load("D:/DHSauto/nphr7hfl.RData")
@@ -135,10 +143,12 @@ dataIndex <- 1
 # data=merge(data,dict,by=c("hv001"))
 # setnames(data,"dhs.region","hv024")
 # save(data,file="D:/DHSauto/nphr7hfl.RData")
-# load("D:/DHSauto/nppr7hfl.RData")
-# data=merge(data,dict,by=c("hv001"))
-# setnames(data,"dhs.region","hv024")
-# save(data,file="D:/DHSauto/nppr7hfl.RData")
+# load("D:/DHSauto/npbr7hfl.RData")
+# setnames(dict,"hv001","v001")
+# data=merge(data,dict,by=c("v001"))
+# data$old.regions=data$v024
+# data$v024=data$region
+# save(data,file="D:/DHSauto/npbr7hfl.RData")
 # 
 # 
 # load("D:/DHSauto/mwpr7hfl.RData")
@@ -225,7 +235,7 @@ dataIndex <- 1
 
 
 
-# Loop through every povcalcut
+#### Loop through every povcalcut####
 for(i in 1:nrow(povcalcuts)){
   povcal_subset = povcalcuts[i,]
   # setTxtProgressBar(pb, i-1)
@@ -386,6 +396,7 @@ for(i in 1:nrow(povcalcuts)){
   for(this.region in regions){
     pr=copy(pr.backup)
     br=copy(br.backup)
+    message(this.region)
     pr=subset(pr,this.region==region)
     if("region" %in% names(br)){
       br=subset(br,this.region==region)
@@ -442,73 +453,6 @@ for(i in 1:nrow(povcalcuts)){
                 reg.f.stat,reg.f.numerator,reg.f.denominator)
       )
     }
-    
-    # Stunting
-    #  if(variable == "stunting"){
-    #   #message("Stunting")
-    #   if(!(typeof(pr$child.height.age)=="NULL")){
-    #     pr$child.height.age[which(pr$child.height.age>80)] <- NA
-    #     pr$stunting <- NA
-    #     pr$stunting[which(pr$child.height.age > (-6) & pr$child.height.age<= (-3))] <- 1
-    #     pr$stunting[which(pr$child.height.age > (-3) & pr$child.height.age<= (-2))] <- 1
-    #     pr$stunting[which(pr$child.height.age > (-2) & pr$child.height.age< (6))] <- 0
-    #     dsn = svydesign(
-    #       data=pr
-    #       ,ids=~1
-    #       ,weights=~weights
-    #     )
-    #   } else {
-    #     if(!(typeof(br$child.height.age)=="NULL")){
-    #       br$child.height.age[which(br$child.height.age>80)] <- NA
-    #       br$stunting <- NA
-    #       br$stunting[which(br$child.height.age > (-6) & br$child.height.age<= (-3))] <- 1
-    #       br$stunting[which(br$child.height.age > (-3) & br$child.height.age<= (-2))] <- 1
-    #       br$stunting[which(br$child.height.age > (-2) & br$child.height.age< (6))] <- 0
-    #       dsn = svydesign(
-    #         data=br
-    #         ,ids=~1
-    #         ,weights=~weights
-    #       )
-    #     } else {
-    #       br$stunting <- NA
-    #       dsn = svydesign(
-    #         data=rbind(br,br) #Quick and dirty fix for when br is missing
-    #         ,ids=~1
-    #         ,weights = ~1
-    #       )
-    #     }
-    #   }
-    #   stunting.tab = svytable(~stunting+sex,dsn)
-    #   if("1" %in% rownames(stunting.tab)){
-    #     stunting.m = stunting.tab["1","1"]
-    #     stunting.f = stunting.tab["1","2"]
-    #   }else{
-    #     stunting.m = NA
-    #     stunting.f = NA
-    #   }
-    #   if("0" %in% rownames(stunting.tab)){
-    #     non.stunting.m = stunting.tab["0","1"]
-    #     non.stunting.f = stunting.tab["0","2"]
-    #   }else{
-    #     non.stunting.m = NA
-    #     non.stunting.f = NA
-    #   }
-    #   stunting.m.numerator = stunting.m
-    #   stunting.m.denominator = sum(stunting.m,non.stunting.m,na.rm=T)
-    #   stunting.m.stat = stunting.m.numerator/stunting.m.denominator
-    #   stunting.f.numerator = stunting.f
-    #   stunting.f.denominator = sum(stunting.f,non.stunting.f,na.rm=T)
-    #   stunting.f.stat = stunting.f.numerator/stunting.f.denominator
-    #   
-    #   
-    #   dat = data.frame(
-    #     variable=c(rep("stunting",6)),
-    #     type=rep(c("statistic","numerator","denominator"),2),
-    #     sex=rep(c(rep("male",3),rep("female",3)),1),
-    #     value=c(stunting.m.stat,stunting.m.numerator,stunting.m.denominator,
-    #             stunting.f.stat,stunting.f.numerator,stunting.f.denominator)
-    #   )
-    # }
     
     #Mortality
     if(variable == "u5.mortality"){
