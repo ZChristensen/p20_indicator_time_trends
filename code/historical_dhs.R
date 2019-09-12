@@ -78,6 +78,7 @@ not.dhs = c(
   "UGHR6ADT"
 )
 povcalcuts = subset(povcalcuts,filename %!in% not.dhs)
+povcalcuts$filename[which(povcalcuts$filename=="GNHR52DT")] = "GNHR53DT"
 
 rm(grid,dhsmeta,dhsmeta2)
 gc()
