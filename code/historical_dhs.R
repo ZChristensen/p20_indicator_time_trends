@@ -49,7 +49,9 @@ isos = povcalcuts[,c("CountryName","CountryCode")]
 names(isos)[which(names(isos)=="CountryCode")] <- "iso3"
 isos=unique(isos)
 af=data.frame(CountryName="Afghanistan",iso3="AFG")
+kh=data.frame(CountryName="Cambodia",iso3="KHM")
 isos=rbind(isos,af)
+isos = rbind(isos,kh)
 povcalcuts <- join(dhsmeta2,isos,by=c("CountryName"))
 
 keep <- c("iso3","surveyyr","filename","variable")
