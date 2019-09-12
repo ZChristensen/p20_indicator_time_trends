@@ -83,6 +83,7 @@ povcalcuts$filename[which(povcalcuts$filename=="IDHR51DT")] = "IDHR52DT"
 povcalcuts$filename[which(povcalcuts$filename=="NMHR51DT")] = "NMHR52DT"
 povcalcuts$filename[which(povcalcuts$filename=="PKHR52DT")] = "PKHR53DT"
 povcalcuts$filename[which(povcalcuts$filename=="PEHR5ADT")] = "PEHR51DT"
+povcalcuts$filename[which(povcalcuts$filename=="PHHR61DT")] = "PHHR62DT"
 
 
 povcalcuts = subset(povcalcuts,filename!="IAHR74DT")
@@ -111,6 +112,9 @@ for(i in 1:nrow(povcalcuts)){
   if(exists("pr")){rm(pr)}
   pr_patha <- paste0(country,"pr",phase)
   pr_path <- paste0(tolower(pr_patha),"fl.RData")
+  if(file.exists(pr_path)){
+    
+  
   load(pr_path)
   pr <- as.data.table(data)
   remove(data)
@@ -189,7 +193,10 @@ for(i in 1:nrow(povcalcuts)){
   dat$survey_year = povcal_subset$surveyyr
   dataList[[dataIndex]] <- dat
   dataIndex <- dataIndex + 1
-
+  }else # File doesn't exist
+  {
+      message(paste("FILE DOES NOT EXIST", pr_path))
+    }
 }
 
 
