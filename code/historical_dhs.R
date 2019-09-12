@@ -84,6 +84,9 @@ povcalcuts$filename[which(povcalcuts$filename=="NMHR51DT")] = "NMHR52DT"
 povcalcuts$filename[which(povcalcuts$filename=="PKHR52DT")] = "PKHR53DT"
 povcalcuts$filename[which(povcalcuts$filename=="PEHR5ADT")] = "PEHR51DT"
 povcalcuts$filename[which(povcalcuts$filename=="PHHR61DT")] = "PHHR62DT"
+povcalcuts$filename[which(povcalcuts$filename=="TJHR70DT")] = "TJHR71DT"
+povcalcuts$filename[which(povcalcuts$filename=="VNHR52DT")] = "VNHR53DT"
+povcalcuts$filename[which(povcalcuts$filename=="ZMHR42DT")] = "ZMHR43DT"
 
 
 povcalcuts = subset(povcalcuts,filename!="IAHR74DT")
