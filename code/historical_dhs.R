@@ -64,7 +64,7 @@ regions = unique(pop[,c("iso3c","region")])
 names(regions) = c("iso3","region")
 
 povcalcuts = merge(povcalcuts,regions,by="iso3")
-povcalcuts = subset(povcalcuts, region %in% c("Sub-Saharan Africa", "Middle East & North Africa"))
+# povcalcuts = subset(povcalcuts, region %in% c("Sub-Saharan Africa", "Middle East & North Africa"))
 
 not.dhs = c(
   "CIHR50DT",
@@ -192,4 +192,4 @@ save(data.total,file="data/dhs_crvs.RData")
 
 data.total = merge(data.total,regions,by="iso3")
 
-fwrite(data.total,"data/ssa_mena_dhs_crvs.csv")
+fwrite(data.total,"data/dhs_crvs.csv")
