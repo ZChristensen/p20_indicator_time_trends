@@ -188,7 +188,7 @@ for(i in 1:nrow(povcalcuts)){
 close(pb)
 data.total <- rbindlist(dataList)
 setwd(wd)
-save(data.total,file="data/dhs_crvs.RData")
+# save(data.total,file="data/dhs_crvs.RData")
 
 data.total = merge(data.total,regions,by="iso3")
 
