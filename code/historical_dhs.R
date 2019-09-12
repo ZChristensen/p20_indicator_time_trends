@@ -71,7 +71,6 @@ not.dhs = c(
   "GHHR7ADT",
   "MZHR51DT",
   "NGHR72DT",
-  "ZAHR33DT",
   "TZHR4ADT",
   "TZHR51DT",
   "TZHR6ADT",
@@ -86,6 +85,7 @@ povcalcuts$filename[which(povcalcuts$filename=="PEHR5ADT")] = "PEHR51DT"
 povcalcuts$filename[which(povcalcuts$filename=="PHHR61DT")] = "PHHR62DT"
 povcalcuts$filename[which(povcalcuts$filename=="TJHR70DT")] = "TJHR71DT"
 povcalcuts$filename[which(povcalcuts$filename=="VNHR52DT")] = "VNHR53DT"
+povcalcuts$filename[which(povcalcuts$filename=="ZAHR33DT")] = "ZAHR31DT"
 povcalcuts$filename[which(povcalcuts$filename=="ZMHR42DT")] = "ZMHR43DT"
 
 
