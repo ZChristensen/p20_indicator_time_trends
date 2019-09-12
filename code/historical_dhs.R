@@ -81,6 +81,7 @@ povcalcuts = subset(povcalcuts,filename %!in% not.dhs)
 povcalcuts$filename[which(povcalcuts$filename=="GNHR52DT")] = "GNHR53DT"
 povcalcuts$filename[which(povcalcuts$filename=="IDHR51DT")] = "IDHR52DT"
 povcalcuts$filename[which(povcalcuts$filename=="NMHR51DT")] = "NMHR52DT"
+povcalcuts$filename[which(povcalcuts$filename=="PKHR52DT")] = "PKHR53DT"
 
 povcalcuts = subset(povcalcuts,filename!="IAHR74DT")
 
